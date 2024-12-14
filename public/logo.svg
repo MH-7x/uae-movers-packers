@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<g id="BACKGROUND">
+	<rect style="fill:#FFFFFF;" width="500" height="500"/>
+</g>
+<g id="OBJECTS">
+	<g>
+		
+			<text transform="matrix(1 0 0 1 149 325.5771)" style="fill:#1A1A1A; font-family:'Montserrat-Bold'; font-size:24.9322px; letter-spacing:1;">GO COMPANY</text>
+		
+			<text transform="matrix(1 0 0 1 190.7197 348.252)" style="fill:#1A1A1A; font-family:'Montserrat-Light'; font-size:14.1345px; letter-spacing:1;">TAGLINE HERE</text>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="227.3913" y1="143.1819" x2="346.9616" y2="271.392">
+			<stop  offset="0" style="stop-color:#D86FA8"/>
+			<stop  offset="0.5" style="stop-color:#C8067D"/>
+			<stop  offset="1" style="stop-color:#A1197F"/>
+		</linearGradient>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);" d="M318.891,254.758v17.687l57.589-42.23L318.891,188
+			v17.673c-17.218,0-41.451,0-58.669,0c-2.697,0-4.911,2.214-4.911,4.911l0,0c0,2.697,2.214,4.911,4.911,4.911h17.928
+			c2.697,0,4.911,2.214,4.911,4.911l0,0c0,2.697-2.214,4.911-4.911,4.911h-25.891c-2.697,0-4.897,2.2-4.897,4.897l0,0
+			c0,2.697,2.2,4.911,4.897,4.911h26.899c2.697,0,4.911,2.214,4.911,4.911l0,0c0,2.697-2.214,4.911-4.911,4.911h-13.499
+			c-2.697,0-4.911,2.2-4.911,4.897l0,0c0,2.711,2.214,4.911,4.911,4.911C281.074,254.758,303.49,254.758,318.891,254.758
+			L318.891,254.758z"/>
+		
+			<linearGradient id="SVGID_00000176001772776788479730000002756695307558399136_" gradientUnits="userSpaceOnUse" x1="206.9482" y1="162.2474" x2="326.5192" y2="290.458">
+			<stop  offset="0" style="stop-color:#5E4F9A"/>
+			<stop  offset="0.5" style="stop-color:#312782"/>
+			<stop  offset="1" style="stop-color:#453969"/>
+		</linearGradient>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000176001772776788479730000002756695307558399136_);" d="
+			M270.324,191.423c21.412,0,38.791,17.362,38.791,38.774c0,21.429-17.379,38.791-38.791,38.791
+			c-13.937,0-26.153-7.34-32.987-18.375c-1.569,3.999-3.56,7.795-5.939,11.288c9.196,11.288,23.217,18.51,38.926,18.51
+			c27.722,0,50.197-22.475,50.197-50.214c0-27.722-22.475-50.197-50.197-50.197c-15.709,0-29.713,7.205-38.926,18.493
+			c2.379,3.493,4.37,7.289,5.939,11.305C244.171,198.763,256.387,191.423,270.324,191.423L270.324,191.423z"/>
+		
+			<linearGradient id="SVGID_00000024685229715448650850000006298010024460957114_" gradientUnits="userSpaceOnUse" x1="161.1422" y1="204.9667" x2="280.7125" y2="333.1767">
+			<stop  offset="0" style="stop-color:#48C0EF"/>
+			<stop  offset="0.5" style="stop-color:#00A0E2"/>
+			<stop  offset="1" style="stop-color:#008BD1"/>
+		</linearGradient>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_00000024685229715448650850000006298010024460957114_);" d="
+			M184.676,191.423c17.227,0,31.823,11.221,36.884,26.744h11.879C228.04,196.266,208.265,180,184.676,180
+			c-27.722,0-50.197,22.475-50.197,50.197c0,27.739,22.475,50.214,50.197,50.214c27.739,0,50.214-22.475,50.214-50.214h-3.121
+			h-8.302H193l-8.324,12.047h36.884c-5.062,15.523-19.657,26.744-36.884,26.744c-21.412,0-38.774-17.362-38.774-38.791
+			C145.902,208.785,163.264,191.423,184.676,191.423L184.676,191.423z"/>
+	</g>
+</g>
+</svg>
