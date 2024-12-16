@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/base/Navbar";
 import { Roboto, Fredoka } from "next/font/google";
+import Footer from "@/components/base/Footer";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const fredoka = Fredoka({
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body className={` ${roboto.variable} ${fredoka.variable} antialiased`}>
         <Navbar />
         <main className="md:px-0 px-3">{children}</main>
+        <Footer />
       </body>
     </html>
   );
