@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 function WhyChooseUs() {
   return (
-    <section id="why-choose-us" className="py-12 mt-28  min-h-screen">
+    <section id="why-choose-us" className="md:py-12 mt-28  min-h-screen">
       <p className="mx-auto px-4 py-2 text-primary bg-primary/10 rounded-2xl font-semibold w-max">
         Why Choose Us
       </p>

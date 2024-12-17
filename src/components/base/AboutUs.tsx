@@ -5,7 +5,7 @@ import Link from "next/link";
 import aboutimage from "../../../public/images/aboutImg.jpg";
 const AboutUsSection = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between gap-8 py-12 mt-28 max-w-6xl mx-auto rounded-3xl bg-white md:drop-shadow-2xl md:pl-14">
+    <section className="flex flex-col md:flex-row items-center justify-between gap-8 md:py-12 mt-28 max-w-6xl mx-auto rounded-3xl bg-white md:drop-shadow-2xl md:pl-14">
       {/* Left Content */}
       <div className="flex-1">
         <h3 className="text-primary font-semibold text-lg mb-2 uppercase">
@@ -21,22 +21,26 @@ const AboutUsSection = () => {
           trucks, they prioritize safety, reliability, and customer satisfaction
           across all Emirates.
         </p>
-        <div className="grid grid-cols-2 gap-4 mb-6 text-gray-800">
-          <div className="flex items-center space-x-2">
+        <div className="grid grid-cols-2 gap-4  mb-6 text-gray-800">
+          <div className="flex items-center space-x-2 md:col-span-1 col-span-2">
             <span className="text-primary text-xl">✔</span>
-            <span className="text-xl font-medium">Best Moving Service</span>
+            <span className="md:text-xl text-lg font-medium">
+              Best Moving Service
+            </span>
           </div>
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 md:col-span-1 col-span-2">
             <span className="text-primary text-xl">✔</span>
-            <span className="text-xl font-medium">24/7 Support</span>
+            <span className="md:text-xl text-lg font-medium">24/7 Support</span>
           </div>
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 md:col-span-1 col-span-2">
             <span className="text-primary text-xl">✔</span>
-            <span className="text-xl font-medium">Professional Staff</span>
+            <span className="md:text-xl text-lg font-medium">
+              Professional Staff
+            </span>
           </div>
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 md:col-span-1 col-span-2">
             <span className="text-primary text-xl">✔</span>
-            <span className="text-xl font-medium">Fair Prices</span>
+            <span className="md:text-xl text-lg font-medium">Fair Prices</span>
           </div>
         </div>
         <div className="flex items-center space-x-4">

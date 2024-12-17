@@ -5,7 +5,7 @@ import { ServicesBox } from "@/constants/services";
 import Link from "next/link";
 function Serivces() {
   return (
-    <section className="py-12 mt-24  min-h-screen ">
+    <section className="md:py-12 mt-24  min-h-screen ">
       <p className="mx-auto px-4 py-2 text-primary bg-primary/10 rounded-2xl font-semibold w-max">
         Our Services
       </p>

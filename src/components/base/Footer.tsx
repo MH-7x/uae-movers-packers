@@ -9,7 +9,7 @@ function Footer() {
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-start lg:gap-8">
           <div>
-            <Image src={icon} width={60} height={60} alt="Brighthome Logo" />
+            <Image src={icon} width={60} height={60} alt="uae movers and packers" />
           </div>
 
           <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">

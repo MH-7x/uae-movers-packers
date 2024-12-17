@@ -14,7 +14,7 @@ const MovingServicesTable = () => {
             className=""
           />
         </div>
-        <div className="bg-white md:mt-0 -mt-20 md:p-0 p-5 md:shadow-none shadow-2xl rounded-2xl">
+        <div className="bg-white md:mt-0 -mt-20 md:p-0 p-5 md:shadow-none shadow-xl rounded-2xl">
           <h2 className="md:text-start md:text-4xl text-center">
             UAE Movers & Packers Prices
           </h2>
@@ -50,57 +50,57 @@ const MovingServicesTable = () => {
           </thead>
           <tbody>
             <tr>
-              <td className="px-4 py-3 border-b">
+              <td className="md:px-4 px-1 py-3 border-b">
                 1 Bedroom + Hall + Kitchen (with packing)
               </td>
-              <td className="px-4 py-3 border-b">
+              <td className="md:px-4 px-1 py-3 border-b">
                 Packing materials, carpenters and helpers, packing, dismantling
                 and installation
               </td>
-              <td className="px-4 py-3 border-b">800 AED</td>
+              <td className="md:px-4 px-1 py-3 border-b">800 AED</td>
             </tr>
             <tr className="bg-gray-50">
-              <td className="px-4 py-3 border-b">
+              <td className="md:px-4 px-1 py-3 border-b">
                 1 Bedroom (without packing)
               </td>
-              <td className="px-4 py-3 border-b">
+              <td className="md:px-4 px-1 py-3 border-b">
                 Carpenters and helpers, dismantling and installation
               </td>
-              <td className="px-4 py-3 border-b">600 AED</td>
+              <td className="md:px-4 px-1 py-3 border-b">600 AED</td>
             </tr>
             <tr>
-              <td className="px-4 py-3 border-b">
+              <td className="md:px-4 px-1 py-3 border-b">
                 Studio Apartment (with packing)
               </td>
-              <td className="px-4 py-3 border-b">
+              <td className="md:px-4 px-1 py-3 border-b">
                 Packing materials, carpenters and helpers, packing, dismantling
                 and installation
               </td>
-              <td className="px-4 py-3 border-b">550 AED</td>
+              <td className="md:px-4 px-1 py-3 border-b">550 AED</td>
             </tr>
             <tr className="bg-gray-50">
-              <td className="px-4 py-3 border-b">Single Story Villa</td>
-              <td className="px-4 py-3 border-b">
+              <td className="md:px-4 px-1 py-3 border-b">Single Story Villa</td>
+              <td className="md:px-4 px-1 py-3 border-b">
                 Packing materials, carpenters and helpers, packing, dismantling
                 and installation
               </td>
-              <td className="px-4 py-3 border-b">1200 - 2000 AED</td>
+              <td className="md:px-4 px-1 py-3 border-b">1200 - 2000 AED</td>
             </tr>
             <tr>
-              <td className="px-4 py-3 border-b">Double Story Villa</td>
-              <td className="px-4 py-3 border-b">
+              <td className="md:px-4 px-1 py-3 border-b">Double Story Villa</td>
+              <td className="md:px-4 px-1 py-3 border-b">
                 Packing materials, carpenters and helpers, packing, dismantling
                 and installation
               </td>
-              <td className="px-4 py-3 border-b">2000 - 3000 AED</td>
+              <td className="md:px-4 px-1 py-3 border-b">2000 - 3000 AED</td>
             </tr>
             <tr className="bg-gray-50">
-              <td className="px-4 py-3">3 Story Villa</td>
-              <td className="px-4 py-3">
+              <td className="md:px-4 px-1 py-3">3 Story Villa</td>
+              <td className="md:px-4 px-1 py-3">
                 Packing materials, carpenters and helpers, packing, dismantling
                 and installation
               </td>
-              <td className="px-4 py-3">3000 - 4500 AED</td>
+              <td className="md:px-4 px-1 py-3">3000 - 4500 AED</td>
             </tr>
           </tbody>
         </table>

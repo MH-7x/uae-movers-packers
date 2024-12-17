@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 function HeroSection() {
   return (
-    <div className="mx-auto max-w-4xl ">
+    <div className="mx-auto max-w-4xl  md:pt-20 pt-10">
       <div className="hidden sm:mb-8 sm:flex sm:justify-center">
         <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
           get your free quote today{" "}
@@ -14,7 +14,7 @@ function HeroSection() {
         </div>
       </div>
       <div className="text-center">
-        <h1 className="text-balance  text-5xl  sm:text-7xl">
+        <h1 className="text-balance text-4xl  sm:text-7xl">
           UAE MOVERS & PACKERS
         </h1>
         <h2 className="mt-3 text-primary">

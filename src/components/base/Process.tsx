@@ -20,7 +20,7 @@ function Process() {
     }
   }, []);
   return (
-    <section className="md:w-11/12 mx-auto w-full min-h-screen mt-10 relative">
+    <section className="md:w-11/12 mx-auto w-full min-h-screen mt-20 relative">
       <h2 className="md:ml-10">
         Moving Process <br />
         By Profesionals Hands

@@ -1,8 +1,8 @@
 export const services = [
   {
-    name: "Villa Moving",
-    link: "/villa-moving",
-    desc: "Smooth villa relocation.",
+    name: "Home Moving",
+    link: "/home-moving",
+    desc: "Smooth home relocation.",
   },
   {
     name: "Office Moving",
@@ -123,8 +123,8 @@ export const usedFurniture = [
 
 export const ServicesBox = [
   {
-    name: "Villa Moving",
-    desc: "All kinds of small and big villas moving in Abu Dhabi, Al Ain, Dubai at affordable price with guaranteed service.",
+    name: "Home Moving",
+    desc: "All kinds of small and big home moving in Abu Dhabi, Al Ain, Dubai at affordable price with guaranteed service.",
     link: "#",
     imgSrc: "/images/villa.svg",
   },
