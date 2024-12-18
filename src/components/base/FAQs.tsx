@@ -1,12 +1,22 @@
 "use client";
-import React, { useState } from "react";
+import { getFAQs } from "@/lib/getFAQs";
+import { usePathname } from "next/navigation";
+import React, { useEffect, useState } from "react";
 
-function FAQs({
-  faqs,
-}: {
-  faqs: { question: string; answer: string }[] | undefined;
-}) {
+function FAQs() {
   const [openFAQIndex, setOpenFAQIndex] = useState(0);
+
+  const [faqs, setFaqs] = useState<
+    { question: string; answer: string }[] | undefined
+  >([]);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    if (pathname) {
+      const service = pathname.split("/")[1];
+      setFaqs(getFAQs(service));
+    }
+  }, [pathname]);
 
   const toggleFAQ = (index: number) => {
     setOpenFAQIndex(openFAQIndex === index ? -1 : index);

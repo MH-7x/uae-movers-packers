@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/base/Navbar";
-import { Roboto, Fredoka } from "next/font/google";
+import { Fredoka, Poppins } from "next/font/google";
 import Footer from "@/components/base/Footer";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -12,7 +12,7 @@ const fredoka = Fredoka({
   fallback: ["sans-serif"],
 });
 
-const roboto = Roboto({
+const roboto = Poppins({
   subsets: ["latin"],
   variable: "--font-roboto",
   weight: ["400", "500", "700"],

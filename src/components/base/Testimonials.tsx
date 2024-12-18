@@ -104,7 +104,7 @@ export default function TestimonialSlider() {
   };
 
   return (
-    <section className="w-full md:pl-20  md:w-11/12 mx-auto grid md:grid-cols-2 grid-cols-1 mt-10">
+    <section className="w-full md:pl-20  mx-auto grid md:grid-cols-2 grid-cols-1 mt-10">
       <div>
         <h2>
           What Our Clients Says <br /> About Us
