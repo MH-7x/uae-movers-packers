@@ -5,13 +5,13 @@ import Link from "next/link";
 import aboutimage from "../../../public/images/aboutImg.jpg";
 const AboutUsSection = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between gap-8 md:py-12 mt-28 max-w-6xl mx-auto rounded-3xl bg-white md:drop-shadow-2xl md:pl-14">
+    <section className="flex flex-col md:flex-row items-center justify-between gap-8 md:py-12 mt-28 max-w-6xl mx-auto rounded-3xl md:bg-white md:drop-shadow-2xl md:pl-14">
       {/* Left Content */}
       <div className="flex-1">
         <h3 className="text-primary font-semibold text-lg mb-2 uppercase">
           About Us
         </h3>
-        <h2 className="text-3xl md:text-4xl mb-4 leading-tight text-gray-900">
+        <h2 className=" mb-4 leading-tight text-gray-900">
           Most trusted and reliable moving company in UAE
         </h2>
         <p className="text-gray-700 mb-6 mt-4 leading-relaxed">

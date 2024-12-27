@@ -13,7 +13,7 @@ function VillaMoving() {
   return (
     <>
       <section className="md:mt-32 mt-20 border">
-        <div className="relative md:rounded-none rounded-xl overflow-hidden w-full md:h-[500px] min-h-[450px] md:py-0 ">
+        <div className="relative md:rounded-none rounded-xl overflow-hidden w-full min-h-[500px]  md:py-0 ">
           <Image
             src="/service/office-moving.jpg"
             alt="Professional Office Moving Services in UAE"
@@ -25,7 +25,7 @@ function VillaMoving() {
           />
 
           {/* Overlay Text */}
-          <div className="absolute  inset-0 flex items-center justify-center px-2 flex-col z-10 bg-gradient-to-t from-black/90 via-black/80 to-black/60">
+          <div className="absolute md:py-0 py-20 inset-0 flex items-center justify-center px-2 flex-col z-10 bg-gradient-to-t from-black/90 via-black/80 to-black/60">
             <div className="max-w-5xl flex flex-col items-center justify-center mx-auto">
               <h1 className="text-3xl md:text-5xl text-white text-center ">
                 Stress-Free Apartment Moving Services in UAE

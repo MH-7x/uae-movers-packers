@@ -9,14 +9,14 @@ function Serivces() {
       <p className="mx-auto px-4 py-2 text-primary bg-primary/10 rounded-2xl font-semibold w-max">
         Our Services
       </p>
-      <h2 className="text-center md:text-5xl mt-3">
+      <h2 className="text-center md:text-4xl mt-3">
         Professional Moving Services <br /> With UAE Movers & Packers
       </h2>
-      <div className="mt-16 bg-white md:w-11/12 w-full mx-auto grid md:grid-cols-3 gap-8 md:px-5 grid-cols-1">
+      <div className="mt-16  md:w-11/12 w-full mx-auto grid md:grid-cols-3 gap-8 md:px-5 grid-cols-1">
         {ServicesBox.map((service, i) => (
           <div
             key={service.name + i}
-            className="bg-white shadow-lg shadow-neutral-100 min-h-80 rounded-xl flex items-center justify-start gap-y-3 flex-col p-5"
+            className="bg-white shadow-lg shadow-black/5  min-h-80 rounded-xl flex items-center justify-start gap-y-3 flex-col p-5"
           >
             <div className="w-16 shadow-2xl shadow-neutral-100 h-16 rotate-45 overflow-hidden flex items-center justify-center rounded-lg bg-white drop-shadow-lg ">
               <Image

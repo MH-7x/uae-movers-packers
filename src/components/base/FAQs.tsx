@@ -64,7 +64,7 @@ function FAQs() {
                       </g>
                     </svg>
                   </div>
-                  <div className="bg-secondary rounded-lg md:p-5 p-3 md:px-10 px-7 w-full flex items-center">
+                  <div className="bg-white rounded-lg md:p-5 p-3 md:px-10 px-7 w-full flex items-center">
                     <h3 className="text-md leading-6 font-medium text-gray-900">
                       {faq.question}
                     </h3>

@@ -29,7 +29,7 @@ export default function UsedFurnitures() {
     <>
       <div className="mx-auto  grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
-          <h2 className="text-3xl tracking-tight text-gray-900 md:text-4xl">
+          <h2 className="font-semibold mb-10 text-gray-900 md:text-4xl">
             Used Furniture & Appliances Store
           </h2>
           <h3 className="mt-3">
@@ -44,7 +44,7 @@ export default function UsedFurnitures() {
           <dl className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
             {features.map((feature) => (
               <div key={feature.name} className="border-t border-primary pt-4">
-                <dt className="font-semibold text-lg text-gray-900">
+                <dt className="font-medium text-lg text-gray-900">
                   {feature.name}
                 </dt>
                 <dd className="mt-2 text-base text-gray-600">

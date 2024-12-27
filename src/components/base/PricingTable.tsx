@@ -4,17 +4,17 @@ import React from "react";
 const MovingServicesTable = () => {
   return (
     <>
-      <section className="md:mr-20  md:w-11/12 w-full mx-auto grid md:grid-cols-2 items-center grid-cols-1 mt-16 md:py-20 ga-y-10 py-16 ">
+      <section className="md:mr-20   md:w-11/12 w-full mx-auto grid md:grid-cols-2 items-center grid-cols-1 mt-16 md:py-20 ga-y-10 py-16 ">
         <div className=" flex justify-center">
           <Image
             src={"/images/pricing.svg"}
             alt="search in brighthome"
             width={500}
             height={500}
-            className=""
+            className="rounded-2xl"
           />
         </div>
-        <div className="bg-white md:mt-0 -mt-20 md:p-0 p-5 md:shadow-none shadow-xl rounded-2xl">
+        <div className=" md:mt-0 md:bg-none bg-white -mt-5 md:p-0 p-5 md:shadow-none shadow-xl rounded-2xl">
           <h2 className="md:text-start md:text-4xl text-center">
             UAE Movers & Packers Prices
           </h2>

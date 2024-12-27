@@ -13,10 +13,8 @@ function HeroSection() {
           </a>
         </div>
       </div>
-      <div className="text-center">
-        <h1 className="text-balance text-4xl  sm:text-7xl">
-          UAE MOVERS & PACKERS
-        </h1>
+      <div className="md:text-center text-start">
+        <h1 className="  sm:text-7xl">UAE MOVERS & PACKERS</h1>
         <h2 className="mt-3 text-primary">
           Your Trusted Moving Partner Across the UAE
         </h2>

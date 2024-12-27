@@ -14,7 +14,7 @@ function HeavyGoodsMoving() {
   return (
     <>
       <section className="md:mt-32 mt-20 border">
-        <div className="relative md:rounded-none rounded-xl overflow-hidden w-full md:h-[500px] min-h-[450px] md:py-0 ">
+        <div className="relative md:rounded-none rounded-xl overflow-hidden w-full min-h-[500px]  md:py-0 ">
           <Image
             src="/service/heavy-goods.jpg"
             alt="Heavy Goods Moving UAE"

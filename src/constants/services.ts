@@ -16,7 +16,7 @@ export const services = [
   },
   {
     name: "Small / Single Furniture Moving",
-    link: "/small-single-furniture-moving",
+    link: "/small-or-single-furniture-moving",
     desc: "Quick small furniture moves.",
   },
   {
@@ -33,26 +33,6 @@ export const services = [
     name: "Appliances Moving",
     link: "/appliances-moving",
     desc: "Safe appliance transport.",
-  },
-  {
-    name: "Curtains Installation",
-    link: "/curtains-installation",
-    desc: "Expert curtain setup.",
-  },
-  {
-    name: "Furniture Assembly",
-    link: "/furniture-assembly",
-    desc: "Hassle-free assembly.",
-  },
-  {
-    name: "Packed Item Moving",
-    link: "/packed-item-moving",
-    desc: "Secure item transport.",
-  },
-  {
-    name: "Piano Relocation",
-    link: "/piano-relocation",
-    desc: "Careful piano moves.",
   },
 ];
 export const locations = [
@@ -163,29 +143,5 @@ export const ServicesBox = [
     desc: "All kinds of commercial and residential appliances moving service in UAE.",
     link: "#",
     imgSrc: "/images/Appliances.svg",
-  },
-  {
-    name: "Curtains Installation",
-    desc: "Installation of all kinds of curtains, blinds, rods and tracks in UAE.",
-    link: "#",
-    imgSrc: "/images/Curtains.svg",
-  },
-  {
-    name: "Furniture Assembly",
-    desc: "Professional carpenters for installation all kinds of new and used furniture.",
-    link: "#",
-    imgSrc: "/images/Assembly.svg",
-  },
-  {
-    name: "Packed Items Moving",
-    desc: "We provide relocation for already packed items like boxes and, furniture and appliances.",
-    link: "#",
-    imgSrc: "/images/Packed.svg",
-  },
-  {
-    name: "Piano Relocation",
-    desc: "We do moving of all kinds of piano with dismantling, packing, moving and fixing.",
-    link: "#",
-    imgSrc: "/images/Piano.svg",
   },
 ];

@@ -177,6 +177,138 @@ export function getFAQs(For: string) {
             "Yes, our experienced movers are equipped to handle moves involving stairs and elevators. However, it's important to inform us of any specific access challenges, such as narrow staircases or small elevators, during the initial consultation. This allows us to plan accordingly and bring the necessary equipment to ensure a safe and efficient move. There may be additional charges for moves involving excessive stairs or difficult access.",
         },
       ];
+    case "small-or-single-furniture-moving":
+      return [
+        {
+          question:
+            "How much does it cost to move a single piece of furniture?",
+          answer:
+            "The cost depends on the size, weight, and distance of the move. Contact us for a personalized quote.",
+        },
+        {
+          question: "Do you provide packing materials?",
+          answer:
+            "Yes, we offer premium packing materials to ensure your furniture is well-protected during the move.",
+        },
+        {
+          question: "Can you handle delicate or antique furniture?",
+          answer:
+            "Absolutely. We specialize in moving delicate, valuable, or antique furniture with extra care.",
+        },
+        {
+          question: "What is included in your moving services?",
+          answer:
+            "Our moving services include packing, loading, transportation, unloading, and unpacking, all with expert handling.",
+        },
+        {
+          question: "Do you offer storage solutions during the move?",
+          answer:
+            "Yes, we offer secure storage solutions for your furniture if you need to store items temporarily during the move.",
+        },
+        {
+          question: "How do I prepare for my furniture move?",
+          answer:
+            "We recommend clearing pathways, packing small items separately, and ensuring all furniture is ready for transportation.",
+        },
+        {
+          question: "Are your moving services insured?",
+          answer:
+            "Yes, we offer insurance for your furniture during the move to provide peace of mind.",
+        },
+        {
+          question: "How far in advance should I book my furniture move?",
+          answer:
+            "We recommend booking at least one week in advance, especially during peak seasons, to secure your preferred time slot.",
+        },
+      ];
+    case "moving-and-cargo-packing":
+      return [
+        {
+          question: "What areas in the UAE do you serve?",
+          answer:
+            "UAE Movers & Packers proudly serves customers throughout the UAE, including all major cities. No matter where you are located, we have you covered!",
+        },
+        {
+          question: "How much notice do you need for a packing service?",
+          answer:
+            "To ensure the best service, we recommend booking at least one week in advance. However, we can accommodate urgent requests whenever possible.",
+        },
+        {
+          question: "What are your rates for moving and packing services?",
+          answer:
+            "Our pricing is designed to fit a variety of budgets, depending on your specific needs and the complexity of the job. Contact us for a personalized, free quote.",
+        },
+        {
+          question: "Do you offer insurance for my belongings?",
+          answer:
+            "Yes, we provide insurance options for your belongings during the move to ensure peace of mind.",
+        },
+        {
+          question: "Can you handle piano or antique furniture moving?",
+          answer:
+            "Absolutely! Our specialized team is trained to safely move pianos and delicate antique furniture.",
+        },
+        {
+          question: "What packing materials do you use?",
+          answer:
+            "We use high-quality, eco-friendly packing materials, including boxes, bubble wrap, and packing peanuts to ensure your items are secure.",
+        },
+        {
+          question: "Are your workers trained and insured?",
+          answer:
+            "Yes, all our team members are fully trained and insured for your safety and satisfaction.",
+        },
+        {
+          question: "What should I do to prepare for the moving day?",
+          answer:
+            "We recommend decluttering your home, labeling boxes, and making a checklist of items to be moved for a smooth transition.",
+        },
+      ];
+    case "appliances-moving":
+      return [
+        {
+          question: "What types of appliances do you move?",
+          answer:
+            "We move a wide range of appliances, including refrigerators, washers, dryers, ovens, microwaves, and more. No matter the size or type, we have you covered!",
+        },
+        {
+          question:
+            "How do you ensure the safety of my appliances during the move?",
+          answer:
+            "We use specialized packing materials and techniques, along with our trained professionals, to ensure maximum protection during transit.",
+        },
+        {
+          question: "Are you available for same-day appliance moving services?",
+          answer:
+            "Yes, we can accommodate same-day service requests in most cases. Please contact us for availability.",
+        },
+        {
+          question: "What are your rates for moving appliances?",
+          answer:
+            "Our rates vary based on the type and number of appliances, the distance of the move, and any additional services required. Contact us for a free, personalized quote!",
+        },
+        {
+          question:
+            "Do you offer TV screen dismantling and installation services?",
+          answer:
+            "Yes, we provide professional TV screen dismantling, packing, shifting, and installation services for all types of screens, ensuring they are relocated safely.",
+        },
+        {
+          question: "What appliance repair services do you offer in Abu Dhabi?",
+          answer:
+            "We offer a range of appliance repair services in Abu Dhabi, including washing machine repair, refrigerator repair, AC repair and maintenance, and electric and gas cooker repair.",
+        },
+        {
+          question: "How experienced are your appliance moving professionals?",
+          answer:
+            "Our team consists of trained and experienced professionals who specialize in safely moving a variety of appliances, ensuring a hassle-free relocation experience.",
+        },
+        {
+          question: "Can you help with appliance installation after the move?",
+          answer:
+            "Yes, we not only move your appliances but also provide installation services to ensure they are set up and functioning properly in your new location.",
+        },
+      ];
     default:
       break;
   }
