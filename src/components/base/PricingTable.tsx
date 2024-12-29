@@ -14,7 +14,7 @@ const MovingServicesTable = () => {
             className="rounded-2xl"
           />
         </div>
-        <div className=" md:mt-0 md:bg-none bg-white -mt-5 md:p-0 p-5 md:shadow-none shadow-xl rounded-2xl">
+        <div className=" md:mt-0 md:bg-transparent bg-white -mt-5 md:p-0 p-5 md:shadow-none shadow-xl rounded-2xl">
           <h2 className="md:text-start md:text-4xl text-center">
             UAE Movers & Packers Prices
           </h2>
@@ -33,8 +33,8 @@ const MovingServicesTable = () => {
           </div>
         </div>
       </section>
-      <div className="overflow-x-auto  max-w-6xl mx-auto">
-        <table className="min-w-full  shadow-md">
+      <div className="overflow-x-auto md:bg-white md:p-8 md:rounded-2xl max-w-6xl mx-auto">
+        <table className="min-w-full">
           <thead className="bg-primary/10">
             <tr>
               <th className="px-4 py-2 text-left font-bold text-primary border-b">

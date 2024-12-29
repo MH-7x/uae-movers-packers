@@ -17,55 +17,56 @@ import ServiceHeroSection from "@/components/base/ServiceHeroSection";
 import ServiceFeatured from "@/components/base/ServiceFeatured";
 
 export const metadata: Metadata = {
-  title: "Top Movers and Packers in Dubai | Professional Dubai Movers",
+  title: "Movers and Packers Sharjah | Best and Professional Company",
 };
 
-export default function MoversDubai() {
+export default function MoversAbuDhabi() {
   return (
     <>
       <ServiceHeroSection
-        city="Dubai"
-        title="Professional Moving & Packing Company in"
-        subtitle=" Seamless Relocation Solutions Across the Dubai"
-        description=" Planning a move within the UAE or abroad? UAE Movers & Packers offers
-          reliable, stress-free relocation services for individuals, families,
-          and businesses across Dubai, Abu Dhabi, and beyond."
+        city="Sharjah"
+        title="Cheap Moving Company In"
+        subtitle="Top Rated Movers and Packers In Sharjah"
+        description="Need reliable movers in Sharjah or Dubai? UAE Movers & Packers offers stress-free local and international relocation services for homes and businesses."
       />
       <ServiceFeatured
         features={[
           {
             name: {
-              heading: "30,00+",
-              subText: "Happy Customers",
+              heading: "30,000+",
+              subText: "Satisfied Clients",
             },
             ImgSrc: customers,
           },
           {
             name: {
-              heading: "1540+",
-              subText: "Moves Completed",
+              heading: "1,540+",
+              subText: "Successful Relocations",
             },
             ImgSrc: moves,
           },
           {
             name: {
-              heading: "27 / 7",
-              subText: "Customer Support",
+              heading: "24/7",
+              subText: "Dedicated Support",
             },
             ImgSrc: support,
           },
           {
             name: {
               heading: "0%",
-              subText: "No Hidden Charges",
+              subText: "Hidden Fees Guaranteed",
             },
             ImgSrc: charges,
           },
         ]}
       />
-      <Benifits city="Dubai" title="Benifits Of Our Moving Services in Dubai" />
+      <Benifits
+        city="Sharjah"
+        title="Benifits Of Our Moving Services in Sharjah"
+      />
 
-      <Serivces city="Dubai" />
+      <Serivces city="Sharjah" />
 
       <WhyChooseUsTwo
         content={[
@@ -81,7 +82,7 @@ export default function MoversDubai() {
           },
           {
             title: "Local Knowledge",
-            desc: "As a locally-owned business, we know the ins and outs of moving in Dubai allowing us to offer the best routes and solutions.",
+            desc: "As a locally-owned business, we know the ins and outs of moving in Sharjah allowing us to offer the best routes and solutions.",
             points: [
               "Expertise in Local Routes",
               "Understanding of Community Needs",
@@ -102,21 +103,21 @@ export default function MoversDubai() {
         ]}
       />
 
-      <UsedFurnitures city="Dubai" />
+      <UsedFurnitures city="Sharjah" />
 
       <Content
         sectionOne={{
-          heading: "Expert Relocation Company in Dubai",
-          p1: " Looking for reliable movers in Dubai? UAE Movers & Packers provides tailored moving solutions for all your relocation needs. Share your project details with us to get an accurate quote based on your requirements.",
-          p2: "Whether it’s moving to or from a property with a cellar, attic, or high floors, handling fragile valuables, or needing storage before moving into your new home, we’ve got you covered.",
-          p3: " When choosing trusted movers and packers, ensure the company meets consumer trust standards and delivers services that match your expectations. Contact UAE Movers & Packers for professional relocation services and request your free quote today!",
+          heading: "Trusted Moving Company in Sharjah",
+          p1: "Searching for reliable movers in Sharjah? UAE Movers & Packers offers customized moving and packing services designed to meet all your relocation needs. Get in touch with us to receive an accurate quote tailored to your requirements.",
+          p2: "Whether you’re moving from a high-rise apartment, handling delicate valuables, or need storage solutions before settling into your new home, our expert movers in Sharjah have you covered.",
+          p3: "Choose UAE Movers & Packers, a certified and trusted moving company in Sharjah, to ensure a stress-free experience. Contact us today to request your free quote and enjoy seamless relocation services.",
           imageSrc: "/locations/UAE-Movers-&-Packers.png",
         }}
         sectiontwo={{
-          heading: "Proficient Movers and Packers in Dubai",
-          p1: "To hire movers in Dubai, you can find out from your surroundings, your colleagues or your friends may already have used a professional moving company in Dubai.",
-          p2: " Of course, all moving companies have detailed profiles on the Internet to give a precise idea of the cost that will involve your departure.",
-          p3: "In order to avoid unpleasant surprises, it is advised to prefer professional movers Dubai who are certified like UAE Movers & Packers.",
+          heading: "Professional Movers and Packers in Sharjah",
+          p1: "Looking to hire movers in Sharjah? Ask for recommendations from friends, colleagues, or family who may have used a reliable moving company in Sharjah, like UAE Movers & Packers.",
+          p2: "Many moving companies provide detailed online profiles to help you estimate the costs and services, ensuring transparency and peace of mind.",
+          p3: "For a smooth moving experience, trust professional movers in Sharjah who are certified and experienced, such as UAE Movers & Packers. Avoid hidden surprises and enjoy hassle-free relocation services.",
           imageSrc: "/locations/Best-Movers-In-Dubai.png",
         }}
       />

@@ -9,7 +9,12 @@ function Footer() {
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-start lg:gap-8">
           <div>
-            <Image src={icon} width={60} height={60} alt="uae movers and packers" />
+            <Image
+              src={icon}
+              width={60}
+              height={60}
+              alt="uae movers and packers"
+            />
           </div>
 
           <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
@@ -51,21 +56,7 @@ function Footer() {
               <p className="font-medium text-gray-900">Services</p>
 
               <ul className="mt-6 space-y-4 text-sm">
-                {services.slice(0, 5).map((service) => (
-                  <li key={service.name} aria-label={service.name}>
-                    <Link
-                      href={service.link}
-                      className="text-gray-700 transition hover:text-primary"
-                    >
-                      {service.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <ul className="mt-6 space-y-4 text-sm md:mt-12">
-                {services.slice(5, 10).map((service) => (
+                {services.map((service) => (
                   <li key={service.name} aria-label={service.name}>
                     <Link
                       href={service.link}

@@ -1,3 +1,4 @@
+import QuoteSection from "@/components/base/RequestQuote";
 import React from "react";
 
 function RootLayout({
@@ -63,6 +64,7 @@ function RootLayout({
         </g>
       </svg>
       {children}
+      <QuoteSection />
     </div>
   );
 }

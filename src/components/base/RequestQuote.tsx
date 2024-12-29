@@ -9,13 +9,13 @@ const QuoteSection: React.FC = () => {
           <h2 className="text-sm font-semibold tracking-wide uppercase mb-2">
             Get a Quote
           </h2>
-          <h2 className="md:text-4xl/tight  mb-4">
+          <h2 className="md:text-4xl/tight drop-shadow-md mb-4">
             We can help you to move. <br />
             <span className="underline decoration-yellow-400">
               Get a quote today
             </span>
           </h2>
-          <p className="text-gray-300 my-6">
+          <p className="text-gray-100 my-6">
             Effortless moving made easy. Get a quick quote today for reliable
             and professional moving services tailored to your needs.
           </p>

@@ -5,8 +5,9 @@ import reliableimage from "../../../public/images/reliable-services-icon.png";
 import planingimg from "../../../public/images/detail-planing.png";
 import teamimage from "../../../public/images/team.png";
 import Image from "next/image";
+import { PhoneCall } from "lucide-react";
 
-function Benifits({ title }: { title: string }) {
+function Benifits({ title, city }: { title: string; city: string }) {
   return (
     <div className="md:mt-32 mt-28 mb-5 w-full md:w-11/12 mx-auto grid md:grid-cols-2 md:gap-x-5 gap-y-7 grid-cols-1 items-center">
       <div className="px-3 md:px-0 flex flex-wrap md:gap-5 gap-y-5 md:order-1 order-2">
@@ -75,12 +76,14 @@ function Benifits({ title }: { title: string }) {
       <div className="md:p-4 p-0 md:order-2 order-1">
         <h2>{title}</h2>
         <p className={`mt-5 `}>
-          We offers comprehensive moving services across the Dubai, including
+          We offers comprehensive moving services across the {city}, including
           local and long-distance moves, packing, specialized handling, and
           custom crating. We handle residential, commercial, and emergency
           relocations for a seamless, stress-free experience.
         </p>
-        <Button className="mt-4">Contact Us</Button>
+        <Button size={"lg"} className="mt-4">
+          Contact Us <PhoneCall />
+        </Button>
       </div>
     </div>
   );
