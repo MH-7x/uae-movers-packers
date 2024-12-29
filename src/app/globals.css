@@ -5,7 +5,7 @@ h1 {
   @apply text-[2.5rem]/[2.8rem] md:text-4xl font-semibold;
 }
 h2 {
-  @apply text-2xl md:text-3xl font-medium;
+  @apply text-2xl md:text-3xl font-semibold;
 }
 
 h3,

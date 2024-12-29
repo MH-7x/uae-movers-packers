@@ -40,31 +40,37 @@ export const locations = [
     name: "Movers and Packers Dubai",
     link: "/movers-and-packers-dubai",
     desc: "Reliable movers in Dubai.",
+    src: "/cities/movers-packers-dubai.jpg",
   },
   {
     name: "Movers and Packers Abu Dhabi",
     link: "/movers-and-packers-abu-dhabi",
     desc: "Trusted movers in Abu Dhabi.",
+    src: "/cities/movers-packers-abuDhabi.jpg",
   },
   {
     name: "Movers and Packers Sharjah",
     link: "/movers-and-packers-sharjah",
     desc: "Affordable movers in Sharjah.",
+    src: "/cities/movers-packers-sharjah.jpg",
   },
   {
     name: "Movers and Packers Ajman",
     link: "/movers-and-packers-ajman",
     desc: "Efficient movers in Ajman.",
+    src: "/cities/movers-packers-ajman.jpg",
   },
   {
     name: "Movers and Packers Ras Al Khaimah",
     link: "/movers-and-packers-ras-al-khaimah",
     desc: "Experienced movers in RAK.",
+    src: "/cities/movers-packers-rasAlKhaimah.jpg",
   },
   {
     name: "Movers and Packers Umm Al Quwain",
     link: "/movers-and-packers-umm-al-quwain",
     desc: "Reliable movers in UAQ.",
+    src: "/cities/movers-packers-umm.jpg",
   },
 ];
 

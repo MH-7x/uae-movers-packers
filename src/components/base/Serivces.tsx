@@ -3,7 +3,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import { ServicesBox } from "@/constants/services";
 import Link from "next/link";
-function Serivces() {
+function Serivces({ city }: { city?: string }) {
   return (
     <section className="md:py-12 mt-24  min-h-screen ">
       <p className="mx-auto px-4 py-2 text-primary bg-primary/10 rounded-2xl font-semibold w-max">
@@ -28,7 +28,10 @@ function Serivces() {
               />
             </div>
             <Link aria-label={service.name} href={service.link}>
-              <h2 className="text-2xl mt-4">{service.name}</h2>
+              <h2 className="text-xl mt-4 font-medium">
+                {service.name}
+                {city && ` ${city}`}
+              </h2>
             </Link>
             <p className="text-base text-center text-gray-600">
               {service.desc}

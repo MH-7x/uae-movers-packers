@@ -24,21 +24,23 @@ const features = [
   },
 ];
 
-export default function UsedFurnitures() {
+export default function UsedFurnitures({ city }: { city?: string }) {
   return (
     <>
       <div className="mx-auto  grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
           <h2 className="font-semibold mb-10 text-gray-900 md:text-4xl">
-            Used Furniture & Appliances Store
+            Used Furniture & Appliances Store {city && `in ${city}`}
           </h2>
           <h3 className="mt-3">
-            Discover Affordable Used Furniture & Appliances
+            Discover Affordable Used Furniture & Appliances{" "}
+            {city && `in ${city}`}
           </h3>
           <p className="mt-4 text-gray-600">
             Looking for high-quality, budget-friendly furniture or appliances?
             At UAE Movers & Packers, we offer a wide selection of pre-loved
-            furniture and home appliances to fit your style and needs.
+            furniture and home appliances to fit your style and needs{" "}
+            {city && `in ${city}`}.
           </p>
 
           <dl className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
@@ -91,12 +93,12 @@ export default function UsedFurnitures() {
       </div>
       <div className="mt-5  max-w-3xl mx-auto w-full">
         <h2 className="text-center">
-          Explore Our Used Furniture Collection Today!
+          Explore Our Used Furniture Collection {city ? "In Dubai" : "Today!"}
         </h2>
         <p className="text-center text-lg mt-3">
           Discover affordable, eco-friendly, and high-quality furniture pieces
-          that bring style and value to your space. Shop our curated collection
-          now!
+          that bring style and value to your space {city && `in ${city}`}. Shop
+          our curated collection now!
         </p>
         <div className="flex justify-center flex-wrap gap-5  mt-3">
           <Button size={"lg"}>Contact Now</Button>
