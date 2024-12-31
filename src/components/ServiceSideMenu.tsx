@@ -45,7 +45,7 @@ export const locations = [
 function ServiceSideMenu() {
   return (
     <>
-      <h3 className="text-center">Our Moving Locations</h3>
+      <h3 className="text-center font-semibold">Our Moving Locations</h3>
       <ul className="mt-5">
         {locations.map((location) => (
           <li
@@ -81,7 +81,7 @@ function ServiceSideMenu() {
           </li>
         ))}
       </ul>
-      <h3 className="mt-14 text-center">Our Other Services</h3>
+      <h3 className="mt-14 font-semibold text-center">Our Other Services</h3>
       <ul className="mt-5">
         {ServicesBox.map((service) => (
           <li

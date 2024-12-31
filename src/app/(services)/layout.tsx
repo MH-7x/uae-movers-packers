@@ -10,10 +10,10 @@ export default async function RootLayout({
   return (
     <>
       {children}
-      <section className="mt-20 ">
+      <section className="mt-20 md:px-0 px-3">
         <TestimonialSlider />
       </section>
-      <section className="mt-20 ">
+      <section className="mt-20 md:px-0 px-3">
         <FAQs />
       </section>
       <Contact

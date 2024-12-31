@@ -28,9 +28,9 @@ function MobileNavBar() {
   }, [lastScrollY]);
   return (
     <header
-      className={`fixed transition-transform drop-shadow-lg bg-white duration-200 top-0 ${
+      className={`fixed transition-transform drop-shadow-lg bg-gradient-to-br from-white via-violet-50 to-violet-50 duration-200 top-0 ${
         !showNavbar ? "-translate-y-full" : "-translate-y-0"
-      } left-0 w-full z-50 py-2.5 pr-3`}
+      } left-0 w-full z-50 py-3 pr-3`}
     >
       <nav className={`relative w-full flex items-center justify-between`}>
         <div className="relative w-36 h-10 ">
@@ -38,7 +38,7 @@ function MobileNavBar() {
             src={"/images/logo.png"}
             alt="uae movers"
             fill
-            className="object-cover "
+            className="object-contain "
           />
         </div>
 

@@ -4,6 +4,7 @@
 import { useState, useRef, TouchEvent, useEffect } from "react";
 import imgSro from "../../../public/images/whyChooseUs.svg";
 import Image from "next/image";
+
 const testimonials = [
   {
     Name: "Emily Carter",
@@ -49,7 +50,11 @@ const testimonials = [
   },
 ];
 
-export default function TestimonialSlider() {
+export default function TestimonialSlider({
+  cus,
+}: {
+  cus?: { Name: string; Review: string; Date: string }[];
+}) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const sliderRef = useRef<HTMLDivElement>(null);
   const startX = useRef(0);
@@ -104,7 +109,11 @@ export default function TestimonialSlider() {
   };
 
   return (
-    <section className="w-full md:pl-20  mx-auto grid md:grid-cols-2 grid-cols-1 mt-10">
+    <section
+      className={`w-full md:pl-20  mx-auto grid md:grid-cols-2 grid-cols-1 mt-10 ${
+        cus && "md:px-0 px-3"
+      }`}
+    >
       <div>
         <h2>
           What Our Clients Says <br /> About Us
@@ -123,25 +132,45 @@ export default function TestimonialSlider() {
             onTouchMove={handleTouchMove}
             onTouchEnd={handleTouchEnd}
           >
-            {testimonials.map((testimonial, index) => (
-              <div
-                key={index}
-                className="w-full flex-shrink-0 p-4 flex flex-col items-center justify-center bg-white  rounded-xl"
-              >
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 bg-primary text-3xl text-white  ts">
-                  {testimonial.Name.split("")[0]}
-                </div>
-                <p className="text-gray-700 text-lg text-center">
-                  {testimonial.Review}
-                </p>
-                <h3 className="mt-4 text-lg font-semibold text-gray-900">
-                  {testimonial.Name}
-                </h3>
-                <small className="text-start text-primary">
-                  Moved On : {testimonial.Date}
-                </small>
-              </div>
-            ))}
+            {cus
+              ? cus.map((testimonial, index) => (
+                  <div
+                    key={index}
+                    className="w-full flex-shrink-0 p-4 flex flex-col items-center justify-center bg-white  rounded-xl"
+                  >
+                    <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 bg-primary text-3xl text-white  ts">
+                      {testimonial.Name.split("")[0]}
+                    </div>
+                    <p className="text-gray-700 text-lg text-center">
+                      {testimonial.Review}
+                    </p>
+                    <h3 className="mt-4 text-lg font-semibold text-gray-900">
+                      {testimonial.Name}
+                    </h3>
+                    <small className="text-start text-primary">
+                      Moved On : {testimonial.Date}
+                    </small>
+                  </div>
+                ))
+              : testimonials.map((testimonial, index) => (
+                  <div
+                    key={index}
+                    className="w-full flex-shrink-0 p-4 flex flex-col items-center justify-center bg-white  rounded-xl"
+                  >
+                    <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4 bg-primary text-3xl text-white  ts">
+                      {testimonial.Name.split("")[0]}
+                    </div>
+                    <p className="text-gray-700 text-lg text-center">
+                      {testimonial.Review}
+                    </p>
+                    <h3 className="mt-4 text-lg font-semibold text-gray-900">
+                      {testimonial.Name}
+                    </h3>
+                    <small className="text-start text-primary">
+                      Moved On : {testimonial.Date}
+                    </small>
+                  </div>
+                ))}
           </div>
 
           {/* Pagination Dots */}

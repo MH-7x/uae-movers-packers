@@ -3,18 +3,28 @@ import { getFAQs } from "@/lib/getFAQs";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
-function FAQs() {
+function FAQs({
+  Faqs,
+}: {
+  Faqs?: {
+    question: string;
+    answer: string;
+  }[];
+}) {
   const [openFAQIndex, setOpenFAQIndex] = useState(0);
 
   const [faqs, setFaqs] = useState<
     { question: string; answer: string }[] | undefined
-  >([]);
+  >(Faqs || []);
   const pathname = usePathname();
 
   useEffect(() => {
     if (pathname) {
       const service = pathname.split("/")[1];
-      setFaqs(getFAQs(service));
+      if (!Faqs) {
+        setFaqs(getFAQs(service));
+      }
+      return;
     }
   }, [pathname]);
 
@@ -23,7 +33,7 @@ function FAQs() {
   };
 
   return (
-    <div className="py-4 relative">
+    <div className={`py-4 relative ${Faqs && "md:px-0 px-3"}`}>
       <div className="max-w-screen-md mx-auto sm:px-6 lg:px-8 flex flex-col justify-between">
         <div className="text-center">
           <p className="mt-4 text-sm leading-7 text-gray-500 font-regular">
@@ -42,7 +52,10 @@ function FAQs() {
                   className="flex flex-row items-start mb-5 cursor-pointer"
                   onClick={() => toggleFAQ(i)}
                 >
-                  <div className="flex items-center justify-center md:p-3 p-1 mr-3 rounded-full bg-primary drop-shadow-lg text-white border-4 border-white text-xl font-semibold">
+                  <div
+                    aria-hidden="true"
+                    className="flex items-center justify-center md:p-3 p-1 mr-3 rounded-full bg-primary drop-shadow-lg text-white border-4 border-white text-xl font-semibold"
+                  >
                     <svg
                       width="30px"
                       fill="white"
@@ -65,7 +78,7 @@ function FAQs() {
                     </svg>
                   </div>
                   <div className="bg-white rounded-lg md:p-5 p-3 md:px-10 px-7 w-full flex items-center">
-                    <h3 className="text-md leading-6 font-medium text-gray-900">
+                    <h3 className="text-xl leading-6 font-medium text-gray-900">
                       {faq.question}
                     </h3>
                   </div>
@@ -76,12 +89,15 @@ function FAQs() {
                     openFAQIndex === i ? "max-h-screen" : "max-h-0"
                   }`}
                 >
-                  <div className="bg-primary/20 rounded-lg md:p-5 p-3 md:px-10 px-5 w-full flex items-center">
+                  <div className="bg-primary/10 rounded-lg md:p-5 p-3 md:px-10 px-5 w-full flex items-center">
                     <p className="text-black text-sm md:text-base font-medium tracking-wide">
                       {faq.answer}
                     </p>
                   </div>
-                  <div className="flex items-center justify-center md:p-3 p-2 ml-3 rounded-full bg-green-600 drop-shadow-lg text-white border-4 border-white text-xl font-semibold">
+                  <div
+                    aria-hidden="true"
+                    className="flex items-center justify-center md:p-3 p-2 ml-3 rounded-full bg-primary drop-shadow-lg text-white border-4 border-white text-xl font-semibold"
+                  >
                     <svg
                       height="25px"
                       fill="white"

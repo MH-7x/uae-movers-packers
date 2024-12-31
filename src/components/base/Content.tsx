@@ -16,12 +16,17 @@ interface ContentProps {
     p2: string;
     p3: string;
   };
+  used?: boolean;
 }
 
-function Content({ sectionOne, sectiontwo }: ContentProps) {
+function Content({ sectionOne, sectiontwo, used }: ContentProps) {
   return (
     <>
-      <section className="md:w-11/12 w-full mx-auto mt-32  grid md:grid-cols-2 grid-cols-1 items-center md:gap-0">
+      <section
+        className={`md:w-11/12 w-full mx-auto mt-32  grid md:grid-cols-2 grid-cols-1 items-center md:gap-0 ${
+          used && "px-3 md:px-0"
+        }`}
+      >
         <div className="md:ml-5">
           <h2 className="mb-5">{sectionOne.heading}</h2>
           <p>{sectionOne.p1}</p>
@@ -42,7 +47,11 @@ function Content({ sectionOne, sectiontwo }: ContentProps) {
           </div>
         </div>
       </section>
-      <section className="md:w-11/12 w-full mx-auto mt-10 mb-10   grid md:grid-cols-2 grid-cols-1 items-center md:gap-0">
+      <section
+        className={`md:w-11/12 w-full mx-auto mt-10 mb-10   grid md:grid-cols-2 grid-cols-1 items-center md:gap-0 ${
+          used && "px-3 md:px-0"
+        }`}
+      >
         <div className="flex justify-center md:order-1 order-2 md:mr-10">
           <div className="w-[400px] h-[450px] relative">
             <Image

@@ -77,33 +77,33 @@ export const locations = [
 export const usedFurniture = [
   {
     name: "Used Furniture Dubai",
-    link: "/used-furniture-buy-sell-dubai",
+    link: "/buy-sell-used-furnitures-dubai",
     desc: "Quality furniture in Dubai.",
+    src: "/cities/movers-packers-dubai.jpg",
   },
   {
     name: "Used Furniture Abu Dhabi",
-    link: "/used-furniture-buy-sell-abu-dhabi",
+    link: "/buy-sell-used-furnitures-abu-dhabi",
     desc: "Affordable furniture in Abu Dhabi.",
+    src: "/cities/movers-packers-abuDhabi.jpg",
   },
   {
     name: "Used Furniture Sharjah",
-    link: "/used-furniture-buy-sell-sharjah",
+    link: "/buy-sell-used-furnitures-sharjah",
     desc: "Second-hand furniture in Sharjah.",
+    src: "/cities/movers-packers-sharjah.jpg",
   },
   {
     name: "Used Furniture Ajman",
-    link: "/used-furniture-buy-sell-ajman",
+    link: "/buy-sell-used-furnitures-ajman",
     desc: "Budget furniture in Ajman.",
+    src: "/cities/movers-packers-ajman.jpg",
   },
   {
     name: "Used Furniture Ras Al Khaimah",
-    link: "/used-furniture-buy-sell-ras-al-khaimah",
+    link: "/buy-sell-used-furnitures-ras-al-khaimah",
     desc: "Pre-owned furniture in RAK.",
-  },
-  {
-    name: "Used Furniture Umm Al Quwain",
-    link: "/used-furniture-buy-sell-umm-al-quwain",
-    desc: "Used furniture in UAQ.",
+    src: "/cities/movers-packers-rasAlKhaimah.jpg",
   },
 ];
 

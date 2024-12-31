@@ -102,7 +102,7 @@ export default function RootLayout({
           ></rect>
         </svg>
         <Navbar />
-        <main className="md:px-0 px-3">{children}</main>
+        <main className="">{children}</main>
         <Footer />
       </body>
     </html>

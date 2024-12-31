@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import icon from "@/app/favicon.ico";
+import icon from "../../../public/logo.png";
 import { locations, services, usedFurniture } from "@/constants/services";
 import Link from "next/link";
 function Footer() {
@@ -11,8 +11,8 @@ function Footer() {
           <div>
             <Image
               src={icon}
-              width={60}
-              height={60}
+              width={100}
+              height={100}
               alt="uae movers and packers"
             />
           </div>

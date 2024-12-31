@@ -14,7 +14,7 @@ function VillaMoving() {
   return (
     <>
       <section className="md:mt-32 mt-20 border">
-        <div className="relative md:rounded-none rounded-xl overflow-hidden w-full min-h-[500px]  md:py-0 ">
+        <div className="relative overflow-hidden w-full min-h-[500px]  md:py-0 ">
           <Image
             src="/service/small-furniture-moving.jpg"
             alt="Small / Single Furniture Moving Services in UAE"
@@ -275,7 +275,7 @@ function VillaMoving() {
             </li>
           </ul>
         </div>
-        <div className="md:col-span-2 col-span-1 px-3 py-5 bg-secondary">
+        <div className="md:col-span-2 col-span-1 md:px-3 py-5 ">
           <ServiceSideMenu />
         </div>
       </article>

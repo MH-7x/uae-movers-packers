@@ -12,7 +12,7 @@ import MovingServicesTable from "@/components/base/PricingTable";
 export default function Home() {
   return (
     <>
-      <div className="mt-24">
+      <div className="mt-24 md:px-0 px-3">
         <HeroSection />
         <AboutUsSection />
         <WhyChooseUs />

@@ -54,10 +54,10 @@ function DesktopNavBar() {
       <div
         className={`flex ${
           showNavbar ? "translate-y-0" : "-translate-y-full"
-        } items-center fixed  z-50 top-0 left-0 transition-transform duration-300 justify-between w-full px-4 border-b border-gray-200 bg-white`}
+        } items-center fixed  z-50 top-0 left-0 transition-transform duration-300 justify-between w-full px-4 border-b border-gray-200 bg-white py-1`}
       >
-        <div className="w-44 h-16 relative">
-          <Image src={logo} alt="logo" fill className="object-cover" />
+        <div className="w-44 h-12 relative">
+          <Image src={logo} alt="logo" fill className="object-contain" />
         </div>
         <div className="flex items-center justify-center md:gap-5">
           <div className="flex items-center gap-1">
@@ -92,14 +92,14 @@ function DesktopNavBar() {
                   showNavbar ? "-translate-x-full" : "translate-x--full mt-3"
                 } transition-transform duration-200`}
               >
-                <Link href="/about-us" legacyBehavior passHref>
+                <Link href="/" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    <div className="w-44 h-16 relative">
+                    <div className="w-44 h-14 relative">
                       <Image
                         src={logo}
                         alt="logo"
                         fill
-                        className="object-cover"
+                        className="object-contain"
                       />
                     </div>
                   </NavigationMenuLink>

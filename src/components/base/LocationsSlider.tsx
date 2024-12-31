@@ -4,20 +4,30 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { locations } from "@/constants/services";
+import { locations, usedFurniture } from "@/constants/services";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function LocationsSlider() {
+export default function LocationsSlider({
+  furitures = false,
+}: {
+  furitures?: boolean;
+}) {
   const path =
     typeof window !== "undefined" &&
     window.location.pathname.split("/")[1].split("-").join(" ");
-  const showWithoutCurrent = locations.filter(
-    (location) => location.name.toLocaleLowerCase() !== path
-  );
+  const showWithoutCurrent = furitures
+    ? usedFurniture
+    : locations.filter(
+        (location) => location.name.toLocaleLowerCase() !== path
+      );
 
   return (
-    <section className="md:w-11/12 mx-auto w-full md:px-4 py-8 mt-28">
+    <section
+      className={`md:w-11/12 mx-auto w-full md:px-4 py-8 mt-28 ${
+        furitures && "md:px-0 px-3"
+      }`}
+    >
       <h2 className="text-4xl max-w-lg mb-10 md:ml-10">
         We Serve Major Cities Across UAE
       </h2>
