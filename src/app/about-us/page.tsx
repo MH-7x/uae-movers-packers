@@ -33,7 +33,7 @@ function AboutUsPage() {
                   About Us{" "}
                 </h2>
                 <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                  Driven by a passion for seamless user experiences, we've
+                  Driven by a passion for seamless user experiences, we&#39;ve
                   meticulously curated pagedone to empower creators, designers,
                   and developers alike. Our mission is to provide a
                   comprehensive toolkit, enabling you to build intuitive,
@@ -61,7 +61,7 @@ function AboutUsPage() {
                 </h2>
                 <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
                   Pagedone isn’t just a collection of components and guidelines;
-                  it's a philosophy. We go beyond aesthetics, prioritizing
+                  it&apos;s a philosophy. We go beyond aesthetics, prioritizing
                   accessibility, scalability, and usability. Every element, from
                   the tiniest detail to the grandest layout, is meticulously
                   crafted to enhance functionality and elevate user
@@ -96,7 +96,7 @@ function AboutUsPage() {
                     Company growth
                   </h4>
                   <p className="text-xs text-gray-500 leading-5">
-                    Company's remarkable growth journey as we continually
+                    Company&apos;s remarkable growth journey as we continually
                     innovate and drive towards new heights of success.
                   </p>
                 </div>
@@ -154,11 +154,11 @@ function AboutUsPage() {
                     <p className="text-lg text-gray-500 leading-8 mb-8 text-center">
                       I have been using pagedone for several months now, and I
                       must say that it has made my life a lot easier. The
-                      platform's intuitive interface and ease of use have
+                      platform&apos;s intuitive interface and ease of use have
                       allowed me to manage my finances more effectively and make
                       informed investment decisions. I particularly like the
-                      product's auto-tracking feature, which has saved me a lot
-                      of time and effort.
+                      product&apos;s auto-tracking feature, which has saved me a
+                      lot of time and effort.
                     </p>
                   </div>
                 </div>
@@ -169,11 +169,11 @@ function AboutUsPage() {
                     <p className="text-lg text-gray-500 leading-8 mb-8 text-center">
                       I have been using pagedone for several months now, and I
                       must say that it has made my life a lot easier. The
-                      platform's intuitive interface and ease of use have
+                      platform&apos;s intuitive interface and ease of use have
                       allowed me to manage my finances more effectively and make
                       informed investment decisions. I particularly like the
-                      product's auto-tracking feature, which has saved me a lot
-                      of time and effort.
+                      product&apos;s auto-tracking feature, which has saved me a
+                      lot of time and effort.
                     </p>
                   </div>
                 </div>
@@ -184,11 +184,11 @@ function AboutUsPage() {
                     <p className="text-lg text-gray-500 leading-8 mb-8 text-center">
                       I have been using pagedone for several months now, and I
                       must say that it has made my life a lot easier. The
-                      platform's intuitive interface and ease of use have
+                      platform&apos;s intuitive interface and ease of use have
                       allowed me to manage my finances more effectively and make
                       informed investment decisions. I particularly like the
-                      product's auto-tracking feature, which has saved me a lot
-                      of time and effort.
+                      product&apos;s auto-tracking feature, which has saved me a
+                      lot of time and effort.
                     </p>
                   </div>
                 </div>
@@ -566,7 +566,7 @@ function AboutUsPage() {
             </h2>
             <p className="text-indigo-200 text-center mb-11 max-lg:max-w-2xl mx-auto">
               Join our community of subscribers and receive regular updates
-              delivered straight to your inbox. It's quick, easy, and free
+              delivered straight to your inbox. It&apos;s quick, easy, and free
             </p>
             <div className="max-w-md mx-auto lg:bg-transparent lg:border border-gray-300 rounded-3xl max-lg:py-3 lg:rounded-full lg:h-12 lg:p-1.5 lg:flex-row gap-6 lg:gap-0 flex-col flex items-center justify-between">
               <input
