@@ -135,7 +135,7 @@ const FurnituresDubai = () => {
       </section>
 
       <ServiceFurnitures city="Ras Al Khaimah" />
-      <section className="mt-32 md:px-6 px-3">
+      <section id="used-furniture-collections" className="mt-32 md:px-6 px-3">
         <h2 className="text-center">
           Our Used Furniture Products{" "}
           <span className="md:block text-primary">In Ras Al Khaimah</span>

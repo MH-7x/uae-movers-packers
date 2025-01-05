@@ -66,21 +66,25 @@ function DesktopNavBar() {
               Building No. 12, Street No. 4, Al Yarmook, Sharjah, UAE
             </span>
           </div>
-          <div className="flex items-center gap-1">
-            <Phone className="size-4 text-primary" />
-            <span className="text-sm font-medium">+971 123456789</span>
-          </div>
-          <div className="flex items-center gap-1">
-            <Mail className="size-4 text-primary" />
-            <span className="text-sm font-medium">wk0131839@gamil.com</span>
-          </div>
+          <Link aria-label="Call To Us" href={"tel:+971503806855"}>
+            <div className="flex items-center gap-1">
+              <Phone className="size-4 text-primary" />
+              <span className="text-sm font-medium">+971 123456789</span>
+            </div>
+          </Link>
+          <Link aria-label="Mail To Us" href={"mailto:wk0131839@gamil.com"}>
+            <div className="flex items-center gap-1">
+              <Mail className="size-4 text-primary" />
+              <span className="text-sm font-medium">wk0131839@gamil.com</span>
+            </div>
+          </Link>
         </div>
       </div>
 
       <nav
         className={`fixed bg-white ${
           showNavbar
-            ? "top-[65px] py-2"
+            ? "top-[57px] py-2"
             : "top-0 px-4 shadow-lg shadow-neutral-200/50"
         } px-5 z-50 w-full   transition-all duration-200`}
       >

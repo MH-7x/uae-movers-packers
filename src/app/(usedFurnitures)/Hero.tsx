@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import React from "react";
 
 function Hero({
@@ -21,7 +22,9 @@ function Hero({
 
           <p className="mt-3 text-gray-700 text-base">{desc}</p>
 
-          <Button className="w-full lg:w-auto mt-3">Explore Now !</Button>
+          <Link href={"#used-furniture-collections"}>
+            <Button className="w-full lg:w-auto mt-3">Explore Now !</Button>
+          </Link>
         </div>
       </div>
 

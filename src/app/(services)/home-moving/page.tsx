@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import ServiceSideMenu from "@/components/ServiceSideMenu";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Home Moving Services in UAE | Professional & Affordable",
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
 function VillaMoving() {
   return (
     <>
-      <section className="md:mt-32 mt-20 border">
+      <section className="md:mt-32 mt-16 border">
         <div className="relative overflow-hidden w-full min-h-[500px]  md:py-0 ">
           <Image
             src="/service/villa-moving.jpg"
@@ -44,7 +45,9 @@ function VillaMoving() {
                 className="mt-8 mx-auto bg-transparent text-white"
                 size={"lg"}
               >
-                Call Now : +971 50 500 500
+                <Link aria-label="Call To Us" href={"tel:+971503806855"}>
+                  Call Now : +971 50 38068 55
+                </Link>
               </Button>
             </div>
           </div>
@@ -54,13 +57,12 @@ function VillaMoving() {
       <article className="grid md:grid-cols-6 grid-cols-1 gap-x-4 md:px-10 md:mt-20 mt-16 items-start">
         <div className="md:col-span-4 col-span-1 md:pr-10">
           <p>
-            Moving your home can be a challenging task, but with{" "}
-            <strong>UAE Movers & Packers</strong>, you get a stress-free,
-            efficient, and reliable moving experience. We specialize in offering
-            tailored <strong>home moving services</strong> for apartments,
-            villas, and studios across the UAE. Whether you’re relocating
-            locally or to another emirate, our team of expert movers ensures a
-            seamless transition for you and your belongings.
+            Moving your home can be a challenging task, but with UAE Movers &
+            Packers, you get a stress-free, efficient, and reliable moving
+            experience. We specialize in offering tailored home moving services
+            for apartments, villas, and studios across the UAE. Whether you’re
+            relocating locally or to another emirate, our team of expert movers
+            ensures a seamless transition for you and your belongings.
           </p>
           <h2>Why Choose Our Home Moving Services?</h2>
           <p>

@@ -14,7 +14,7 @@ function ServiceFeatured({
   }[];
 }) {
   return (
-    <section className="relative md:mt-0 mt-10 md:px-4 px-2 sm:px-0">
+    <section className="relative md:mt-0 mt-10 md:px-4 sm:px-0">
       <div className="absolute inset-0  h-1/2" />
       <div className="relative grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-4 lg:max-w-screen-lg">
         {features.map((feature) => (

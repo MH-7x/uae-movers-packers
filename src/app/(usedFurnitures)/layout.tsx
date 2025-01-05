@@ -2,6 +2,7 @@ import LocationsSlider from "@/components/base/LocationsSlider";
 import TestimonialSlider from "@/components/base/Testimonials";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, PhoneCall } from "lucide-react";
+import Link from "next/link";
 const testimonials = [
   {
     Name: "Sarah Johnson",
@@ -89,12 +90,21 @@ const RootLayout = ({
         </p>
 
         <div className="w-full justify-center flex mt-7 flex-wrap gap-3">
-          <Button size={"lg"} variant={"outline"}>
-            <PhoneCall /> Call / Whatsapp
-          </Button>
-          <Button size={"lg"} variant={"ghost"} className="text-white">
-            Get A Free Quote <ArrowRight />
-          </Button>
+          <Link
+            aria-label="Contact For Used Furnitures"
+            href={
+              "https://wa.me/+971503806855?text=Hi%20I%20am%20looking%20for%used%20furnitures"
+            }
+          >
+            <Button size={"lg"} variant={"outline"}>
+              <PhoneCall /> Call / Whatsapp
+            </Button>
+          </Link>
+          <Link href={"/contact-us"}>
+            <Button size={"lg"} variant={"ghost"} className="text-white">
+              Get A Free Quote <ArrowRight />
+            </Button>
+          </Link>
         </div>
       </section>
     </>

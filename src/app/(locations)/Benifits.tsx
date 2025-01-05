@@ -9,7 +9,7 @@ import { PhoneCall } from "lucide-react";
 
 function Benifits({ title, city }: { title: string; city: string }) {
   return (
-    <div className="md:mt-32 mt-28 mb-5 w-full md:w-11/12 mx-auto grid md:grid-cols-2 md:gap-x-5 gap-y-7 grid-cols-1 items-center">
+    <div className="md:mt-32 mt-28 mb-5  w-full md:w-11/12 mx-auto grid md:grid-cols-2 md:gap-x-5 gap-y-7 grid-cols-1 items-center">
       <div className="px-3 md:px-0 flex flex-wrap md:gap-5 gap-y-5 md:order-1 order-2">
         <div className="bg-white shadow-lg border border-neutral-100 shadow-neutral-100 px-3 py-2 rounded-2xl basis-full md:basis-[48%] flex flex-col items-center justify-center">
           <div className=" w-8 h-8 rounded-full flex items-center justify-center relative">

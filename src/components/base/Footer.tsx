@@ -255,7 +255,15 @@ function Footer() {
         </div>
       </div>
       <p className="text-center text-sm text-gray-600 -mt-10">
-        Develop by <span className="text-primary">Mashal Huraira</span>
+        Develop by{" "}
+        <Link
+          href={
+            "https://wa.me/+923471309916?text=Hello%20Mashal,%20I%20Need%20Your%20Service%20!"
+          }
+          className="text-primary"
+        >
+          Mashal Huraira
+        </Link>{" "}
       </p>
     </footer>
   );

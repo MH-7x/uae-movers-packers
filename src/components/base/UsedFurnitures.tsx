@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const features = [
   {
@@ -100,11 +101,15 @@ export default function UsedFurnitures({ city }: { city?: string }) {
           that bring style and value to your space {city && `in ${city}`}. Shop
           our curated collection now!
         </p>
-        <div className="flex justify-center flex-wrap gap-5  mt-3">
-          <Button size={"lg"}>Contact Now</Button>
-          <Button size={"lg"} variant={"outline"}>
-            View All..
-          </Button>
+        <div className="flex justify-center flex-wrap md:gap-5 gap-3  mt-3">
+          <Link href={"/contact-us"} aria-label="Contact For Used Furniture">
+            <Button size={"lg"}>Contact Now</Button>
+          </Link>
+          <Link href={"/buy-sell-used-furnitures-dubai"}>
+            <Button size={"lg"} variant={"outline"}>
+              View Our Collections..
+            </Button>
+          </Link>
         </div>
       </div>
     </>

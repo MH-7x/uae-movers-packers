@@ -7,7 +7,7 @@ function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="mt-28 relative">
+    <>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
@@ -63,9 +63,10 @@ function RootLayout({
           ></ellipse>
         </g>
       </svg>
-      {children}
+      <div className="mt-28 relative md:px-0 px-3">{children}</div>
+
       <QuoteSection />
-    </div>
+    </>
   );
 }
 

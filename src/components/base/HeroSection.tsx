@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 function HeroSection() {
   return (
@@ -14,8 +15,10 @@ function HeroSection() {
         </div>
       </div>
       <div className="md:text-center text-start">
-        <h1 className="  sm:text-7xl">UAE MOVERS & PACKERS</h1>
-        <h2 className="mt-3 text-primary">
+        <h1 className="  sm:text-6xl text-4xl uppercase">
+          <span className="text-primary">RWahab</span> Movers & Packers
+        </h1>
+        <h2 className="mt-3 text-primary font-medium">
           Your Trusted Moving Partner Across the UAE
         </h2>
         <p className=" mt-5 md:text-lg font-medium ">
@@ -25,10 +28,14 @@ function HeroSection() {
           moving stress-free and convenient for our clients.
         </p>
         <div className="mt-6 flex items-center justify-center gap-x-6">
-          <Button size={"lg"}>Get a Quote</Button>
-          <Button size={"lg"} variant={"outline"}>
-            Our Services
-          </Button>
+          <Link href="/contact-us">
+            <Button size={"lg"}>Get a Quote</Button>
+          </Link>
+          <Link href={"#services"}>
+            <Button size={"lg"} variant={"outline"}>
+              Our Services
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /_next/
+Allow: /_next/static/
+Sitemap: https://rwahabmoversuae.com/sitemap.xml

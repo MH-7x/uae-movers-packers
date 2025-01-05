@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import ServiceSideMenu from "@/components/ServiceSideMenu";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Office Moving Services in UAE | Professional & Reliable Movers",
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
 function VillaMoving() {
   return (
     <>
-      <section className="md:mt-32 mt-20 border">
+      <section className="md:mt-32 mt-16 border">
         <div className="relative overflow-hidden w-full min-h-[500px]  md:py-0 ">
           <Image
             src="/service/office-moving.jpg"
@@ -44,7 +45,10 @@ function VillaMoving() {
                 className="mt-8 mx-auto bg-transparent text-white"
                 size={"lg"}
               >
-                Call Now : +971 50 500 500
+                <Link aria-label="Call To Us" href="tel:+971503806855">
+                  {" "}
+                  Call Now : +971 50 38068 55
+                </Link>
               </Button>
             </div>
           </div>

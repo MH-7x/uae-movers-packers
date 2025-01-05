@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import ServiceSideMenu from "@/components/ServiceSideMenu";
 import { ThumbsUp } from "lucide-react";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Heavy Goods Moving in UAE | Professional & Affordable",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 function HeavyGoodsMoving() {
   return (
     <>
-      <section className="md:mt-32 mt-20 border">
+      <section className="md:mt-32 mt-16 border">
         <div className="relative overflow-hidden w-full min-h-[500px]  md:py-0 ">
           <Image
             src="/service/heavy-goods.jpg"
@@ -44,7 +45,10 @@ function HeavyGoodsMoving() {
                 className="mt-8 mx-auto bg-transparent text-white"
                 size={"lg"}
               >
-                Call Now : +971 50 500 500
+                <Link aria-label="Call To Us" href="tel:+971503806855">
+                  {" "}
+                  Call Now : +971 50 38068 55
+                </Link>
               </Button>
             </div>
           </div>

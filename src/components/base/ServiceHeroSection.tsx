@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 interface HeroSectionProps {
   city: string;
@@ -24,10 +25,14 @@ function ServiceHeroSection({
         <p className="text-base text-gray-700 md:text-lg mt-3">{description}</p>
       </div>
       <div className="flex items-center sm:justify-center md:gap-x-6 gap-x-3">
-        <Button size={"lg"}>Get a Quote</Button>
-        <Button size={"lg"} variant={"outline"}>
-          Call To Us
-        </Button>
+        <Link href={"/contact-us"}>
+          <Button size={"lg"}>Get a Quote</Button>
+        </Link>
+        <Link aria-label="Call To Us" href={"tel:+971503806855"}>
+          <Button size={"lg"} variant={"outline"}>
+            Call To Us
+          </Button>
+        </Link>
       </div>
     </section>
   );

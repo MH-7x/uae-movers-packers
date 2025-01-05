@@ -1,6 +1,7 @@
 "use client";
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetHeader,
   SheetTitle,
@@ -18,10 +19,16 @@ export function SideMenu() {
     <Sheet>
       <SheetTrigger asChild>
         <div>
-          <Image src={"/menu.svg"} alt="menu" width={38} height={38} />
+          <Image
+            src={"/menu.svg"}
+            alt="open side menu icon"
+            aria-label="open side menu"
+            width={38}
+            height={38}
+          />
         </div>
       </SheetTrigger>
-      <SheetContent className=" overflow-y-auto">
+      <SheetContent className="bg-gradient-to-t from-violet-200 to-white overflow-y-auto">
         <SheetHeader>
           <SheetTitle aria-label="UAE Movers & Packers">
             <div className="w-full relative h-12 ">
@@ -49,9 +56,14 @@ export function SideMenu() {
             {openIndex === 0 && (
               <div className="text-base mt-3 font-normal flex items-start justify-start flex-col gap-y-2">
                 {services.map((service, i) => (
-                  <Link key={service.name + i} href={service.link}>
-                    {service.name}
-                  </Link>
+                  <SheetClose key={service.name + i} asChild>
+                    <Link
+                      className="font-medium text-gray-700"
+                      href={service.link}
+                    >
+                      {service.name}
+                    </Link>
+                  </SheetClose>
                 ))}
               </div>
             )}
@@ -67,9 +79,14 @@ export function SideMenu() {
             {openIndex === 1 && (
               <div className="text-base mt-3 font-normal flex items-start justify-start flex-col gap-y-2">
                 {locations.map((location, i) => (
-                  <Link key={location.name + i} href={location.link}>
-                    {location.name.substring(19, location.name.length)}
-                  </Link>
+                  <SheetClose key={location.name + i} asChild>
+                    <Link
+                      className="font-medium text-gray-700"
+                      href={location.link}
+                    >
+                      {location.name.substring(19, location.name.length)}
+                    </Link>
+                  </SheetClose>
                 ))}
               </div>
             )}
@@ -85,18 +102,23 @@ export function SideMenu() {
             {openIndex === 2 && (
               <div className="text-base mt-3 font-normal flex items-start justify-start flex-col gap-y-2">
                 {usedFurniture.map((furniture, i) => (
-                  <Link key={furniture.name + i} href={furniture.link}>
-                    {furniture.name.substring(14, furniture.name.length)}
-                  </Link>
+                  <SheetClose key={furniture.name + i} asChild>
+                    <Link
+                      className="font-medium text-gray-700"
+                      href={furniture.link}
+                    >
+                      {furniture.name.substring(14, furniture.name.length)}
+                    </Link>
+                  </SheetClose>
                 ))}
               </div>
             )}
           </li>
           <li className="border-b  w-full py-3 font-bold text-lg">
-            <Link href={"/"}>About Us</Link>
+            <Link href={"/about-us"}>About Us</Link>
           </li>
           <li className="border-b  w-full py-3 font-bold text-lg">
-            <Link href={"/"}>Contact Us</Link>
+            <Link href={"/contact-us"}>Contact Us</Link>
           </li>
         </ul>
       </SheetContent>
