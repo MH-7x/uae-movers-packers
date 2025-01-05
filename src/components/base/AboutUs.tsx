@@ -65,6 +65,7 @@ const AboutUsSection = () => {
       <div className="flex-1 flex justify-center ">
         <div className="h-[450px] relative rounded-xl overflow-hidden w-96 bg-secondary">
           <Image
+            id="primaryimage"
             src={aboutimage}
             fill
             className="absolute object-cover object-top"

@@ -6,9 +6,19 @@ import ServiceSideMenu from "@/components/ServiceSideMenu";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Moving and Cargo Packing Service | UAE Movers & Packers",
+  title: "Moving and Cargo Packing Service | RWahab Movers UAE",
   description:
     "Professional Moving and Cargo Packing Services for Safe and Efficient Relocation. Serveice in Dubai, Sharjah, Abu Dhabi in UAE.",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/moving-and-cargo-packing`,
+  },
+  openGraph: {
+    title: "Moving and Cargo Packing Service | RWahab Movers UAE",
+    description:
+      "Professional Moving and Cargo Packing Services for Safe and Efficient Relocation. Serveice in Dubai, Sharjah, Abu Dhabi in UAE.",
+    images: `${process.env.PUBLIC_URL}/service/moving-and-cargo-packing.jpg`,
+    url: `${process.env.PUBLIC_URL}/moving-and-cargo-packing`,
+  },
 };
 function VillaMoving() {
   return (

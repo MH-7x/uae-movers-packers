@@ -40,6 +40,7 @@ function MobileNavBar() {
               src={"/images/logo.png"}
               alt="RWahab Movers UAE"
               fill
+              id="logo"
               className="object-contain "
             />
           </Link>

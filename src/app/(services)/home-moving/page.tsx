@@ -9,6 +9,16 @@ export const metadata: Metadata = {
   title: "Home Moving Services in UAE | Professional & Affordable",
   description:
     "Reliable home moving services in the UAE. Expert movers, packing solutions, and seamless relocation for apartments, villas, and studios. Get a free quote today!",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/home-moving`,
+  },
+  openGraph: {
+    title: "Home Moving Services in UAE | Professional & Affordable",
+    description:
+      "Reliable home moving services in the UAE. Expert movers, packing solutions, and seamless relocation for apartments, villas, and studios. Get a free quote today!",
+    images: `${process.env.PUBLIC_URL}/service/villa-moving.jpg`,
+    url: `${process.env.PUBLIC_URL}/home-moving`,
+  },
 };
 function VillaMoving() {
   return (

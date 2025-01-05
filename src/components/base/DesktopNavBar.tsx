@@ -57,7 +57,13 @@ function DesktopNavBar() {
         } items-center fixed  z-50 top-0 left-0 transition-transform duration-300 justify-between w-full px-4 border-b border-gray-200 bg-white py-1`}
       >
         <div className="w-44 h-12 relative">
-          <Image src={logo} alt="logo" fill className="object-contain" />
+          <Image
+            src={logo}
+            id="logo"
+            alt="logo"
+            fill
+            className="object-contain"
+          />
         </div>
         <div className="flex items-center justify-center md:gap-5">
           <div className="flex items-center gap-1">

@@ -6,9 +6,19 @@ import ServiceSideMenu from "@/components/ServiceSideMenu";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Apartment Moving Services in Dubai | UAE Movers & Packers",
+  title: "Apartment Moving Services in Dubai | RWahab Movers UAE",
   description:
     "Stress-free apartment moving services in Dubai UAE. We handle everything from packing to transportation. Get a free quote today!",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/apartment-moving`,
+  },
+  openGraph: {
+    title: "Apartment Moving Services in Dubai | RWahab Movers UAE",
+    description:
+      "Stress-free apartment moving services in Dubai UAE. We handle everything from packing to transportation. Get a free quote today!",
+    images: `${process.env.PUBLIC_URL}/service/office-moving.jpg`,
+    url: `${process.env.PUBLIC_URL}/apartment-moving`,
+  },
 };
 function VillaMoving() {
   return (

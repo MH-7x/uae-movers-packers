@@ -8,7 +8,17 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Home Appliance Moving UAE - AC, TV, Refrigerator etc",
   description:
-    "Stress-free apartment moving services in Dubai UAE. We handle everything from packing to transportation. Get a free quote today!",
+    "Need professional home appliance movers in UAE? RWahab Movers UAE specializes in safe moving of ACs, TVs, refrigerators, washing machines, and more. Affordable and reliable service tailored to your needs. Get a free quote today!",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/appliances-moving`,
+  },
+  openGraph: {
+    title: "Home Appliance Moving UAE - AC, TV, Refrigerator etc",
+    description:
+      "Need professional home appliance movers in UAE? RWahab Movers UAE specializes in safe moving of ACs, TVs, refrigerators, washing machines, and more. Affordable and reliable service tailored to your needs. Get a free quote today!",
+    images: `${process.env.PUBLIC_URL}/service/appliances-moving.jpg`,
+    url: `${process.env.PUBLIC_URL}/appliances-moving`,
+  },
 };
 function AppliancesMoving() {
   return (

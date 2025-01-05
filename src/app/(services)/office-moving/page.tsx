@@ -9,6 +9,16 @@ export const metadata: Metadata = {
   title: "Office Moving Services in UAE | Professional & Reliable Movers",
   description:
     "Efficient and hassle-free office moving services in UAE. Trust us for packing, relocation, furniture setup, and customized office shifting solutions. Request a quote now!",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/office-moving`,
+  },
+  openGraph: {
+    title: "Office Moving Services in UAE | Professional & Reliable Movers",
+    description:
+      "Efficient and hassle-free office moving services in UAE. Trust us for packing, relocation, furniture setup, and customized office shifting solutions. Request a quote now!",
+    images: `${process.env.PUBLIC_URL}/service/office-moving.jpg`,
+    url: `${process.env.PUBLIC_URL}/office-moving`,
+  },
 };
 function VillaMoving() {
   return (

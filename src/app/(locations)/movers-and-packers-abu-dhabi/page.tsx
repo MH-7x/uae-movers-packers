@@ -18,6 +18,18 @@ import ServiceFeatured from "@/components/base/ServiceFeatured";
 
 export const metadata: Metadata = {
   title: "Movers and Packers Abu Dhabi | Best and Professional Company",
+  description:
+    "Looking for reliable movers and packers in Abu Dhabi? RWahab Movers UAE offers professional, affordable moving services tailored to your needs. Get a free quote today!",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/movers-and-packers-abu-dhabi`,
+  },
+  openGraph: {
+    title: "Movers and Packers Abu Dhabi | Best and Professional Company",
+    description:
+      "Looking for reliable movers and packers in Abu Dhabi? RWahab Movers UAE offers professional, affordable moving services tailored to your needs. Get a free quote today!",
+    url: `${process.env.PUBLIC_URL}/movers-and-packers-abu-dhabi`,
+    images: `${process.env.PUBLIC_URL}/cities/movers-packers-abuDhabi.jpg`,
+  },
 };
 
 export default function MoversAbuDhabi() {

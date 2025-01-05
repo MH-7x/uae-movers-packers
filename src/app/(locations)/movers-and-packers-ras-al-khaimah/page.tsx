@@ -18,6 +18,19 @@ import ServiceFeatured from "@/components/base/ServiceFeatured";
 
 export const metadata: Metadata = {
   title: "Movers and Packers Ras Al Khaimah | Reliable and Affordable Services",
+  description:
+    "Need reliable movers and packers in Ras Al Khaimah? RWahab Movers UAE offers affordable and professional moving services for stress-free relocation. Call us today!",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/movers-and-packers-ras-al-khaimah`,
+  },
+  openGraph: {
+    title:
+      "Movers and Packers Ras Al Khaimah | Reliable and Affordable Services",
+    description:
+      "Need reliable movers and packers in Ras Al Khaimah? RWahab Movers UAE offers affordable and professional moving services for stress-free relocation. Call us today!",
+    url: `${process.env.PUBLIC_URL}/movers-and-packers-ras-al-khaimah`,
+    images: `${process.env.PUBLIC_URL}/cities/movers-packers-rasAlKhaimah.jpg`,
+  },
 };
 
 export default function MoversRasAlKhaimah() {

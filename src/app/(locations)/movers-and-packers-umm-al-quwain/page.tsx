@@ -18,6 +18,18 @@ import ServiceFeatured from "@/components/base/ServiceFeatured";
 
 export const metadata: Metadata = {
   title: "Movers and Packers Umm Al Quwain | Best Moving Services",
+  description:
+    "Searching for top-notch movers and packers in Umm Al Quwain? RWahab Movers UAE offers dependable, affordable, and professional moving services. Contact us today!",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/movers-and-packers-umm-al-quwain`,
+  },
+  openGraph: {
+    title: "Movers and Packers Umm Al Quwain | Best Moving Services",
+    description:
+      "Searching for top-notch movers and packers in Umm Al Quwain? RWahab Movers UAE offers dependable, affordable, and professional moving services. Contact us today!",
+    url: `${process.env.PUBLIC_URL}/movers-and-packers-umm-al-quwain`,
+    images: `${process.env.PUBLIC_URL}/cities/movers-packers-umm.jpg`,
+  },
 };
 
 export default function MoversUmmAlQuwain() {

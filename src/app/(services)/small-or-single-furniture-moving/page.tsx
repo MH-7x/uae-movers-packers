@@ -10,6 +10,17 @@ export const metadata: Metadata = {
     "Affordable Small Furniture Movers in UAE | Single Item Moving Services",
   description:
     "Need small furniture movers in the UAE? Get affordable, reliable single-item moving services with expert packing, handling, and fast delivery in Dubai, Sharjah, and Abu Dhabi.",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/small-or-single-furniture-moving`,
+  },
+  openGraph: {
+    title:
+      "Affordable Small Furniture Movers in UAE | Single Item Moving Services",
+    description:
+      "Need small furniture movers in the UAE? Get affordable, reliable single-item moving services with expert packing, handling, and fast delivery in Dubai, Sharjah, and Abu Dhabi.",
+    images: `${process.env.PUBLIC_URL}/service/small-furniture-moving.jpg`,
+    url: `${process.env.PUBLIC_URL}/small-or-single-furniture-moving`,
+  },
 };
 function VillaMoving() {
   return (

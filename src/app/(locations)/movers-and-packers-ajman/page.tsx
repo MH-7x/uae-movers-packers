@@ -18,6 +18,18 @@ import ServiceFeatured from "@/components/base/ServiceFeatured";
 
 export const metadata: Metadata = {
   title: "Movers and Packers Ajman | Affordable and Professional Services",
+  description:
+    "Searching for affordable movers and packers in Ajman? RWahab Movers UAE provides professional relocation services for homes, offices, and more. Contact us now!",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/movers-and-packers-ajman`,
+  },
+  openGraph: {
+    title: "Movers and Packers Ajman | Affordable and Professional Services",
+    description:
+      "Searching for affordable movers and packers in Ajman? RWahab Movers UAE provides professional relocation services for homes, offices, and more. Contact us now!",
+    url: `${process.env.PUBLIC_URL}/movers-and-packers-ajman`,
+    images: `${process.env.PUBLIC_URL}/cities/movers-packers-ajman.jpg`,
+  },
 };
 
 export default function MoversAjman() {

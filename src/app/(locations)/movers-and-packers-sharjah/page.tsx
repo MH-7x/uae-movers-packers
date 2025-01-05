@@ -18,6 +18,18 @@ import ServiceFeatured from "@/components/base/ServiceFeatured";
 
 export const metadata: Metadata = {
   title: "Movers and Packers Sharjah | Best and Professional Company",
+  description:
+    "Looking for the best movers and packers in Sharjah? RWahab Movers UAE provides expert relocation services with unmatched professionalism. Get a free estimate now!",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/movers-and-packers-sharjah`,
+  },
+  openGraph: {
+    title: "Movers and Packers Sharjah | Best and Professional Company",
+    description:
+      "Looking for the best movers and packers in Sharjah? RWahab Movers UAE provides expert relocation services with unmatched professionalism. Get a free estimate now!",
+    url: `${process.env.PUBLIC_URL}/movers-and-packers-sharjah`,
+    images: `${process.env.PUBLIC_URL}/cities/movers-packers-sharjah.jpg`,
+  },
 };
 
 export default function MoversAbuDhabi() {

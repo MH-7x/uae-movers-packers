@@ -18,6 +18,18 @@ import ServiceFeatured from "@/components/base/ServiceFeatured";
 
 export const metadata: Metadata = {
   title: "Top Movers and Packers in Dubai | Professional Dubai Movers",
+  description:
+    "Hire top movers and packers in Dubai with RWahab Movers UAE. Professional, reliable, and efficient moving services for all your needs. Request a free quote today!",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/movers-and-packers-dubai`,
+  },
+  openGraph: {
+    title: "Top Movers and Packers in Dubai | Professional Dubai Movers",
+    description:
+      "Hire top movers and packers in Dubai with RWahab Movers UAE. Professional, reliable, and efficient moving services for all your needs. Request a free quote today!",
+    url: `${process.env.PUBLIC_URL}/movers-and-packers-dubai`,
+    images: `${process.env.PUBLIC_URL}/cities/movers-packers-dubai.jpg`,
+  },
 };
 
 export default function MoversDubai() {
