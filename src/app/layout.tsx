@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/base/Navbar";
 import { Poppins } from "next/font/google";
 import Footer from "@/components/base/Footer";
+import Script from "next/script";
 const roboto = Poppins({
   subsets: ["latin"],
   variable: "--font-roboto",
@@ -41,6 +42,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-AE">
+      <Script
+        strategy="afterInteractive"
+        src="https://analytics.ahrefs.com/analytics.js"
+        data-key="vJkQXO12D4BgqaV3I3C26Q"
+        async
+      />
       <body className={` ${roboto.className} antialiased`}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
