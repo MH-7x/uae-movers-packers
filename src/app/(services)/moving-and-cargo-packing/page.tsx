@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import ServiceSideMenu from "@/components/ServiceSideMenu";
 import Link from "next/link";
+import FAQs from "@/components/base/FAQs";
 
 export const metadata: Metadata = {
   title: "Moving and Cargo Packing Service | RWahab Movers UAE",
@@ -264,6 +265,50 @@ function VillaMoving() {
           <ServiceSideMenu />
         </div>
       </article>
+      <FAQs
+        Faqs={[
+          {
+            question: "What areas in the UAE do you serve?",
+            answer:
+              "UAE Movers & Packers proudly serves customers throughout the UAE, including all major cities. No matter where you are located, we have you covered!",
+          },
+          {
+            question: "How much notice do you need for a packing service?",
+            answer:
+              "To ensure the best service, we recommend booking at least one week in advance. However, we can accommodate urgent requests whenever possible.",
+          },
+          {
+            question: "What are your rates for moving and packing services?",
+            answer:
+              "Our pricing is designed to fit a variety of budgets, depending on your specific needs and the complexity of the job. Contact us for a personalized, free quote.",
+          },
+          {
+            question: "Do you offer insurance for my belongings?",
+            answer:
+              "Yes, we provide insurance options for your belongings during the move to ensure peace of mind.",
+          },
+          {
+            question: "Can you handle piano or antique furniture moving?",
+            answer:
+              "Absolutely! Our specialized team is trained to safely move pianos and delicate antique furniture.",
+          },
+          {
+            question: "What packing materials do you use?",
+            answer:
+              "We use high-quality, eco-friendly packing materials, including boxes, bubble wrap, and packing peanuts to ensure your items are secure.",
+          },
+          {
+            question: "Are your workers trained and insured?",
+            answer:
+              "Yes, all our team members are fully trained and insured for your safety and satisfaction.",
+          },
+          {
+            question: "What should I do to prepare for the moving day?",
+            answer:
+              "We recommend decluttering your home, labeling boxes, and making a checklist of items to be moved for a smooth transition.",
+          },
+        ]}
+      />
     </>
   );
 }

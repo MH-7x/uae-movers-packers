@@ -1,6 +1,6 @@
-import React from "react";
 import boxes from "../../../public/locations/boxes.svg";
 import Image from "next/image";
+import Link from "next/link";
 const QuoteSection: React.FC = () => {
   return (
     <section className="bg-primary text-white md:px-8 px-3 py-12 rounded-lg w-full md:w-11/12 mx-auto mt-32">
@@ -20,12 +20,16 @@ const QuoteSection: React.FC = () => {
             and professional moving services tailored to your needs.
           </p>
           <div className="flex  gap-4">
-            <button className="bg-blue-500 text-white md:px-6 px-3 py-3 rounded-lg hover:bg-blue-600 transition">
-              Get a quote →
-            </button>
-            <button className="border border-white text-white md:px-6 px-3 py-3 rounded-lg hover:bg-white hover:text-blue-900 transition">
-              Learn more
-            </button>
+            <Link href={"/contact-us"}>
+              <button className="bg-blue-500 text-white md:px-6 px-3 py-3 rounded-lg hover:bg-blue-600 transition">
+                Get a quote →
+              </button>
+            </Link>
+            <Link href={"tel:+971503806855"}>
+              <button className="border border-white text-white md:px-6 px-3 py-3 rounded-lg hover:bg-white hover:text-blue-900 transition">
+                Call Now
+              </button>
+            </Link>
           </div>
         </div>
         <div className="mt-0 md:w-1/3 w-full">

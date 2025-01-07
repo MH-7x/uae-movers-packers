@@ -20,6 +20,17 @@ export const metadata: Metadata = {
     "Buy & Sell Used Furniture Abu Dhabi | Home Appliances Buyers in Abu Dhabi",
   description:
     "Looking to buy or sell used furniture in Abu Dhabi? Contact us, Abu Dhabi’s professional home appliance buyers, offering advanced services for buying used TVs, washing machines, water dispensers, and LED TVs.",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-abu-dhabi`,
+  },
+  openGraph: {
+    title:
+      "Buy & Sell Used Furniture Abu Dhabi | Home Appliances Buyers in Abu Dhabi",
+    description:
+      "Looking to buy or sell used furniture in Abu Dhabi? Contact us, Abu Dhabi’s professional home appliance buyers, offering advanced services for buying used TVs, washing machines, water dispensers, and LED TVs.",
+    images: `${process.env.PUBLIC_URL}/service/office-moving.jpg`,
+    url: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-abu-dhabi`,
+  },
 };
 
 const FurnituresDubai = () => {

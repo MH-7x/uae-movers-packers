@@ -20,6 +20,16 @@ export const metadata: Metadata = {
   title: "Buy & Sell Used Furniture in Dubai - Quick & Easy Deals",
   description:
     "Find the best deals on used furniture in Dubai! Buy and sell pre-owned items quickly and easily with UAE Movers & Packers.",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-dubai`,
+  },
+  openGraph: {
+    title: "Buy & Sell Used Furniture in Dubai - Quick & Easy Deals",
+    description:
+      "Find the best deals on used furniture in Dubai! Buy and sell pre-owned items quickly and easily with UAE Movers & Packers.",
+    images: `${process.env.PUBLIC_URL}/service/office-moving.jpg`,
+    url: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-dubai`,
+  },
 };
 const FurnituresDubai = () => {
   return (

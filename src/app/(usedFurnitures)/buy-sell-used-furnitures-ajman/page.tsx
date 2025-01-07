@@ -20,6 +20,16 @@ export const metadata: Metadata = {
   title: "Buy & Sell Used Furniture Ajman | Affordable Second Hand Furniture",
   description:
     "Looking to buy or sell used furniture in Ajman? Discover a wide selection of affordable second-hand furniture options. Contact us today!",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-ajman`,
+  },
+  openGraph: {
+    title: "Buy & Sell Used Furniture Ajman | Affordable Second Hand Furniture",
+    description:
+      "Looking to buy or sell used furniture in Ajman? Discover a wide selection of affordable second-hand furniture options. Contact us today!",
+    images: `${process.env.PUBLIC_URL}/service/office-moving.jpg`,
+    url: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-ajman`,
+  },
 };
 const FurnituresDubai = () => {
   return (

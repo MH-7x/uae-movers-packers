@@ -14,17 +14,17 @@ h2 {
 h3,
 .h3 {
   font-family: var(--font-fredoka);
-  @apply text-xl md:text-2xl font-medium;
+  @apply text-xl  font-medium;
 }
 
 article {
   @apply md:px-0 px-3;
 }
 article p {
-  @apply text-lg;
+  @apply text-base;
 }
 article h2 {
-  @apply my-8;
+  @apply my-5 text-xl;
 }
 
 article li {

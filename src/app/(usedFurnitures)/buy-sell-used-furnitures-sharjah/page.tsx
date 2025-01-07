@@ -19,6 +19,16 @@ export const metadata: Metadata = {
   title: "Find Quality Second-Hand Furniture For Buy & Sell in Sharjah",
   description:
     "Sell your used furniture fast and discover great deals on affordable pre-owned furniture in Sharjah. Trusted marketplace for buying and selling second-hand furniture with UAE Movers & Packers.",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-sharjah`,
+  },
+  openGraph: {
+    title: "Find Quality Second-Hand Furniture For Buy & Sell in Sharjah",
+    description:
+      "Sell your used furniture fast and discover great deals on affordable pre-owned furniture in Sharjah. Trusted marketplace for buying and selling second-hand furniture with UAE Movers & Packers.",
+    images: `${process.env.PUBLIC_URL}/service/office-moving.jpg`,
+    url: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-sharjah`,
+  },
 };
 const FurnituresDubai = () => {
   return (

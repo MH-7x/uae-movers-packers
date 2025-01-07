@@ -1,37 +1,11 @@
-"use client";
-import { getFAQs } from "@/lib/getFAQs";
-import { usePathname } from "next/navigation";
-import React, { useEffect, useState } from "react";
-
 function FAQs({
   Faqs,
 }: {
-  Faqs?: {
+  Faqs: {
     question: string;
     answer: string;
   }[];
 }) {
-  const [openFAQIndex, setOpenFAQIndex] = useState(0);
-
-  const [faqs, setFaqs] = useState<
-    { question: string; answer: string }[] | undefined
-  >(Faqs || []);
-  const pathname = usePathname();
-
-  useEffect(() => {
-    if (pathname) {
-      const service = pathname.split("/")[1];
-      if (!Faqs) {
-        setFaqs(getFAQs(service));
-      }
-      return;
-    }
-  }, [pathname]);
-
-  const toggleFAQ = (index: number) => {
-    setOpenFAQIndex(openFAQIndex === index ? -1 : index);
-  };
-
   return (
     <div className={`py-4 relative ${Faqs && "md:px-0 px-3"}`}>
       <div className="max-w-screen-md mx-auto sm:px-6 lg:px-8 flex flex-col justify-between">
@@ -44,92 +18,28 @@ function FAQs({
           </h2>
         </div>
 
-        <div className="mt-20">
-          <ul>
-            {faqs?.map((faq, i) => (
-              <li key={faq.question + i} className="text-left  mb-5">
-                <div
-                  className="flex flex-row items-start mb-5 cursor-pointer"
-                  onClick={() => toggleFAQ(i)}
-                >
-                  <div
-                    aria-hidden="true"
-                    className="flex items-center justify-center md:p-3 p-1 mr-3 rounded-full bg-primary drop-shadow-lg text-white border-4 border-white text-xl font-semibold"
-                  >
-                    <svg
-                      width="30px"
-                      fill="white"
-                      height="30px"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g data-name="Layer 2">
-                        <g data-name="menu-arrow">
-                          <rect
-                            width="24"
-                            height="24"
-                            transform="rotate(180 12 12)"
-                            opacity="0"
-                          ></rect>
-                          <path d="M17 9A5 5 0 0 0 7 9a1 1 0 0 0 2 0 3 3 0 1 1 3 3 1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-1.1A5 5 0 0 0 17 9z"></path>
-                          <circle cx="12" cy="19" r="1"></circle>
-                        </g>
-                      </g>
-                    </svg>
+        <div className="md:mt-20 mt-10">
+          <div className="space-y-4">
+            {Faqs.map((faq, index) => (
+              <details
+                key={index}
+                className="group  rounded-lg p-4 bg-white "
+                open={index === 0}
+              >
+                <summary className="flex justify-between items-center cursor-pointer  font-medium text-gray-700">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-10 h-10 flex items-center justify-center rounded-full bg-primary text-white text-xl ">
+                      ?
+                    </div>
+                    <h3 className="md:text-lg text-base">{faq.question}</h3>
                   </div>
-                  <div className="bg-white rounded-lg md:p-5 p-3 md:px-10 px-7 w-full flex items-center">
-                    <h3 className="text-xl leading-6 font-medium text-gray-900">
-                      {faq.question}
-                    </h3>
-                  </div>
+                </summary>
+                <div className="mt-4 md:pl-11 pl-7 pr-4 py-2 bg-purple-50 text-gray-700 rounded-lg border-l-4 border-purple-500">
+                  <p className="md:text-base text-sm">{faq.answer}</p>
                 </div>
-
-                <div
-                  className={`transition-all duration-500 ease-in-out overflow-hidden flex items-center ${
-                    openFAQIndex === i ? "max-h-screen" : "max-h-0"
-                  }`}
-                >
-                  <div className="bg-primary/10 rounded-lg md:p-5 p-3 md:px-10 px-5 w-full flex items-center">
-                    <p className="text-black text-sm md:text-base font-medium tracking-wide">
-                      {faq.answer}
-                    </p>
-                  </div>
-                  <div
-                    aria-hidden="true"
-                    className="flex items-center justify-center md:p-3 p-2 ml-3 rounded-full bg-primary drop-shadow-lg text-white border-4 border-white text-xl font-semibold"
-                  >
-                    <svg
-                      height="25px"
-                      fill="white"
-                      version="1.1"
-                      id="Layer_1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlnsXlink="http://www.w3.org/1999/xlink"
-                      x="0px"
-                      y="0px"
-                      viewBox="0 0 295.238 295.238"
-                      xmlSpace="preserve"
-                    >
-                      <g>
-                        <g>
-                          <g>
-                            <path
-                              d="M277.462,0.09l-27.681,20.72l-27.838,64.905h-22.386l-8.79-19.048h5.743c10.505,0,19.048-8.452,19.048-18.957V28.571
-				h9.524V0H196.51v28.571h9.524V47.71c0,5.248-4.271,9.433-9.524,9.433h-10.138L174.2,30.81l14.581-7.267L141.038,3.095
-				l-11.224,39.281c-0.305-23.371-19.386-42.29-42.829-42.29c-23.633,0-42.857,19.224-42.857,42.857
-				c0,14.281,7.233,27.676,19.048,35.595v7.176H51.643L50.9,89.619c-2.314,12.005-2.529,24.343-0.638,36.648l-32.486,57.905
-				l35.876,8.195v60.014h47.619v42.857h114.286v-66.357c33.333-23.581,52.371-61.495,52.343-101.943l0.01-17.371
-				c0-6.548-0.605-13.276-1.824-19.905l-0.705-3.948h-9.348l21.429-51.338V0.09z"
-                            ></path>
-                          </g>
-                        </g>
-                      </g>
-                    </svg>
-                  </div>
-                </div>
-              </li>
+              </details>
             ))}
-          </ul>
+          </div>
         </div>
       </div>
     </div>

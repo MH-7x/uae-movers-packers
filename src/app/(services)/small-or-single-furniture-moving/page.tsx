@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import ServiceSideMenu from "@/components/ServiceSideMenu";
 import Link from "next/link";
+import FAQs from "@/components/base/FAQs";
 
 export const metadata: Metadata = {
   title:
@@ -294,6 +295,51 @@ function VillaMoving() {
           <ServiceSideMenu />
         </div>
       </article>
+      <FAQs
+        Faqs={[
+          {
+            question:
+              "How much does it cost to move a single piece of furniture?",
+            answer:
+              "The cost depends on the size, weight, and distance of the move. Contact us for a personalized quote.",
+          },
+          {
+            question: "Do you provide packing materials?",
+            answer:
+              "Yes, we offer premium packing materials to ensure your furniture is well-protected during the move.",
+          },
+          {
+            question: "Can you handle delicate or antique furniture?",
+            answer:
+              "Absolutely. We specialize in moving delicate, valuable, or antique furniture with extra care.",
+          },
+          {
+            question: "What is included in your moving services?",
+            answer:
+              "Our moving services include packing, loading, transportation, unloading, and unpacking, all with expert handling.",
+          },
+          {
+            question: "Do you offer storage solutions during the move?",
+            answer:
+              "Yes, we offer secure storage solutions for your furniture if you need to store items temporarily during the move.",
+          },
+          {
+            question: "How do I prepare for my furniture move?",
+            answer:
+              "We recommend clearing pathways, packing small items separately, and ensuring all furniture is ready for transportation.",
+          },
+          {
+            question: "Are your moving services insured?",
+            answer:
+              "Yes, we offer insurance for your furniture during the move to provide peace of mind.",
+          },
+          {
+            question: "How far in advance should I book my furniture move?",
+            answer:
+              "We recommend booking at least one week in advance, especially during peak seasons, to secure your preferred time slot.",
+          },
+        ]}
+      />
     </>
   );
 }

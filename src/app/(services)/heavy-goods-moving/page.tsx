@@ -5,6 +5,7 @@ import Image from "next/image";
 import ServiceSideMenu from "@/components/ServiceSideMenu";
 import { ThumbsUp } from "lucide-react";
 import Link from "next/link";
+import FAQs from "@/components/base/FAQs";
 
 export const metadata: Metadata = {
   title: "Heavy Goods & Large Items Moving in UAE | Professional & Affordable",
@@ -223,6 +224,55 @@ function HeavyGoodsMoving() {
           <ServiceSideMenu />
         </div>
       </article>
+      <FAQs
+        Faqs={[
+          {
+            question: "What are heavy goods moving services?",
+            answer:
+              "Heavy goods moving services specialize in the transportation of large and bulky items, such as furniture, machinery, and equipment, using specialized tools and vehicles.",
+          },
+          {
+            question:
+              "Do you provide heavy goods moving services across the UAE?",
+            answer:
+              "Yes, we offer heavy goods moving services across all major cities in the UAE, including Dubai, Sharjah, Abu Dhabi, and Ajman.",
+          },
+          {
+            question: "What items are considered heavy goods?",
+            answer:
+              "Heavy goods typically include large furniture, industrial equipment, heavy appliances, safes, and construction machinery.",
+          },
+          {
+            question:
+              "How do you ensure the safety of heavy goods during transportation?",
+            answer:
+              "We use specialized equipment like dollies, cranes, and harnesses, along with proper packing techniques and trained professionals to ensure the safety of your heavy goods.",
+          },
+          {
+            question: "Do you offer insurance for heavy goods during moving?",
+            answer:
+              "Yes, we provide comprehensive insurance coverage to protect your heavy goods against potential damage during the moving process.",
+          },
+          {
+            question:
+              "What factors determine the cost of heavy goods moving services?",
+            answer:
+              "The cost depends on factors such as the size and weight of the items, the distance of the move, required equipment, and any additional services like packing and unpacking.",
+          },
+          {
+            question:
+              "How far in advance should I book heavy goods moving services?",
+            answer:
+              "It’s recommended to book at least 1-2 weeks in advance to ensure availability and proper planning for your move.",
+          },
+          {
+            question:
+              "Can you handle moving heavy goods from high-rise buildings in the UAE?",
+            answer:
+              "Yes, we are equipped to handle moves from high-rise buildings, using specialized equipment and adhering to building regulations in the UAE.",
+          },
+        ]}
+      />
     </>
   );
 }

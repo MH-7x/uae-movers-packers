@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import ServiceSideMenu from "@/components/ServiceSideMenu";
 import Link from "next/link";
-
+import FAQs from "@/components/base/FAQs";
 export const metadata: Metadata = {
   title: "Home Appliance Moving UAE - AC, TV, Refrigerator etc",
   description:
@@ -65,7 +65,7 @@ function AppliancesMoving() {
         </div>
       </section>
 
-      <article className="grid md:grid-cols-6 grid-cols-1 gap-x-4 md:px-10 md:mt-20 mt-16 items-start">
+      <article className="grid md:grid-cols-6 grid-cols-1 md:gap-x-4 gap-y-10 md:px-10 md:mt-20 mt-16 items-start">
         <div className="md:col-span-4 col-span-1 md:pr-10">
           <p>
             At UAE Movers & Packers, we specialize in the safe and efficient
@@ -240,6 +240,56 @@ function AppliancesMoving() {
           <ServiceSideMenu />
         </div>
       </article>
+      <FAQs
+        Faqs={[
+          {
+            question: "What types of appliances do you move?",
+            answer:
+              "We move a wide range of appliances, including refrigerators, washers, dryers, ovens, microwaves, and more. No matter the size or type, we have you covered!",
+          },
+          {
+            question:
+              "How do you ensure the safety of my appliances during the move?",
+            answer:
+              "We use specialized packing materials and techniques, along with our trained professionals, to ensure maximum protection during transit.",
+          },
+          {
+            question:
+              "Are you available for same-day appliance moving services?",
+            answer:
+              "Yes, we can accommodate same-day service requests in most cases. Please contact us for availability.",
+          },
+          {
+            question: "What are your rates for moving appliances?",
+            answer:
+              "Our rates vary based on the type and number of appliances, the distance of the move, and any additional services required. Contact us for a free, personalized quote!",
+          },
+          {
+            question:
+              "Do you offer TV screen dismantling and installation services?",
+            answer:
+              "Yes, we provide professional TV screen dismantling, packing, shifting, and installation services for all types of screens, ensuring they are relocated safely.",
+          },
+          {
+            question:
+              "What appliance repair services do you offer in Abu Dhabi?",
+            answer:
+              "We offer a range of appliance repair services in Abu Dhabi, including washing machine repair, refrigerator repair, AC repair and maintenance, and electric and gas cooker repair.",
+          },
+          {
+            question:
+              "How experienced are your appliance moving professionals?",
+            answer:
+              "Our team consists of trained and experienced professionals who specialize in safely moving a variety of appliances, ensuring a hassle-free relocation experience.",
+          },
+          {
+            question:
+              "Can you help with appliance installation after the move?",
+            answer:
+              "Yes, we not only move your appliances but also provide installation services to ensure they are set up and functioning properly in your new location.",
+          },
+        ]}
+      />
     </>
   );
 }

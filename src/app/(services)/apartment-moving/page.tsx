@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import ServiceSideMenu from "@/components/ServiceSideMenu";
 import Link from "next/link";
+import FAQs from "@/components/base/FAQs";
 
 export const metadata: Metadata = {
   title: "Apartment Moving Services in Dubai | RWahab Movers UAE",
@@ -287,6 +288,51 @@ function VillaMoving() {
           <ServiceSideMenu />
         </div>
       </article>
+      <FAQs
+        Faqs={[
+          {
+            question: "How much does apartment moving cost?",
+            answer:
+              "The cost of apartment moving varies depending on several factors, including the size of your move (number of rooms/items), the distance of the move, the services you require (packing, unpacking, etc.), and the time of year. For a personalized and accurate estimate, we recommend contacting us for a free, no-obligation quote. We'll assess your specific needs and provide a transparent breakdown of the costs involved.",
+          },
+          {
+            question: "Are my belongings insured during the move?",
+            answer:
+              "Yes, we understand the importance of protecting your valuable belongings. We offer various insurance options to provide coverage during the moving process. We can explain the different coverage levels and help you choose the best option for your needs. We also take great care in handling your items to minimize any risk of damage.",
+          },
+          {
+            question: "How far in advance should I book my apartment move?",
+            answer:
+              "We recommend booking your apartment move at least 2-4 weeks in advance, especially if you're moving during peak season (typically summer months and weekends). Booking early ensures we can secure your preferred moving date and allows ample time for planning and preparation. However, we understand that sometimes moves are last-minute, so we'll always do our best to accommodate your needs.",
+          },
+          {
+            question: "What is included in a typical apartment moving service?",
+            answer:
+              "A typical apartment moving service usually includes loading and unloading of your belongings, transportation to your new apartment, and basic disassembly/reassembly of furniture. We offer a range of additional services, such as packing and unpacking, storage solutions, and specialty item moving (pianos, artwork, etc.), which can be added to your move based on your requirements.",
+          },
+          {
+            question: "Do I need to pack everything myself?",
+            answer:
+              "No, you don't have to pack everything yourself. We offer full and partial packing services to suit your needs and budget. Our professional packers use high-quality packing materials to ensure your belongings are safely protected during transit. If you prefer to pack yourself, we can provide packing supplies.",
+          },
+          {
+            question: "What should I do to prepare for moving day?",
+            answer:
+              "To ensure a smooth moving day, we recommend decluttering before packing, clearly labeling all boxes with their contents and the room they belong in, disassembling furniture if necessary, and keeping valuables and essential items with you. It's also helpful to clear pathways in both your old and new apartments and inform building management of your move.",
+          },
+          {
+            question:
+              "What if there is damage to my belongings during the move?",
+            answer:
+              "While we take every precaution to prevent damage, accidents can happen. If any damage occurs during the move, please notify our team immediately. We will document the damage and work with you to resolve the issue according to our insurance policy. We are committed to handling such situations fairly and efficiently.",
+          },
+          {
+            question: "Do you move items up/down stairs or elevators?",
+            answer:
+              "Yes, our experienced movers are equipped to handle moves involving stairs and elevators. However, it's important to inform us of any specific access challenges, such as narrow staircases or small elevators, during the initial consultation. This allows us to plan accordingly and bring the necessary equipment to ensure a safe and efficient move. There may be additional charges for moves involving excessive stairs or difficult access.",
+          },
+        ]}
+      />
     </>
   );
 }

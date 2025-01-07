@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import ServiceSideMenu from "@/components/ServiceSideMenu";
 import Link from "next/link";
+import FAQs from "@/components/base/FAQs";
 
 export const metadata: Metadata = {
   title: "Office Moving Services in UAE | Professional & Reliable Movers",
@@ -239,6 +240,51 @@ function VillaMoving() {
           <ServiceSideMenu />
         </div>
       </article>
+      <FAQs
+        Faqs={[
+          {
+            question: "How long does an office move take?",
+            answer:
+              "The time required depends on the size of your office and the scope of the move. We provide a detailed timeline during the planning phase.",
+          },
+          {
+            question: "Do you offer weekend office moving services?",
+            answer:
+              "Yes, we offer flexible scheduling, including weekends, to minimize disruption to your business.",
+          },
+          {
+            question: "Can you handle sensitive documents and IT equipment?",
+            answer:
+              "Absolutely. Our team ensures the safe handling and secure transportation of all sensitive materials and IT systems.",
+          },
+          {
+            question: "What areas do you serve for office moving?",
+            answer:
+              "We provide office moving services across major cities, including Dubai, Sharjah, and Ajman.",
+          },
+          {
+            question:
+              "Do you offer packing and unpacking services for office moves?",
+            answer:
+              "Yes, we provide comprehensive packing and unpacking services to ensure your office items are transported securely and efficiently.",
+          },
+          {
+            question: "Can you disassemble and reassemble office furniture?",
+            answer:
+              "Yes, our team is experienced in disassembling and reassembling office furniture as part of the moving process.",
+          },
+          {
+            question: "Are your office moving services insured?",
+            answer:
+              "Yes, we provide insurance options to give you peace of mind during the moving process.",
+          },
+          {
+            question: "How much does an office move cost?",
+            answer:
+              "The cost of an office move depends on factors such as the size of your office, distance, and services required. We provide a detailed quote after an initial consultation.",
+          },
+        ]}
+      />
     </>
   );
 }

@@ -1,6 +1,23 @@
 import { services } from "@/constants/services";
 import React from "react";
+import type { Metadata } from "next";
+import Image from "next/image";
 
+export const metadata: Metadata = {
+  title: "Contact Us | RWahab Movers UAE",
+  description:
+    "Get in touch with RWahab Movers UAE for professional moving and packing services across Dubai and the UAE. Contact us today for a free quote on residential, office, and commercial moves!",
+  alternates: {
+    canonical: `${process.env.PUBLIC_URL}/contact-us`,
+  },
+  openGraph: {
+    title: "Contact Us | RWahab Movers UAE",
+    description:
+      "Get in touch with RWahab Movers UAE for professional moving and packing services across Dubai and the UAE. Contact us today for a free quote on residential, office, and commercial moves!",
+    images: `${process.env.PUBLIC_URL}/images/contact-us.jpg`,
+    url: `${process.env.PUBLIC_URL}/contact-us`,
+  },
+};
 function ContactUs() {
   return (
     <section className="min-h-screen bg-white dark:bg-gray-900 mt-28">
@@ -60,7 +77,7 @@ function ContactUs() {
                     className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-primary dark:focus:border-primary focus:ring-primary/20 focus:outline-none focus:ring focus:ring-opacity-40"
                     id=""
                   >
-                    <option value="" disabled selected>
+                    <option value="" disabled>
                       Select your type
                     </option>
                     {services.map((service) => (
@@ -98,11 +115,14 @@ function ContactUs() {
           </div>
 
           <div className="mt-12 lg:flex lg:mt-0 lg:flex-col lg:items-center lg:w-1/2 lg:mx-10">
-            <img
-              className="hidden object-cover mx-auto rounded-full lg:block shrink-0 w-96 h-96"
-              src="https://images.unsplash.com/photo-1598257006458-087169a1f08d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-              alt=""
-            />
+            <div className="hidden object-cover mx-auto rounded-full lg:block shrink-0 w-96 h-96 relative overflow-hidden">
+              <Image
+                src={"/images/contact-us.jpg"}
+                alt="Contact With RWahab Movers UAE"
+                fill
+                className="object-cover object-right"
+              />
+            </div>
 
             <div className="mt-6 space-y-8 md:mt-8">
               <p className="flex items-start -mx-2">
