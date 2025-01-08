@@ -18,14 +18,14 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Find Quality Second-Hand Furniture For Buy & Sell in Sharjah",
   description:
-    "Sell your used furniture fast and discover great deals on affordable pre-owned furniture in Sharjah. Trusted marketplace for buying and selling second-hand furniture with UAE Movers & Packers.",
+    "Sell used furniture fast and discover deals on pre-owned furniture in Sharjah with RWahab Movers UAE. Trusted platform for buying and selling furniture",
   alternates: {
     canonical: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-sharjah`,
   },
   openGraph: {
     title: "Find Quality Second-Hand Furniture For Buy & Sell in Sharjah",
     description:
-      "Sell your used furniture fast and discover great deals on affordable pre-owned furniture in Sharjah. Trusted marketplace for buying and selling second-hand furniture with UAE Movers & Packers.",
+      "Sell used furniture fast and discover deals on pre-owned furniture in Sharjah with RWahab Movers UAE. Trusted platform for buying and selling furniture",
     images: `${process.env.PUBLIC_URL}/service/office-moving.jpg`,
     url: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-sharjah`,
   },

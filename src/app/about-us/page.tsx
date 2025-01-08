@@ -1,6 +1,9 @@
 import FAQs from "@/components/base/FAQs";
 import React from "react";
 import type { Metadata } from "next";
+import Link from "next/link";
+import TestimonialSlider from "@/components/base/Testimonials";
+import Contact from "@/components/Contact";
 const team = [
   {
     name: "Wahab Raza",
@@ -27,17 +30,23 @@ const team = [
 export const metadata: Metadata = {
   title: "About Us | RWahab Movers UAE",
   description:
-    "A trusted moving company offering professional residential and commercial relocation services across the UAE. Discover our 24/7 support, experienced team, and commitment to hassle-free moves.",
+    "Reliable moving company in the UAE offering professional residential and commercial relocation services. Enjoy 24/7 support and hassle-free moves.",
   alternates: {
     canonical: `${process.env.PUBLIC_URL}/about-us`,
   },
   openGraph: {
     title: "About Us | RWahab Movers UAE",
     description:
-      "A trusted moving company offering professional residential and commercial relocation services across the UAE. Discover our 24/7 support, experienced team, and commitment to hassle-free moves.",
+      "Reliable moving company in the UAE offering professional residential and commercial relocation services. Enjoy 24/7 support and hassle-free moves.",
     url: `${process.env.PUBLIC_URL}/about-us`,
-    images:
-      "https://cdn.rareblocks.xyz/collection/celebration/images/content/1/team-work.jpg",
+    images: [
+      {
+        url: '"https://cdn.rareblocks.xyz/collection/celebration/images/content/1/team-work.jpg",',
+        width: 500,
+        height: 500,
+        alt: "About The Company, RWahab Movers UAE",
+      },
+    ],
   },
 };
 
@@ -90,10 +99,10 @@ function AboutUs() {
                   />
                 </svg>
               </div>
-              <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
+              <h1 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
                 Your <span className="text-primary">Reliable Partner</span> in
                 Moving Services
-              </h2>
+              </h1>
               <p className="md:mt-3 mt-6 text-lg leading-relaxed text-gray-600">
                 RWahab Movers UAE specializes in providing expert moving and
                 packing solutions tailored to your needs. From residential to
@@ -136,8 +145,32 @@ function AboutUs() {
                   Local Expertise
                 </h3>
                 <p className="mt-4 text-base text-gray-600">
-                  With a strong presence across Dubai, Abu Dhabi, and Sharjah,
-                  we know the UAE inside out, ensuring smooth relocations
+                  With a strong presence across{" "}
+                  <Link
+                    className="text-black"
+                    aria-label="Movers and Packers in Dubai"
+                    href="/movers-and-packers-dubai"
+                  >
+                    Dubai
+                  </Link>
+                  ,{" "}
+                  <Link
+                    className="text-black"
+                    aria-label="Movers and Packers in Abu Dhabi"
+                    href="/movers-and-packers-abu-dhabi"
+                  >
+                    Abu Dhabi
+                  </Link>
+                  , and{" "}
+                  <Link
+                    className="text-black"
+                    aria-label="Movers and Packers in Abu Dhabi"
+                    href={"/movers-and-packers-sharjah"}
+                  >
+                    {" "}
+                    Sharjah
+                  </Link>
+                  , we know the UAE inside out, ensuring smooth relocations
                   anywhere in the region.
                 </p>
               </div>
@@ -237,13 +270,16 @@ function AboutUs() {
           </div>
         </div>
       </section>
+      <TestimonialSlider />
+      <div className="mb-20" />
       <FAQs
         Faqs={[
           {
             question:
               "What are the payment options available with RWahab Movers UAE?",
-            answer:
-              "RWahab Movers UAE offers multiple secure payment methods, including cash, card swipes, and bank transfers. Payments are processed only after the job is completed. For commercial moving services, we also accept bank cheques.",
+            answer: `RWahab Movers UAE offers multiple secure payment methods, including cash, card swipes, and bank transfers. Payments are processed only after the job is completed. For 
+              commercial moving services
+           , we also accept bank cheques.`,
           },
           {
             question:
@@ -268,6 +304,10 @@ function AboutUs() {
               "Yes, RWahab Movers UAE is a fully licensed and registered moving company. We hold individual trade licenses for each Emirate, including Abu Dhabi, Dubai, and Sharjah, all under the umbrella of our official company.",
           },
         ]}
+      />
+      <Contact
+        title="Get a Free Quote for Any Kind Of Move Today"
+        desc=" Ready to move? Contact RWahab Movers UAE today for a free consultation and quote. Let us take care of your home relocation needs while you sit back and relax!"
       />
     </>
   );

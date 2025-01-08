@@ -8,14 +8,14 @@ import FAQs from "@/components/base/FAQs";
 export const metadata: Metadata = {
   title: "Home Appliance Moving UAE - AC, TV, Refrigerator etc",
   description:
-    "Need professional home appliance movers in UAE? RWahab Movers UAE specializes in safe moving of ACs, TVs, refrigerators, washing machines, and more. Affordable and reliable service tailored to your needs. Get a free quote today!",
+    "Professional home appliance movers in UAE. RWahab Movers UAE ensures safe moving of ACs, TVs, refrigerators, and more. Affordable, reliable service. Get a free quote!",
   alternates: {
     canonical: `${process.env.PUBLIC_URL}/appliances-moving`,
   },
   openGraph: {
     title: "Home Appliance Moving UAE - AC, TV, Refrigerator etc",
     description:
-      "Need professional home appliance movers in UAE? RWahab Movers UAE specializes in safe moving of ACs, TVs, refrigerators, washing machines, and more. Affordable and reliable service tailored to your needs. Get a free quote today!",
+      "Professional home appliance movers in UAE. RWahab Movers UAE ensures safe moving of ACs, TVs, refrigerators, and more. Affordable, reliable service. Get a free quote!",
     images: `${process.env.PUBLIC_URL}/service/appliances-moving.jpg`,
     url: `${process.env.PUBLIC_URL}/appliances-moving`,
   },

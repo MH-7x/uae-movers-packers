@@ -10,7 +10,7 @@ import FAQs from "@/components/base/FAQs";
 export const metadata: Metadata = {
   title: "Heavy Goods & Large Items Moving in UAE | Professional & Affordable",
   description:
-    "Professional heavy goods moving services ensuring safe and efficient transportation of bulky items.",
+    "Expert heavy goods moving services in the UAE. RWahab Movers UAE ensures safe, efficient transportation of bulky items with professional handling and care.",
   alternates: {
     canonical: `${process.env.PUBLIC_URL}/heavy-goods-moving`,
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title:
       "Heavy Goods & Large Items Moving in UAE | Professional & Affordable",
     description:
-      "Professional heavy goods moving services ensuring safe and efficient transportation of bulky items.",
+      "Expert heavy goods moving services in the UAE. RWahab Movers UAE ensures safe, efficient transportation of bulky items with professional handling and care.",
     images: `${process.env.PUBLIC_URL}/service/heavy-goods.jpg`,
     url: `${process.env.PUBLIC_URL}/heavy-goods-moving`,
   },

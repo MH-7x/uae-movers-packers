@@ -15,14 +15,14 @@ import { generateJSONLD } from "@/lib/GenreateJSONLD";
 export const metadata: Metadata = {
   title: "Professional Movers and Packers in Dubai | RWahab Movers UAE",
   description:
-    "Looking for affordable and reliable movers and packers in Dubai? RWahab Movers UAE offers professional moving services tailored to your needs. Get a free quote today!",
+    "Affordable and reliable movers and packers in Dubai. RWahab Movers UAE offers professional moving services tailored to your needs. Get a free quote today!",
   alternates: {
     canonical: process.env.PUBLIC_URL,
   },
   openGraph: {
     title: "Professional Movers and Packers in Dubai | RWahab Movers UAE",
     description:
-      "Looking for affordable and reliable movers and packers in Dubai? RWahab Movers UAE offers professional moving services tailored to your needs. Get a free quote today!",
+      "Affordable and reliable movers and packers in Dubai. RWahab Movers UAE offers professional moving services tailored to your needs. Get a free quote today!",
     images: `${process.env.PUBLIC_URL}/images/R-Wahab-Movers-UAE.jpg`,
     url: process.env.PUBLIC_URL,
   },

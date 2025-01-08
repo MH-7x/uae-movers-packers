@@ -6,14 +6,14 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Contact Us | RWahab Movers UAE",
   description:
-    "Get in touch with RWahab Movers UAE for professional moving and packing services across Dubai and the UAE. Contact us today for a free quote on residential, office, and commercial moves!",
+    "Contact RWahab Movers UAE for expert moving and packing services across Dubai and the UAE. Get a free quote on residential, office, and commercial moves today!",
   alternates: {
     canonical: `${process.env.PUBLIC_URL}/contact-us`,
   },
   openGraph: {
     title: "Contact Us | RWahab Movers UAE",
     description:
-      "Get in touch with RWahab Movers UAE for professional moving and packing services across Dubai and the UAE. Contact us today for a free quote on residential, office, and commercial moves!",
+      "Contact RWahab Movers UAE for expert moving and packing services across Dubai and the UAE. Get a free quote on residential, office, and commercial moves today!",
     images: `${process.env.PUBLIC_URL}/images/contact-us.jpg`,
     url: `${process.env.PUBLIC_URL}/contact-us`,
   },

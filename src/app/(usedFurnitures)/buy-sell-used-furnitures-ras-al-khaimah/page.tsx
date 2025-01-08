@@ -19,14 +19,14 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Buy and Sell Used Furniture in Ras Al Khaimah",
   description:
-    "Are you looking for the best place to buy or sell used furniture in Ras Al Khaimah? UAE Movers & Packers provides a trusted platform to help you find high-quality, affordable furniture or connect with buyers for your pre-owned items.",
+    "Buy or sell used furniture in Ras Al Khaimah with RWahab Movers UAE. Find affordable, high-quality furniture or connect with buyers for pre-owned items.",
   alternates: {
     canonical: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-ras-al-khaimah`,
   },
   openGraph: {
     title: "Buy and Sell Used Furniture in Ras Al Khaimah",
     description:
-      "Are you looking for the best place to buy or sell used furniture in Ras Al Khaimah? UAE Movers & Packers provides a trusted platform to help you find high-quality, affordable furniture or connect with buyers for your pre-owned items.",
+      "Buy or sell used furniture in Ras Al Khaimah with RWahab Movers UAE. Find affordable, high-quality furniture or connect with buyers for pre-owned items.",
     images: `${process.env.PUBLIC_URL}/service/office-moving.jpg`,
     url: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-ras-al-khaimah`,
   },
