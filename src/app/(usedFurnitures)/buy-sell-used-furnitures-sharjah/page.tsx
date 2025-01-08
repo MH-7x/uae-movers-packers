@@ -23,6 +23,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-sharjah`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Find Quality Second-Hand Furniture For Buy & Sell in Sharjah",
     description:
       "Sell used furniture fast and discover deals on pre-owned furniture in Sharjah with RWahab Movers UAE. Trusted platform for buying and selling furniture",
@@ -35,8 +42,8 @@ const FurnituresDubai = () => {
     <section className="container pt-7 mx-auto">
       <Hero
         title="Buy and Sell Used Furniture in Sharjah With"
-        sec="UAE Movers & Packers"
-        desc="Searching for the best platform to buy or sell pre-owned furniture in Sharjah? UAE Movers & Packers provides a trusted marketplace to find quality furniture at affordable prices or connect with reliable buyers for your used items."
+        sec="RWahab Movers UAE"
+        desc="Searching for the best platform to buy or sell pre-owned furniture in Sharjah? RWahab Movers UAE provides a trusted marketplace to find quality furniture at affordable prices or connect with reliable buyers for your used items."
       />
 
       <section className="mt-32 md:px-6 px-3">
@@ -44,10 +51,10 @@ const FurnituresDubai = () => {
           Your Reliable Choice for Used Furniture in Sharjah
         </h2>
         <p className="max-w-4xl text-center mt-3 mx-auto text-gray-700">
-          UAE Movers & Packers is Sharjah&apos;s preferred destination for
-          buying and selling second-hand furniture. With competitive prices and
-          a hassle-free process, we&apos;re here to help you upgrade or
-          declutter your space with ease.
+          RWahab Movers UAE is Sharjah&apos;s preferred destination for buying
+          and selling second-hand furniture. With competitive prices and a
+          hassle-free process, we&apos;re here to help you upgrade or declutter
+          your space with ease.
         </p>
       </section>
 
@@ -166,7 +173,7 @@ const FurnituresDubai = () => {
         <p className="max-w-3xl mt-3">
           With over 20 years of expertise in Sharjah, we provide personalized
           solutions for buying and selling second-hand furniture and appliances.
-          Trust UAE Movers & Packers for reliable and professional service.
+          Trust RWahab Movers UAE for reliable and professional service.
         </p>
         <div className="mt-8 w-full md:grid-cols-4 grid-cols-2 grid md:gap-5 gap-2">
           <div className="md:min-h-36 min-h-20 flex flex-col items-center justify-center">
@@ -199,14 +206,14 @@ const FurnituresDubai = () => {
         used={true}
         sectionOne={{
           heading: "Furniture and Appliance Buyers in Sharjah",
-          p1: "Whether you're moving, upgrading, or clearing out space, UAE Movers & Packers is your go-to partner for selling second-hand furniture in Sharjah.",
+          p1: "Whether you're moving, upgrading, or clearing out space, RWahab Movers UAE is your go-to partner for selling second-hand furniture in Sharjah.",
           p2: "We streamline the selling process, from assessment to payment, making it hassle-free for you.",
           p3: "Our specialists provide a fair price based on the quality and market demand of your items.",
           imageSrc: "/locations/UAE-Movers-&-Packers.png",
         }}
         sectiontwo={{
           heading: "Second-Hand Furniture Buyers & Sellers in Sharjah",
-          p1: "Sell all types of furniture, from home essentials to office desks and cabinets. UAE Movers & Packers ensures smooth transactions for your pre-owned items.",
+          p1: "Sell all types of furniture, from home essentials to office desks and cabinets. RWahab Movers UAE ensures smooth transactions for your pre-owned items.",
           p2: "We manage the entire process, from pickup to instant payment, ensuring your convenience.",
           p3: "Our team carefully evaluates your furniture to provide a fair and competitive offer.",
           imageSrc: "/locations/Best-Movers-In-Dubai.png",
@@ -218,12 +225,12 @@ const FurnituresDubai = () => {
           {
             question: "Where can I buy used furniture in Sharjah?",
             answer:
-              "You can explore a diverse range of affordable used furniture for homes and offices through UAE Movers & Packers’ platform.",
+              "You can explore a diverse range of affordable used furniture for homes and offices through RWahab Movers UAE’ platform.",
           },
           {
             question: "How do I sell used furniture in Sharjah?",
             answer:
-              "Contact UAE Movers & Packers for a hassle-free process of listing your furniture and connecting with reliable buyers in Sharjah.",
+              "Contact RWahab Movers UAE for a hassle-free process of listing your furniture and connecting with reliable buyers in Sharjah.",
           },
           {
             question:
@@ -234,40 +241,40 @@ const FurnituresDubai = () => {
           {
             question: "How much does used furniture cost in Sharjah?",
             answer:
-              "Prices depend on the material, condition, and design of the furniture. UAE Movers & Packers offers the best deals in Sharjah.",
+              "Prices depend on the material, condition, and design of the furniture. RWahab Movers UAE offers the best deals in Sharjah.",
           },
           {
             question: "Do used furniture stores in Sharjah buy furniture?",
             answer:
-              "Yes, UAE Movers & Packers facilitates buying and selling of pre-owned furniture, ensuring fair prices and secure transactions.",
+              "Yes, RWahab Movers UAE facilitates buying and selling of pre-owned furniture, ensuring fair prices and secure transactions.",
           },
           {
             question:
               "What is the best platform to sell used furniture in Sharjah?",
             answer:
-              "UAE Movers & Packers provides an ideal platform with free listings and a large audience of buyers in Sharjah.",
+              "RWahab Movers UAE provides an ideal platform with free listings and a large audience of buyers in Sharjah.",
           },
           {
             question: "Can I find cheap used furniture near me in Sharjah?",
             answer:
-              "Yes, UAE Movers & Packers offers affordable used furniture, including options for living rooms, bedrooms, and offices in Sharjah.",
+              "Yes, RWahab Movers UAE offers affordable used furniture, including options for living rooms, bedrooms, and offices in Sharjah.",
           },
           {
             question:
               "What is the most reliable way to sell used furniture in Sharjah?",
             answer:
-              "The most reliable way is through UAE Movers & Packers, where sellers can list items and reach interested buyers efficiently.",
+              "The most reliable way is through RWahab Movers UAE, where sellers can list items and reach interested buyers efficiently.",
           },
           {
             question: "Where can I find used office furniture in Sharjah?",
             answer:
-              "UAE Movers & Packers offers a wide range of office furniture like desks, chairs, and storage options at competitive prices in Sharjah.",
+              "RWahab Movers UAE offers a wide range of office furniture like desks, chairs, and storage options at competitive prices in Sharjah.",
           },
           {
             question:
               "How do I ensure safe transactions when buying used furniture in Sharjah?",
             answer:
-              "UAE Movers & Packers ensures secure dealings by connecting you with verified buyers and sellers for a seamless experience.",
+              "RWahab Movers UAE ensures secure dealings by connecting you with verified buyers and sellers for a seamless experience.",
           },
         ]}
       />

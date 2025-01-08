@@ -24,6 +24,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/movers-and-packers-sharjah`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Movers and Packers Sharjah | Best and Professional Company",
     description:
       "Best movers and packers in Sharjah. RWahab Movers UAE provides expert relocation services with unmatched professionalism. Get a free estimate today!",
@@ -39,7 +46,7 @@ export default function MoversAbuDhabi() {
         city="Sharjah"
         title="Cheap Moving Company In"
         subtitle="Top Rated Movers and Packers In Sharjah"
-        description="Need reliable movers in Sharjah or Dubai? UAE Movers & Packers offers stress-free local and international relocation services for homes and businesses."
+        description="Need reliable movers in Sharjah or Dubai? RWahab Movers UAE offers stress-free local and international relocation services for homes and businesses."
       />
       <ServiceFeatured
         features={[
@@ -120,16 +127,16 @@ export default function MoversAbuDhabi() {
       <Content
         sectionOne={{
           heading: "Trusted Moving Company in Sharjah",
-          p1: "Searching for reliable movers in Sharjah? UAE Movers & Packers offers customized moving and packing services designed to meet all your relocation needs. Get in touch with us to receive an accurate quote tailored to your requirements.",
+          p1: "Searching for reliable movers in Sharjah? RWahab Movers UAE offers customized moving and packing services designed to meet all your relocation needs. Get in touch with us to receive an accurate quote tailored to your requirements.",
           p2: "Whether you’re moving from a high-rise apartment, handling delicate valuables, or need storage solutions before settling into your new home, our expert movers in Sharjah have you covered.",
-          p3: "Choose UAE Movers & Packers, a certified and trusted moving company in Sharjah, to ensure a stress-free experience. Contact us today to request your free quote and enjoy seamless relocation services.",
+          p3: "Choose RWahab Movers UAE, a certified and trusted moving company in Sharjah, to ensure a stress-free experience. Contact us today to request your free quote and enjoy seamless relocation services.",
           imageSrc: "/locations/UAE-Movers-&-Packers.png",
         }}
         sectiontwo={{
           heading: "Professional Movers and Packers in Sharjah",
-          p1: "Looking to hire movers in Sharjah? Ask for recommendations from friends, colleagues, or family who may have used a reliable moving company in Sharjah, like UAE Movers & Packers.",
+          p1: "Looking to hire movers in Sharjah? Ask for recommendations from friends, colleagues, or family who may have used a reliable moving company in Sharjah, like RWahab Movers UAE.",
           p2: "Many moving companies provide detailed online profiles to help you estimate the costs and services, ensuring transparency and peace of mind.",
-          p3: "For a smooth moving experience, trust professional movers in Sharjah who are certified and experienced, such as UAE Movers & Packers. Avoid hidden surprises and enjoy hassle-free relocation services.",
+          p3: "For a smooth moving experience, trust professional movers in Sharjah who are certified and experienced, such as RWahab Movers UAE. Avoid hidden surprises and enjoy hassle-free relocation services.",
           imageSrc: "/locations/Best-Movers-In-Dubai.png",
         }}
       />

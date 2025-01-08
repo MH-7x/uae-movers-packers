@@ -24,6 +24,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/movers-and-packers-ras-al-khaimah`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title:
       "Movers and Packers Ras Al Khaimah | Reliable and Affordable Services",
     description:
@@ -40,7 +47,7 @@ export default function MoversRasAlKhaimah() {
         city="Ras Al Khaimah"
         title="Reliable Moving Company In"
         subtitle="Professional Movers and Packers In Ras Al Khaimah"
-        description="Searching for expert movers in Ras Al Khaimah? UAE Movers & Packers offers seamless local and international relocation services for homes and businesses."
+        description="Searching for expert movers in Ras Al Khaimah? RWahab Movers UAE offers seamless local and international relocation services for homes and businesses."
       />
       <ServiceFeatured
         features={[
@@ -121,16 +128,16 @@ export default function MoversRasAlKhaimah() {
       <Content
         sectionOne={{
           heading: "Trusted Movers in Ras Al Khaimah",
-          p1: "Searching for reliable movers in Ras Al Khaimah? UAE Movers & Packers delivers customized moving solutions designed to make your relocation hassle-free. Get a personalized quote today.",
+          p1: "Searching for reliable movers in Ras Al Khaimah? RWahab Movers UAE delivers customized moving solutions designed to make your relocation hassle-free. Get a personalized quote today.",
           p2: "From apartments and villas to office spaces, we manage every aspect of your move, including packing, dismantling, and storage, for a seamless experience.",
-          p3: "UAE Movers & Packers is your go-to certified moving company in Ras Al Khaimah. Contact us for a free quote and let us handle your move with expertise and care.",
+          p3: "RWahab Movers UAE is your go-to certified moving company in Ras Al Khaimah. Contact us for a free quote and let us handle your move with expertise and care.",
           imageSrc: "/locations/UAE-Movers-&-Packers.png",
         }}
         sectiontwo={{
           heading: "Experienced Movers and Packers in Ras Al Khaimah",
-          p1: "Looking for movers in Ras Al Khaimah? Ask for referrals or choose UAE Movers & Packers, trusted for delivering top-quality relocation services in the region.",
+          p1: "Looking for movers in Ras Al Khaimah? Ask for referrals or choose RWahab Movers UAE, trusted for delivering top-quality relocation services in the region.",
           p2: "We provide comprehensive online profiles and cost estimates to help you plan your move with clarity and confidence.",
-          p3: "Avoid the stress of moving with certified and experienced movers in Ras Al Khaimah. UAE Movers & Packers ensures a hassle-free relocation with transparent pricing and professional services.",
+          p3: "Avoid the stress of moving with certified and experienced movers in Ras Al Khaimah. RWahab Movers UAE ensures a hassle-free relocation with transparent pricing and professional services.",
           imageSrc: "/locations/Best-Movers-In-Dubai.png",
         }}
       />

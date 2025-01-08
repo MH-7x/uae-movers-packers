@@ -35,6 +35,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/about-us`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "About Us | RWahab Movers UAE",
     description:
       "Reliable moving company in the UAE offering professional residential and commercial relocation services. Enjoy 24/7 support and hassle-free moves.",
@@ -132,7 +139,7 @@ function AboutUs() {
               <img
                 className="w-full"
                 src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg"
-                alt=""
+                alt="curve line for design"
               />
             </div>
 

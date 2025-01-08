@@ -15,6 +15,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/heavy-goods-moving`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title:
       "Heavy Goods & Large Items Moving in UAE | Professional & Affordable",
     description:

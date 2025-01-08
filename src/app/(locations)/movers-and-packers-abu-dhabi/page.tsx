@@ -24,6 +24,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/movers-and-packers-abu-dhabi`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Movers and Packers Abu Dhabi | Best and Professional Company",
     description:
       "Reliable movers and packers in Abu Dhabi. RWahab Movers UAE offers professional and affordable moving services tailored to your needs. Get a free quote today!",
@@ -39,7 +46,7 @@ export default function MoversAbuDhabi() {
         city="Abu Dhabi"
         title="Top Movers And Packers In"
         subtitle="Choose Best Moving Company Within Abu Dhabi"
-        description="Moving within Abu Dhabi or abroad? UAE Movers & Packers provides reliable, hassle-free relocation services for homes and businesses in Abu Dhabi, Dubai, and beyond."
+        description="Moving within Abu Dhabi or abroad? RWahab Movers UAE provides reliable, hassle-free relocation services for homes and businesses in Abu Dhabi, Dubai, and beyond."
       />
       <ServiceFeatured
         features={[
@@ -120,16 +127,16 @@ export default function MoversAbuDhabi() {
       <Content
         sectionOne={{
           heading: "Trusted Relocation Company in Abu Dhabi",
-          p1: "Searching for reliable movers in Abu Dhabi? UAE Movers & Packers offers personalized moving solutions tailored to your unique needs. Share your details with us for an accurate, no-obligation quote.",
+          p1: "Searching for reliable movers in Abu Dhabi? RWahab Movers UAE offers personalized moving solutions tailored to your unique needs. Share your details with us for an accurate, no-obligation quote.",
           p2: "From navigating properties with attics or high floors to handling fragile valuables and providing temporary storage, we ensure a seamless relocation experience.",
-          p3: "Choose UAE Movers & Packers—certified movers and packers in Abu Dhabi—for professional relocation services you can trust. Request your free quote today!",
+          p3: "Choose RWahab Movers UAE—certified movers and packers in Abu Dhabi—for professional relocation services you can trust. Request your free quote today!",
           imageSrc: "/locations/UAE-Movers-&-Packers.png",
         }}
         sectiontwo={{
           heading: "Professional Movers and Packers in Abu Dhabi",
-          p1: "Looking for movers in Abu Dhabi? Recommendations from colleagues or friends can be a great start. Many satisfied customers rely on UAE Movers & Packers for professional moving services.",
+          p1: "Looking for movers in Abu Dhabi? Recommendations from colleagues or friends can be a great start. Many satisfied customers rely on RWahab Movers UAE for professional moving services.",
           p2: "Most moving companies provide detailed online profiles to help you understand costs and services before making a decision.",
-          p3: "Avoid surprises by choosing certified movers in Abu Dhabi like UAE Movers & Packers for a hassle-free relocation experience.",
+          p3: "Avoid surprises by choosing certified movers in Abu Dhabi like RWahab Movers UAE for a hassle-free relocation experience.",
           imageSrc: "/locations/Best-Movers-In-Dubai.png",
         }}
       />

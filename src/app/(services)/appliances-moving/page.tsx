@@ -13,6 +13,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/appliances-moving`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Home Appliance Moving UAE - AC, TV, Refrigerator etc",
     description:
       "Professional home appliance movers in UAE. RWahab Movers UAE ensures safe moving of ACs, TVs, refrigerators, and more. Affordable, reliable service. Get a free quote!",
@@ -68,8 +75,8 @@ function AppliancesMoving() {
       <article className="grid md:grid-cols-6 grid-cols-1 md:gap-x-4 gap-y-10 md:px-10 md:mt-20 mt-16 items-start">
         <div className="md:col-span-4 col-span-1 md:pr-10">
           <p>
-            At UAE Movers & Packers, we specialize in the safe and efficient
-            moving of appliances across all major cities in the UAE. Whether
+            At RWahab Movers UAE, we specialize in the safe and efficient moving
+            of appliances across all major cities in the UAE. Whether
             you&lsquo;re relocating a refrigerator, washing machine, or any
             other large home appliance, our dedicated team is here to ensure a
             seamless experience.

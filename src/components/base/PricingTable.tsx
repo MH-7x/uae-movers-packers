@@ -16,7 +16,7 @@ const MovingServicesTable = () => {
         </div>
         <div className=" md:mt-0 md:bg-transparent bg-white -mt-5 md:p-0 p-5 md:shadow-none shadow-xl rounded-2xl">
           <h2 className="md:text-start md:text-4xl text-center">
-            UAE Movers & Packers Prices
+            RWahab Movers UAE Prices
           </h2>
           <p className="mt-4">
             Price for moving is calculated on different factors such as

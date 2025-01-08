@@ -24,6 +24,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-abu-dhabi`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title:
       "Buy & Sell Used Furniture Abu Dhabi | Home Appliances Buyers in Abu Dhabi",
     description:
@@ -38,8 +45,8 @@ const FurnituresDubai = () => {
     <section className="container pt-7 mx-auto">
       <Hero
         title="Buy and Sell Used Furniture in Abu Dhabi With"
-        sec="UAE Movers & Packers"
-        desc="Are you looking for the best place to buy or sell used furniture in Abu Dhabi? UAE Movers & Packers offers a trusted platform to help you find premium-quality, affordable furniture or connect with buyers for your pre-owned items."
+        sec="RWahab Movers UAE"
+        desc="Are you looking for the best place to buy or sell used furniture in Abu Dhabi? RWahab Movers UAE offers a trusted platform to help you find premium-quality, affordable furniture or connect with buyers for your pre-owned items."
       />
 
       <section className="mt-32 md:px-6 px-3">
@@ -203,14 +210,14 @@ const FurnituresDubai = () => {
         used={true}
         sectionOne={{
           heading: "Furniture and Appliance Buyers in Abu Dhabi",
-          p1: "Whether you’re relocating, upgrading, or decluttering, UAE Movers & Packers is your trusted partner for selling used office furniture in Abu Dhabi.",
+          p1: "Whether you’re relocating, upgrading, or decluttering, RWahab Movers UAE is your trusted partner for selling used office furniture in Abu Dhabi.",
           p2: "We offer a simple and efficient process for selling your pre-owned furniture in Abu Dhabi. Just contact us, and we'll take care of everything.",
           p3: "Our experts provide a fair and competitive price based on the condition and market demand for your used items.",
           imageSrc: "/locations/UAE-Movers-&-Packers.png",
         }}
         sectiontwo={{
           heading: "Second Hand Furniture Buyers & Sellers in Abu Dhabi",
-          p1: "Sell everything from home furniture to office chairs, desks, and cabinets. UAE Movers & Packers offers seamless transactions for your used items.",
+          p1: "Sell everything from home furniture to office chairs, desks, and cabinets. RWahab Movers UAE offers seamless transactions for your used items.",
           p2: "We ensure a smooth and convenient process for selling your used furniture in Abu Dhabi. Contact us, and we’ll handle everything from pickup to payment.",
           p3: "Our team evaluates your used furniture to provide a competitive price based on its brand, condition, and market value.",
           imageSrc: "/locations/Best-Movers-In-Dubai.png",
@@ -222,7 +229,7 @@ const FurnituresDubai = () => {
           {
             question: "Where can I buy used furniture in Abu Dhabi?",
             answer:
-              "You can explore a vast collection of second-hand furniture for homes and offices on UAE Movers & Packers’ platform, offering great deals in Abu Dhabi.",
+              "You can explore a vast collection of second-hand furniture for homes and offices on RWahab Movers UAE’ platform, offering great deals in Abu Dhabi.",
           },
           {
             question: "How do I sell used furniture in Abu Dhabi?",
@@ -242,34 +249,34 @@ const FurnituresDubai = () => {
           {
             question: "Do used furniture stores in Abu Dhabi buy furniture?",
             answer:
-              "Yes, many stores, including UAE Movers & Packers, specialize in buying and selling pre-owned furniture in Abu Dhabi.",
+              "Yes, many stores, including RWahab Movers UAE, specialize in buying and selling pre-owned furniture in Abu Dhabi.",
           },
           {
             question:
               "What is the best place to sell used furniture in Abu Dhabi?",
             answer:
-              "UAE Movers & Packers is your top choice for selling pre-owned furniture, offering free listings and access to a large network of buyers in Abu Dhabi.",
+              "RWahab Movers UAE is your top choice for selling pre-owned furniture, offering free listings and access to a large network of buyers in Abu Dhabi.",
           },
           {
             question: "Can I find cheap used furniture near me in Abu Dhabi?",
             answer:
-              "Absolutely, UAE Movers & Packers features affordable second-hand furniture, including options for bedrooms, living rooms, and offices in Abu Dhabi.",
+              "Absolutely, RWahab Movers UAE features affordable second-hand furniture, including options for bedrooms, living rooms, and offices in Abu Dhabi.",
           },
           {
             question: "What is the best way to sell used furniture online?",
             answer:
-              "The ideal way is to list your items on UAE Movers & Packers’ platform, where buyers in Abu Dhabi actively look for second-hand furniture.",
+              "The ideal way is to list your items on RWahab Movers UAE’ platform, where buyers in Abu Dhabi actively look for second-hand furniture.",
           },
           {
             question: "Where can I find used office furniture in Abu Dhabi?",
             answer:
-              "UAE Movers & Packers offers an extensive collection of second-hand office furniture, such as desks, chairs, and cabinets in Abu Dhabi.",
+              "RWahab Movers UAE offers an extensive collection of second-hand office furniture, such as desks, chairs, and cabinets in Abu Dhabi.",
           },
           {
             question:
               "How do I ensure a secure transaction when buying used furniture?",
             answer:
-              "UAE Movers & Packers verifies all buyers and sellers, ensuring a safe and reliable furniture buying experience in Abu Dhabi.",
+              "RWahab Movers UAE verifies all buyers and sellers, ensuring a safe and reliable furniture buying experience in Abu Dhabi.",
           },
         ]}
       />

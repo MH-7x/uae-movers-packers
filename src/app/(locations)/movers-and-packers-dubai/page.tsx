@@ -24,6 +24,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/movers-and-packers-dubai`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Top Movers and Packers in Dubai | Professional Dubai Movers",
     description:
       "Top movers and packers in Dubai with RWahab Movers UAE. Professional, reliable, and efficient moving services for your needs. Request a free quote now!",
@@ -39,7 +46,7 @@ export default function MoversDubai() {
         city="Dubai"
         title="Professional Moving & Packing Company in"
         subtitle=" Seamless Relocation Solutions Across the Dubai"
-        description=" Planning a move within the UAE or abroad? UAE Movers & Packers offers
+        description=" Planning a move within the UAE or abroad? RWahab Movers UAE offers
           reliable, stress-free relocation services for individuals, families,
           and businesses across Dubai, Abu Dhabi, and beyond."
       />
@@ -119,16 +126,16 @@ export default function MoversDubai() {
       <Content
         sectionOne={{
           heading: "Expert Relocation Company in Dubai",
-          p1: " Looking for reliable movers in Dubai? UAE Movers & Packers provides tailored moving solutions for all your relocation needs. Share your project details with us to get an accurate quote based on your requirements.",
+          p1: " Looking for reliable movers in Dubai? RWahab Movers UAE provides tailored moving solutions for all your relocation needs. Share your project details with us to get an accurate quote based on your requirements.",
           p2: "Whether it’s moving to or from a property with a cellar, attic, or high floors, handling fragile valuables, or needing storage before moving into your new home, we’ve got you covered.",
-          p3: " When choosing trusted movers and packers, ensure the company meets consumer trust standards and delivers services that match your expectations. Contact UAE Movers & Packers for professional relocation services and request your free quote today!",
+          p3: " When choosing trusted movers and packers, ensure the company meets consumer trust standards and delivers services that match your expectations. Contact RWahab Movers UAE for professional relocation services and request your free quote today!",
           imageSrc: "/locations/UAE-Movers-&-Packers.png",
         }}
         sectiontwo={{
           heading: "Proficient Movers and Packers in Dubai",
           p1: "To hire movers in Dubai, you can find out from your surroundings, your colleagues or your friends may already have used a professional moving company in Dubai.",
           p2: " Of course, all moving companies have detailed profiles on the Internet to give a precise idea of the cost that will involve your departure.",
-          p3: "In order to avoid unpleasant surprises, it is advised to prefer professional movers Dubai who are certified like UAE Movers & Packers.",
+          p3: "In order to avoid unpleasant surprises, it is advised to prefer professional movers Dubai who are certified like RWahab Movers UAE.",
           imageSrc: "/locations/Best-Movers-In-Dubai.png",
         }}
       />

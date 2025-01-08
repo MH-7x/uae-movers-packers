@@ -30,7 +30,7 @@ export function SideMenu() {
       </SheetTrigger>
       <SheetContent className="bg-gradient-to-t from-violet-200 to-white overflow-y-auto">
         <SheetHeader>
-          <SheetTitle aria-label="UAE Movers & Packers">
+          <SheetTitle aria-label="RWahab Movers UAE">
             <div className="w-full relative h-12 ">
               <Image
                 src={"/images/logo.png"}

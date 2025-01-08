@@ -15,8 +15,8 @@ const AboutUsSection = () => {
           Most trusted and reliable moving company in UAE
         </h2>
         <p className="text-gray-700 mb-6 mt-4 leading-relaxed">
-          UAE Movers & Packers, established in 2015, is a trusted moving company
-          in the UAE, specializing in secure and efficient villa and house
+          RWahab Movers UAE, established in 2015, is a trusted moving company in
+          the UAE, specializing in secure and efficient villa and house
           relocations. With insured services, modern equipment, and covered box
           trucks, they prioritize safety, reliability, and customer satisfaction
           across all Emirates.

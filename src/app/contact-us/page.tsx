@@ -11,6 +11,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/contact-us`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Contact Us | RWahab Movers UAE",
     description:
       "Contact RWahab Movers UAE for expert moving and packing services across Dubai and the UAE. Get a free quote on residential, office, and commercial moves today!",

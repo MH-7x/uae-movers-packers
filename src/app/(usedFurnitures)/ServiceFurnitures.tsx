@@ -10,7 +10,7 @@ function ServiceFurnitures({ city }: { city: string }) {
             Buy Used Furniture in {city}
           </h2>
           <p className="mt-7">
-            Looking for cheap used furniture near you? UAE Movers & Packers
+            Looking for cheap used furniture near you? RWahab Movers UAE
             provides an extensive selection of second-hand furniture, including:
           </p>
           <ul className="list-disc ml-4 mt-5">
@@ -46,8 +46,8 @@ function ServiceFurnitures({ city }: { city: string }) {
           </h2>
           <p className="mt-7">
             If you’re wondering where to sell used furniture, we make the
-            process hassle-free. Here’s why UAE Movers & Packers is the best
-            place to sell:
+            process hassle-free. Here’s why RWahab Movers UAE is the best place
+            to sell:
           </p>
           <ul className="list-disc ml-4 mt-5">
             <li className="my-2">

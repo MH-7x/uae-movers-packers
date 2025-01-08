@@ -39,7 +39,7 @@ export default function UsedFurnitures({ city }: { city?: string }) {
           </h3>
           <p className="mt-4 text-gray-600">
             Looking for high-quality, budget-friendly furniture or appliances?
-            At UAE Movers & Packers, we offer a wide selection of pre-loved
+            At RWahab Movers UAE, we offer a wide selection of pre-loved
             furniture and home appliances to fit your style and needs{" "}
             {city && `in ${city}`}.
           </p>

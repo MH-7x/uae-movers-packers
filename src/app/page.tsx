@@ -20,6 +20,13 @@ export const metadata: Metadata = {
     canonical: process.env.PUBLIC_URL,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Professional Movers and Packers in Dubai | RWahab Movers UAE",
     description:
       "Affordable and reliable movers and packers in Dubai. RWahab Movers UAE offers professional moving services tailored to your needs. Get a free quote today!",

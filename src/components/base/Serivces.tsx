@@ -10,7 +10,7 @@ function Serivces({ city }: { city?: string }) {
         Our Services
       </p>
       <h2 className="text-center md:text-4xl mt-3">
-        Professional Moving Services <br /> With UAE Movers & Packers
+        Professional Moving Services <br /> With RWahab Movers UAE
       </h2>
       <div className="mt-16  md:w-11/12 w-full mx-auto grid md:grid-cols-3 gap-8 md:px-5 grid-cols-1">
         {ServicesBox.map((service, i) => (

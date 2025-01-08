@@ -24,6 +24,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/movers-and-packers-umm-al-quwain`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Movers and Packers Umm Al Quwain | Best Moving Services",
     description:
       "Top movers and packers in Umm Al Quwain. RWahab Movers UAE offers dependable, professional, and affordable moving services. Contact us today!",
@@ -39,7 +46,7 @@ export default function MoversUmmAlQuwain() {
         city="Umm Al Quwain"
         title="Best Movers in Packers In"
         subtitle="Professional Movers and Packers In Umm Al Quwain"
-        description="Looking for expert movers in Umm Al Quwain? UAE Movers & Packers offers reliable and affordable local and international moving services for both residential and commercial clients."
+        description="Looking for expert movers in Umm Al Quwain? RWahab Movers UAE offers reliable and affordable local and international moving services for both residential and commercial clients."
       />
       <ServiceFeatured
         features={[
@@ -120,16 +127,16 @@ export default function MoversUmmAlQuwain() {
       <Content
         sectionOne={{
           heading: "Reliable Movers in Umm Al Quwain",
-          p1: "Need dependable movers in Umm Al Quwain? UAE Movers & Packers provides customized moving services to meet all your relocation needs. Contact us today for a free quote tailored to your requirements.",
+          p1: "Need dependable movers in Umm Al Quwain? RWahab Movers UAE provides customized moving services to meet all your relocation needs. Contact us today for a free quote tailored to your requirements.",
           p2: "Whether you're moving from a villa or an apartment, require storage before your move, or need expert handling of delicate items, we have you covered.",
-          p3: "Trust UAE Movers & Packers, a licensed and certified moving company in Umm Al Quwain, for a smooth and stress-free moving experience. Get in touch now for your personalized quote.",
+          p3: "Trust RWahab Movers UAE, a licensed and certified moving company in Umm Al Quwain, for a smooth and stress-free moving experience. Get in touch now for your personalized quote.",
           imageSrc: "/locations/UAE-Movers-&-Packers.png",
         }}
         sectiontwo={{
           heading: "Experienced Movers and Packers in Umm Al Quwain",
-          p1: "Looking to hire movers in Umm Al Quwain? Choose UAE Movers & Packers, a trusted name in the moving industry, known for delivering quality services and affordable pricing.",
+          p1: "Looking to hire movers in Umm Al Quwain? Choose RWahab Movers UAE, a trusted name in the moving industry, known for delivering quality services and affordable pricing.",
           p2: "All moving companies, including ours, offer detailed profiles online, providing transparent cost estimates and services to make your decision easier.",
-          p3: "For a worry-free relocation experience, hire certified and experienced movers in Umm Al Quwain. UAE Movers & Packers offers clear pricing, no hidden fees, and expert services.",
+          p3: "For a worry-free relocation experience, hire certified and experienced movers in Umm Al Quwain. RWahab Movers UAE offers clear pricing, no hidden fees, and expert services.",
           imageSrc: "/locations/Best-Movers-In-Dubai.png",
         }}
       />

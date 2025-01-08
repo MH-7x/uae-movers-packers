@@ -14,6 +14,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/apartment-moving`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Apartment Moving Services in Dubai | RWahab Movers UAE",
     description:
       "Stress-free apartment moving services in Dubai UAE. We handle everything from packing to transportation. Get a free quote today!",
@@ -70,10 +77,10 @@ function VillaMoving() {
         <div className="md:col-span-4 col-span-1 md:pr-10">
           <p>
             Moving to a new apartment can be exciting, but the process itself
-            can be stressful. UAE Movers & Packers is here to make your
-            apartment move smooth and hassle-free. We offer comprehensive
-            apartment moving services in overall UAE, handling everything from
-            packing and loading to transportation and unpacking.
+            can be stressful. RWahab Movers UAE is here to make your apartment
+            move smooth and hassle-free. We offer comprehensive apartment moving
+            services in overall UAE, handling everything from packing and
+            loading to transportation and unpacking.
           </p>
           <h2>Why Choose Professional Apartment Movers?</h2>
           <p>

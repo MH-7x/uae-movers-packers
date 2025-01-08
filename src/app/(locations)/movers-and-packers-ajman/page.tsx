@@ -24,6 +24,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/movers-and-packers-ajman`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Movers and Packers Ajman | Affordable and Professional Services",
     description:
       "Searching for affordable movers and packers in Ajman? RWahab Movers UAE provides professional relocation services for homes, offices, and more. Contact us now!",
@@ -39,7 +46,7 @@ export default function MoversAjman() {
         city="Ajman"
         title="Affordable Moving Company And Packing In"
         subtitle="Top Movers and Packers In Ajman"
-        description="Looking for reliable movers in Ajman? UAE Movers & Packers provides hassle-free local and international moving services for homes and businesses."
+        description="Looking for reliable movers in Ajman? RWahab Movers UAE provides hassle-free local and international moving services for homes and businesses."
       />
       <ServiceFeatured
         features={[
@@ -120,16 +127,16 @@ export default function MoversAjman() {
       <Content
         sectionOne={{
           heading: "Your Trusted Movers in Ajman",
-          p1: "Looking for professional movers in Ajman? UAE Movers & Packers delivers customized relocation solutions to meet your unique requirements. Contact us for a personalized quote.",
+          p1: "Looking for professional movers in Ajman? RWahab Movers UAE delivers customized relocation solutions to meet your unique requirements. Contact us for a personalized quote.",
           p2: "Whether relocating from a villa, apartment, or commercial space, we handle every aspect of your move, from packing to storage solutions, ensuring peace of mind.",
-          p3: "Choose UAE Movers & Packers as your certified moving company in Ajman for a seamless and stress-free moving experience. Request a free quote today!",
+          p3: "Choose RWahab Movers UAE as your certified moving company in Ajman for a seamless and stress-free moving experience. Request a free quote today!",
           imageSrc: "/locations/UAE-Movers-&-Packers.png",
         }}
         sectiontwo={{
           heading: "Reliable Packers and Movers in Ajman",
-          p1: "Searching for dependable movers in Ajman? Many customers recommend UAE Movers & Packers for their expertise and reliability in relocation services.",
+          p1: "Searching for dependable movers in Ajman? Many customers recommend RWahab Movers UAE for their expertise and reliability in relocation services.",
           p2: "Our detailed online profiles provide clear information about costs and services, making it easier to choose the right moving company for your needs.",
-          p3: "For a hassle-free relocation, trust UAE Movers & Packers—certified and experienced movers in Ajman. Enjoy transparent pricing and top-notch services with no hidden surprises.",
+          p3: "For a hassle-free relocation, trust RWahab Movers UAE—certified and experienced movers in Ajman. Enjoy transparent pricing and top-notch services with no hidden surprises.",
           imageSrc: "/locations/Best-Movers-In-Dubai.png",
         }}
       />

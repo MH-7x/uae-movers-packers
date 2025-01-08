@@ -14,6 +14,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/home-moving`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Home Moving Services in UAE | Professional & Affordable",
     description:
       "Reliable home moving services in the UAE. Expert movers, packing solutions, and seamless relocation for apartments, villas, and studios. Get a free quote today!",
@@ -77,7 +84,7 @@ function VillaMoving() {
           </p>
           <h2>Why Choose Our Home Moving Services?</h2>
           <p>
-            At UAE Movers & Packers, we go the extra mile to provide top-quality
+            At RWahab Movers UAE, we go the extra mile to provide top-quality
             services for all types of home moves. Here&apos;s why we stand out:
           </p>
           <ul>
@@ -202,7 +209,7 @@ function VillaMoving() {
           <h2 className="mt-20">Benefits of Hiring Professional Home Movers</h2>
           <p>
             Moving on your own can be stressful and time-consuming. Here’s why
-            hiring professionals like UAE Movers & Packers is a smarter choice:
+            hiring professionals like RWahab Movers UAE is a smarter choice:
           </p>
           <ul>
             <li>

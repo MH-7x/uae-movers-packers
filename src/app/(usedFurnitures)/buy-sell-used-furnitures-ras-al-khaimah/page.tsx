@@ -24,6 +24,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-ras-al-khaimah`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Buy and Sell Used Furniture in Ras Al Khaimah",
     description:
       "Buy or sell used furniture in Ras Al Khaimah with RWahab Movers UAE. Find affordable, high-quality furniture or connect with buyers for pre-owned items.",
@@ -37,8 +44,8 @@ const FurnituresDubai = () => {
     <section className="container pt-7 mx-auto">
       <Hero
         title="Buy and Sell Used Furniture in Ras Al Khaimah With"
-        sec="UAE Movers & Packers"
-        desc="Are you looking for the best place to buy or sell used furniture in Ras Al Khaimah? UAE Movers & Packers provides a trusted platform to help you find high-quality, affordable furniture or connect with buyers for your pre-owned items."
+        sec="RWahab Movers UAE"
+        desc="Are you looking for the best place to buy or sell used furniture in Ras Al Khaimah? RWahab Movers UAE provides a trusted platform to help you find high-quality, affordable furniture or connect with buyers for your pre-owned items."
       />
 
       <section className="mt-32 md:px-6 px-3">
@@ -201,14 +208,14 @@ const FurnituresDubai = () => {
         used={true}
         sectionOne={{
           heading: "Furniture and Appliance Buyers in Ras Al Khaimah",
-          p1: "If you’re relocating, upgrading, or decluttering, UAE Movers & Packers is your trusted partner for selling used furniture in Ras Al Khaimah.",
+          p1: "If you’re relocating, upgrading, or decluttering, RWahab Movers UAE is your trusted partner for selling used furniture in Ras Al Khaimah.",
           p2: "We offer a simple process for selling your pre-owned furniture. Contact us, and we’ll take care of everything.",
           p3: "Our team ensures a competitive valuation based on market trends and condition.",
           imageSrc: "/locations/UAE-Movers-&-Packers.png",
         }}
         sectiontwo={{
           heading: "Second Hand Furniture Buyers & Sellers in Ras Al Khaimah",
-          p1: "Sell everything from home furniture to office desks and cabinets. UAE Movers & Packers ensures seamless transactions.",
+          p1: "Sell everything from home furniture to office desks and cabinets. RWahab Movers UAE ensures seamless transactions.",
           p2: "We handle everything from pickup to payment for your convenience.",
           p3: "Our experts evaluate your items for competitive pricing based on their brand and condition.",
           imageSrc: "/locations/Best-Movers-In-Dubai.png",
@@ -220,7 +227,7 @@ const FurnituresDubai = () => {
           {
             question: "Where can I buy used furniture in Ras Al Khaimah?",
             answer:
-              "You can find a variety of high-quality used furniture for sale on UAE Movers & Packers’ platform in Ras Al Khaimah, offering budget-friendly options for homes and offices.",
+              "You can find a variety of high-quality used furniture for sale on RWahab Movers UAE’ platform in Ras Al Khaimah, offering budget-friendly options for homes and offices.",
           },
           {
             question: "How do I sell used furniture in Ras Al Khaimah?",
@@ -241,37 +248,37 @@ const FurnituresDubai = () => {
             question:
               "Do used furniture stores in Ras Al Khaimah buy furniture?",
             answer:
-              "Yes, several stores, including UAE Movers & Packers, facilitate the buying and selling of second-hand furniture in Ras Al Khaimah.",
+              "Yes, several stores, including RWahab Movers UAE, facilitate the buying and selling of second-hand furniture in Ras Al Khaimah.",
           },
           {
             question:
               "What is the best place to sell used furniture in Ras Al Khaimah?",
             answer:
-              "UAE Movers & Packers offers an excellent platform to sell used furniture in Ras Al Khaimah, providing free listings and a wide audience of potential buyers.",
+              "RWahab Movers UAE offers an excellent platform to sell used furniture in Ras Al Khaimah, providing free listings and a wide audience of potential buyers.",
           },
           {
             question:
               "Can I find affordable used furniture near me in Ras Al Khaimah?",
             answer:
-              "Yes, UAE Movers & Packers offers a range of budget-friendly used furniture options in Ras Al Khaimah, including living room, bedroom, and office furniture.",
+              "Yes, RWahab Movers UAE offers a range of budget-friendly used furniture options in Ras Al Khaimah, including living room, bedroom, and office furniture.",
           },
           {
             question:
               "What is the best way to sell used furniture online in Ras Al Khaimah?",
             answer:
-              "The best way to sell your furniture online in Ras Al Khaimah is by listing it on UAE Movers & Packers’ platform, where buyers actively search for quality pre-owned items.",
+              "The best way to sell your furniture online in Ras Al Khaimah is by listing it on RWahab Movers UAE’ platform, where buyers actively search for quality pre-owned items.",
           },
           {
             question:
               "Where can I find used office furniture in Ras Al Khaimah?",
             answer:
-              "UAE Movers & Packers offers a variety of used office furniture in Ras Al Khaimah, including desks, chairs, and other office essentials.",
+              "RWahab Movers UAE offers a variety of used office furniture in Ras Al Khaimah, including desks, chairs, and other office essentials.",
           },
           {
             question:
               "How can I ensure a secure transaction when buying used furniture in Ras Al Khaimah?",
             answer:
-              "UAE Movers & Packers ensures a safe and secure buying experience by working with verified buyers and sellers, providing a seamless and trustworthy transaction process.",
+              "RWahab Movers UAE ensures a safe and secure buying experience by working with verified buyers and sellers, providing a seamless and trustworthy transaction process.",
           },
         ]}
       />

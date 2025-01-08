@@ -22,7 +22,7 @@ function Contact({ title, desc }: { title: string; desc: string }) {
         <div className="w-96 md:h-96 h-80 relative">
           <Image
             src={contactImg}
-            alt="Contact With UAE Movers & Packers"
+            alt="Contact With RWahab Movers UAE"
             fill
             className="object-contain "
           />

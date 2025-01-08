@@ -14,6 +14,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/office-moving`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Office Moving Services in UAE | Professional & Reliable Movers",
     description:
       "Efficient office moving services in UAE. Trust RWahab Movers UAE for packing, relocation, furniture setup, and tailored office shifting solutions. Request a quote now!",
@@ -70,8 +77,8 @@ function VillaMoving() {
         <div className="md:col-span-4 col-span-1 md:pr-10">
           <p>
             Relocating your office is a significant task that requires careful
-            planning and expert handling. At UAE Movers & Packers, we specialize
-            in providing seamless office moving services tailored to meet your
+            planning and expert handling. At RWahab Movers UAE, we specialize in
+            providing seamless office moving services tailored to meet your
             unique business needs.
           </p>
           <h2>Why Choose Our Office Moving Services?</h2>
@@ -177,8 +184,8 @@ function VillaMoving() {
             </p>
             <h3 className="text-xl mt-5">Bespoke Solutions</h3>
             <p className="mt-2 border-b pb-3 border-primary/50 text-base">
-              UAE Movers & Packers offers bespoke office move services,
-              relocating hospitals, labs, libraries, and more.
+              RWahab Movers UAE offers bespoke office move services, relocating
+              hospitals, labs, libraries, and more.
             </p>
             <h3 className="text-xl mt-5">
               Office Maintenance or Refurbishment

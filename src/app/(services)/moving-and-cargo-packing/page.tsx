@@ -14,6 +14,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/moving-and-cargo-packing`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Moving and Cargo Packing Service | RWahab Movers UAE",
     description:
       "Professional Moving and Cargo Packing Services for Safe and Efficient Relocation. Serveice in Dubai, Sharjah, Abu Dhabi in UAE.",
@@ -77,12 +84,12 @@ function VillaMoving() {
             in the UAE.
           </p>
           <h2>
-            Why Choose UAE Movers & Packers for Your Moving and Cargo Packing
+            Why Choose RWahab Movers UAE for Your Moving and Cargo Packing
             Needs?
           </h2>
           <p>
             Selecting a trusted partner is crucial for a successful move. Here’s
-            why UAE Movers & Packers is the right choice for you:
+            why RWahab Movers UAE is the right choice for you:
           </p>
           <ul>
             <li>
@@ -124,9 +131,9 @@ function VillaMoving() {
             <div className="rounded-xl text-center flex items-center justify-center flex-col gap-y-2 bg-white drop-shadow-md p-3">
               <h3>Commercial Packing Services</h3>
               <p className="text-sm ">
-                UAE Movers & Packers specializes in commercial packing services
-                for businesses of all sizes. Our efficient approach protects
-                your assets while minimizing downtime and disruption to your
+                RWahab Movers UAE specializes in commercial packing services for
+                businesses of all sizes. Our efficient approach protects your
+                assets while minimizing downtime and disruption to your
                 operations, allowing for a seamless transition to your new
                 office.
               </p>
@@ -150,7 +157,7 @@ function VillaMoving() {
           </h2>
           <p>
             Using the right packing materials is essential for protecting your
-            items during the move. At UAE Movers & Packers, we provide:
+            items during the move. At RWahab Movers UAE, we provide:
           </p>
           <div className="mt-10">
             <h3 className="text-xl">Heavy-Duty Boxes:</h3>
@@ -235,7 +242,7 @@ function VillaMoving() {
             Benefits of Choosing Us Moving or Cargo Packing Services
           </h2>
           <p>
-            Opt for UAE Movers & Packers to enjoy expert handling, top-quality
+            Opt for RWahab Movers UAE to enjoy expert handling, top-quality
             materials, tailored solutions, and hassle-free relocation across the
             UAE. Our reliable team ensures your belongings are secure and your
             moving experience is seamless.
@@ -270,7 +277,7 @@ function VillaMoving() {
           {
             question: "What areas in the UAE do you serve?",
             answer:
-              "UAE Movers & Packers proudly serves customers throughout the UAE, including all major cities. No matter where you are located, we have you covered!",
+              "RWahab Movers UAE proudly serves customers throughout the UAE, including all major cities. No matter where you are located, we have you covered!",
           },
           {
             question: "How much notice do you need for a packing service?",

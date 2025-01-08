@@ -19,14 +19,21 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Buy & Sell Used Furniture in Dubai - Quick & Easy Deals",
   description:
-    "Find the best deals on used furniture in Dubai! Buy and sell pre-owned items quickly and easily with UAE Movers & Packers.",
+    "Find the best deals on used furniture in Dubai! Buy and sell pre-owned items quickly and easily with RWahab Movers UAE.",
   alternates: {
     canonical: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-dubai`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title: "Buy & Sell Used Furniture in Dubai - Quick & Easy Deals",
     description:
-      "Find the best deals on used furniture in Dubai! Buy and sell pre-owned items quickly and easily with UAE Movers & Packers.",
+      "Find the best deals on used furniture in Dubai! Buy and sell pre-owned items quickly and easily with RWahab Movers UAE.",
     images: `${process.env.PUBLIC_URL}/service/office-moving.jpg`,
     url: `${process.env.PUBLIC_URL}/buy-sell-used-furnitures-dubai`,
   },
@@ -36,8 +43,8 @@ const FurnituresDubai = () => {
     <section className="container pt-7 mx-auto">
       <Hero
         title="Buy and Sell Used Furniture in Dubai With"
-        sec="UAE Movers & Packers"
-        desc=" Are you looking for the best place to buy or sell used furniture in Dubai? UAE Movers & Packers offers a comprehensive platform to help you find high-quality, affordable furniture or connect with potential buyers for your pre-owned items."
+        sec="RWahab Movers UAE"
+        desc=" Are you looking for the best place to buy or sell used furniture in Dubai? RWahab Movers UAE offers a comprehensive platform to help you find high-quality, affordable furniture or connect with potential buyers for your pre-owned items."
       />
 
       <section className="mt-32 md:px-6 px-3">
@@ -202,14 +209,14 @@ const FurnituresDubai = () => {
         used={true}
         sectionOne={{
           heading: "Furniture and Appliance Buyers in Dubai",
-          p1: "Whether you’re downsizing your office, relocating, or simply upgrading your furniture, UAE Movers & Packers is your trusted partner for hassle-free buyer of your used office furniture.",
+          p1: "Whether you’re downsizing your office, relocating, or simply upgrading your furniture, RWahab Movers UAE is your trusted partner for hassle-free buyer of your used office furniture.",
           p2: "We offer a seamless and convenient process for selling your used house furniture in Dubai. Simply contact us, and we’ll handle the rest, from pick-up to payment.",
           p3: "We understand the value of your used villa furniture in Dubai and will provide you with a fair and competitive price based on its condition, brand, and market value.",
           imageSrc: "/locations/UAE-Movers-&-Packers.png",
         }}
         sectiontwo={{
           heading: "Second Hand Furniture Buyers & Sellers in Dubai",
-          p1: "Sell your home and furniture from office chairs, to office desks, to office cabinets and everythin in between. UAE Movers & Packers is your trusted partner for hassle-free buyer of your used office furniture.",
+          p1: "Sell your home and furniture from office chairs, to office desks, to office cabinets and everythin in between. RWahab Movers UAE is your trusted partner for hassle-free buyer of your used office furniture.",
           p2: "We offer a seamless and convenient process for selling your used house furniture in Dubai. Simply contact us, and we’ll handle the rest, from pick-up to payment.",
           p3: "We understand the value of your used villa furniture in Dubai and will provide you with a fair and competitive price based on its condition, brand, and market value.",
           imageSrc: "/locations/Best-Movers-In-Dubai.png",
@@ -220,7 +227,7 @@ const FurnituresDubai = () => {
           {
             question: "Where can I buy used furniture in Dubai?",
             answer:
-              "You can find a wide range of used furniture for sale on UAE Movers & Packers’ platform, including affordable options for homes and offices.",
+              "You can find a wide range of used furniture for sale on RWahab Movers UAE’ platform, including affordable options for homes and offices.",
           },
           {
             question: "How do I sell used furniture in Dubai?",
@@ -240,33 +247,33 @@ const FurnituresDubai = () => {
           {
             question: "Do used furniture stores in Dubai buy furniture?",
             answer:
-              "Yes, many stores, including UAE Movers & Packers, facilitate buying and selling of pre-owned furniture.",
+              "Yes, many stores, including RWahab Movers UAE, facilitate buying and selling of pre-owned furniture.",
           },
           {
             question: "What is the best place to sell used furniture in Dubai?",
             answer:
-              "UAE Movers & Packers is the best platform to sell used furniture with free listings and access to a large audience of buyers.",
+              "RWahab Movers UAE is the best platform to sell used furniture with free listings and access to a large audience of buyers.",
           },
           {
             question: "Can I find cheap used furniture near me in Dubai?",
             answer:
-              "Yes, UAE Movers & Packers offers affordable options for used furniture, including living room, bedroom, and office furniture.",
+              "Yes, RWahab Movers UAE offers affordable options for used furniture, including living room, bedroom, and office furniture.",
           },
           {
             question: "What is the best way to sell used furniture online?",
             answer:
-              "The best way to sell furniture online is by listing it on UAE Movers & Packers’ platform, where buyers are actively searching.",
+              "The best way to sell furniture online is by listing it on RWahab Movers UAE’ platform, where buyers are actively searching.",
           },
           {
             question: "Where can I find used office furniture in Dubai?",
             answer:
-              "UAE Movers & Packers provides a wide range of used office furniture, including desks, chairs, and storage solutions.",
+              "RWahab Movers UAE provides a wide range of used office furniture, including desks, chairs, and storage solutions.",
           },
           {
             question:
               "How do I ensure a secure transaction when buying used furniture?",
             answer:
-              "UAE Movers & Packers works with verified buyers and sellers to provide a safe and seamless buying experience.",
+              "RWahab Movers UAE works with verified buyers and sellers to provide a safe and seamless buying experience.",
           },
         ]}
       />

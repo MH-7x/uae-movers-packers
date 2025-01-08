@@ -107,21 +107,21 @@ function Footer() {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    href="/about-us"
                     className="text-gray-700 transition hover:text-primary"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    href="/contact-us"
                     className="text-gray-700 transition hover:text-primary"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

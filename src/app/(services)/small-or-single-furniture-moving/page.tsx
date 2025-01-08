@@ -15,6 +15,13 @@ export const metadata: Metadata = {
     canonical: `${process.env.PUBLIC_URL}/small-or-single-furniture-moving`,
   },
   openGraph: {
+    type: "website",
+    locale: "en-AE",
+    countryName: "United Arab Emirates",
+    emails: "wk0131839@gamil.com",
+    faxNumbers: "+971 123456789",
+    phoneNumbers: "+971 123456789",
+    siteName: "RWahab Movers UAE",
     title:
       "Affordable Small Furniture Movers in UAE | Single Item Moving Services",
     description:
