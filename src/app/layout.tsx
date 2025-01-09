@@ -4,6 +4,7 @@ import Navbar from "@/components/base/Navbar";
 import { Poppins } from "next/font/google";
 import Footer from "@/components/base/Footer";
 import Script from "next/script";
+import { WhatsappDialogButton } from "@/components/base/WhatsappDialog";
 const roboto = Poppins({
   subsets: ["latin"],
   variable: "--font-roboto",
@@ -41,6 +42,7 @@ export default function RootLayout({
       />
       <body className={` ${roboto.className} antialiased`}>
         <svg
+          aria-hidden={true}
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -121,6 +123,7 @@ export default function RootLayout({
         </svg>
         <Navbar />
         <main className="">{children}</main>
+        <WhatsappDialogButton />
         <Footer />
       </body>
     </html>

@@ -33,7 +33,7 @@ function InfoCard() {
           <span className="font-semibold text-center mx-auto text-xl">
             +971 123456789
           </span>
-          <div className="grid w-full grid-cols-2 gap-x-3 mt-3">
+          <div className="grid w-full grid-cols-2 gap-x-3 mt-3 px-4">
             <Button className="bg-green-600 hover:bg-green-700" size={"sm"}>
               <Link
                 className="flex items-center gap-x-2"
@@ -75,7 +75,12 @@ function InfoCard() {
         </div>
         <div className="mt-5 border-b pb-1 flex items-center gap-x-3">
           <MailIcon className="stroke-primary size-5" />
-          <p className="text-sm text-muted-foreground">wk0131839@gamil.com</p>
+          <Link
+            href={"mailto:rwahabmoversuae@gmail.com"}
+            className="text-sm text-muted-foreground"
+          >
+            rwahabmoversuae@gmail.com
+          </Link>
         </div>
         <div className="mt-5 border-b pb-1 flex items-center gap-x-3">
           <CalendarRange className="stroke-primary size-5" />

@@ -65,7 +65,7 @@ function DesktopNavBar() {
             className="object-contain"
           />
         </div>
-        <div className="flex items-center justify-center md:gap-5">
+        <div className="flex items-center justify-center md:gap-5 text-gray-500">
           <div className="flex items-center gap-1">
             <MapPin className="size-4 text-primary" />
             <span className="text-sm font-medium">
@@ -75,13 +75,18 @@ function DesktopNavBar() {
           <Link aria-label="Call To Us" href={"tel:+971503806855"}>
             <div className="flex items-center gap-1">
               <Phone className="size-4 text-primary" />
-              <span className="text-sm font-medium">+971 123456789</span>
+              <span className="text-sm font-medium">+971 503806855</span>
             </div>
           </Link>
-          <Link aria-label="Mail To Us" href={"mailto:wk0131839@gamil.com"}>
+          <Link
+            aria-label="Mail To Us"
+            href={"mailto:rwahabmoversuae@gmail.com"}
+          >
             <div className="flex items-center gap-1">
               <Mail className="size-4 text-primary" />
-              <span className="text-sm font-medium">wk0131839@gamil.com</span>
+              <span className="text-sm font-medium">
+                rwahabmoversuae@gmail.com
+              </span>
             </div>
           </Link>
         </div>

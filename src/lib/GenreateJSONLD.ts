@@ -86,6 +86,13 @@ export function generateJSONLD() {
         ],
         inLanguage: "en-AE",
       },
+      {
+        "@type": "Organization",
+        name: "RWahab Movers UAE",
+        url: "https://rwahabmoversuae.com",
+        logo: "https://rwahabmoversuae.com/logo.png",
+        sameAs: ["facebook.com/profile.php?id=61571587026129"],
+      },
     ],
   };
 
