@@ -28,7 +28,7 @@ export function SideMenu() {
           />
         </div>
       </SheetTrigger>
-      <SheetContent className="bg-gradient-to-t from-violet-200 to-white overflow-y-auto">
+      <SheetContent className="bg-white overflow-y-auto">
         <SheetHeader>
           <SheetTitle aria-label="RWahab Movers UAE">
             <div className="w-full relative h-12 ">

@@ -2,7 +2,7 @@ import { PhoneCall } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-import aboutimage from "../../../public/images/aboutImg.png";
+import aboutimage from "../../../public/images/aboutImg.jpg";
 const AboutUsSection = () => {
   return (
     <>
@@ -66,13 +66,13 @@ const AboutUsSection = () => {
         </div>
 
         <div className="flex-1 flex justify-center ">
-          <div className="h-[450px] relative rounded-xl overflow-hidden md:w-96 w-80">
+          <div className="md:h-[450px] h-96 relative rounded-xl overflow-hidden md:w-96 w-80">
             <Image
               id="primaryimage"
               src={aboutimage}
               fill
               quality={100}
-              className="absolute object-contain"
+              className="absolute object-cover object-top"
               alt="About Us"
             />
           </div>

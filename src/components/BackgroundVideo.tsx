@@ -5,7 +5,7 @@ const BackgroundVideo: React.FC = () => (
     muted
     loop
     playsInline
-    className="absolute top-0 left-0 w-full h-screen object-cover -z-10"
+    className="absolute md:top-28 top-16 opacity-75 left-0 w-full md:h-screen h-[90vh] object-cover -z-10"
     aria-hidden="true"
   />
 );

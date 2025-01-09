@@ -29,7 +29,7 @@ function MobileNavBar() {
   }, [lastScrollY]);
   return (
     <header
-      className={`fixed transition-transform drop-shadow-lg bg-gradient-to-br from-white via-violet-50 to-violet-50 duration-200 top-0 ${
+      className={`fixed transition-transform drop-shadow-lg bg-white duration-200 top-0 ${
         !showNavbar ? "-translate-y-full" : "-translate-y-0"
       } left-0 w-full z-50 py-3 px-1`}
     >

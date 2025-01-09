@@ -1,7 +1,6 @@
-import { services } from "@/constants/services";
-import React from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact Us | RWahab Movers UAE",
@@ -39,86 +38,7 @@ function ContactUs() {
               Ask us everything and we would love to hear from your move
             </p>
 
-            <form className="mt-12">
-              <div className="-mx-2 md:items-center md:flex">
-                <div className="flex-1 px-2">
-                  <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
-                    Full Name
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="John Doe"
-                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-primary dark:focus:border-primary focus:ring-primary/20 focus:outline-none focus:ring focus:ring-opacity-40"
-                  />
-                </div>
-
-                <div className="flex-1 px-2 mt-4 md:mt-0">
-                  <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
-                    Email address
-                  </label>
-                  <input
-                    type="email"
-                    placeholder="johndoe@example.com"
-                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-primary dark:focus:border-primary focus:ring-primary/20 focus:outline-none focus:ring focus:ring-opacity-40"
-                  />
-                </div>
-              </div>
-              <div className="-mx-2 mt-5 md:items-center md:flex">
-                <div className="flex-1 px-2">
-                  <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
-                    Phone No
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="+971 50 000 0000"
-                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-primary dark:focus:border-primary focus:ring-primary/20 focus:outline-none focus:ring focus:ring-opacity-40"
-                  />
-                </div>
-
-                <div className="flex-1 px-2 mt-4 md:mt-0">
-                  <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
-                    Type of Move
-                  </label>
-                  <select
-                    name=""
-                    className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-primary dark:focus:border-primary focus:ring-primary/20 focus:outline-none focus:ring focus:ring-opacity-40"
-                    id=""
-                  >
-                    <option value="" disabled>
-                      Select your type
-                    </option>
-                    {services.map((service) => (
-                      <option key={service.link} value={service.name}>
-                        {service.name}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-              </div>
-              <div className="mt-5">
-                <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
-                  Your Address
-                </label>
-                <input
-                  type="text"
-                  placeholder="123 Street, City"
-                  className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-primary dark:focus:border-primary focus:ring-primary/20 focus:outline-none focus:ring focus:ring-opacity-40"
-                />
-              </div>
-              <div className="w-full mt-4">
-                <label className="block mb-2 text-sm text-gray-700 dark:text-gray-200">
-                  Message
-                </label>
-                <textarea
-                  className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-primary dark:focus:border-primary focus:ring-primary/20 focus:outline-none focus:ring focus:ring-opacity-40"
-                  placeholder="Message"
-                ></textarea>
-              </div>
-
-              <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
-                get in touch
-              </button>
-            </form>
+            <ContactForm />
           </div>
 
           <div className="mt-12 lg:flex lg:mt-0 lg:flex-col lg:items-center lg:w-1/2 lg:mx-10">
