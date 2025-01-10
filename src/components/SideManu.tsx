@@ -18,7 +18,7 @@ export function SideMenu() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <div>
+        <button>
           <Image
             src={"/menu.svg"}
             alt="open side menu icon"
@@ -26,7 +26,7 @@ export function SideMenu() {
             width={38}
             height={38}
           />
-        </div>
+        </button>
       </SheetTrigger>
       <SheetContent className="bg-white overflow-y-auto">
         <SheetHeader>

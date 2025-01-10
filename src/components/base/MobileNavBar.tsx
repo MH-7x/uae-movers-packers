@@ -34,15 +34,14 @@ function MobileNavBar() {
       } left-0 w-full z-50 py-3 px-1`}
     >
       <nav className={`relative w-full flex items-center justify-between`}>
-        <div className="relative w-36 h-10 ">
+        <div className="relative w-36 h-10 overflow-hidden">
           <Link aria-label="RWahab Movers UAE" href="/">
             <Image
               src={"/images/logo.png"}
               alt="RWahab Movers UAE"
               fill
               id="logo"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              priority
+              loading="eager"
               className="object-contain absolute"
             />
           </Link>
