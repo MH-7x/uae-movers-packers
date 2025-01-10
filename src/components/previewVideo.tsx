@@ -1,4 +1,5 @@
 "use client";
+import useIsMobile from "@/lib/CheckMobileScreen";
 import dynamic from "next/dynamic";
 
 const LazyBackgroundVideo = dynamic(
@@ -12,5 +13,6 @@ const LazyBackgroundVideo = dynamic(
 );
 
 export default function PreviewVideo() {
-  return <LazyBackgroundVideo />;
+  const isMobile = useIsMobile();
+  return !isMobile ? <LazyBackgroundVideo /> : null;
 }

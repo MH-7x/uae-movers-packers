@@ -1,10 +1,12 @@
 import React from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import PreviewVideo from "../previewVideo";
 
 function HeroSection() {
   return (
     <>
+      <PreviewVideo />
       <section className="mx-auto max-w-4xl  md:pt-20 pt-10">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
