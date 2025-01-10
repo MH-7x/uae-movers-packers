@@ -41,7 +41,9 @@ function MobileNavBar() {
               alt="RWahab Movers UAE"
               fill
               id="logo"
-              className="object-contain "
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority
+              className="object-contain absolute"
             />
           </Link>
         </div>

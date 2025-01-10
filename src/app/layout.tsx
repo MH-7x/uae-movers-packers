@@ -10,6 +10,8 @@ const roboto = Poppins({
   variable: "--font-roboto",
   weight: ["400", "500", "700", "800"],
   fallback: ["sans-serif"],
+  preload: true,
+  display: "swap",
 });
 export const metadata: Metadata = {
   applicationName: "RWahab Movers UAE",
@@ -40,7 +42,7 @@ export default function RootLayout({
         data-key="vJkQXO12D4BgqaV3I3C26Q"
         async
       />
-      <body className={` ${roboto.className} antialiased`}>
+      <body className={`${roboto.className}`}>
         <svg
           aria-hidden={true}
           xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +124,7 @@ export default function RootLayout({
           ></rect>
         </svg>
         <Navbar />
-        <main className="">{children}</main>
+        <main>{children}</main>
         <WhatsappDialogButton />
         <Footer />
       </body>

@@ -34,11 +34,10 @@ async function HeroSection() {
           <h2 className="mt-3 text-primary font-medium">
             Trusted Moving Company In UAE
           </h2>
-          <p className=" mt-5 md:text-lg ">
-            We provide seamless relocation services for homes, offices, and
-            businesses, ensuring reliability, efficiency, and affordability.
-            With expert handling and a commitment to customer satisfaction, we
-            make moving stress-free and convenient for our clients.
+          <p className=" mt-5 md:text-lg p-1">
+            Trusted movers for homes, offices, and businesses, offering
+            reliable, efficient, and affordable relocation services. Experience
+            stress-free moving with expert handling and unmatched customer care.
           </p>
           <div className="mt-6 flex items-center justify-center gap-x-6">
             <Link href="/contact-us">

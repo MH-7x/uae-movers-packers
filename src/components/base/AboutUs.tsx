@@ -71,6 +71,7 @@ const AboutUsSection = () => {
               id="primaryimage"
               src={aboutimage}
               fill
+              loading="lazy"
               quality={100}
               className="absolute object-cover object-top"
               alt="About Us"

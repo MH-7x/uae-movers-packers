@@ -4,6 +4,9 @@
 html body {
   scroll-behavior: smooth;
 }
+body {
+  @apply antialiased;
+}
 h1 {
   @apply text-[2.5rem]/[2.8rem] md:text-4xl font-semibold;
 }
