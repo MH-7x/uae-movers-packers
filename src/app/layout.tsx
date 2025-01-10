@@ -5,12 +5,13 @@ import { Poppins } from "next/font/google";
 import Footer from "@/components/base/Footer";
 import Script from "next/script";
 import { WhatsappDialogButton } from "@/components/base/WhatsappDialog";
-const roboto = Poppins({
+const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-roboto",
   weight: ["400", "500", "700", "800"],
   fallback: ["sans-serif"],
   preload: true,
+  display: "swap", // Add this
 });
 export const metadata: Metadata = {
   applicationName: "RWahab Movers UAE",
@@ -41,7 +42,7 @@ export default function RootLayout({
         data-key="vJkQXO12D4BgqaV3I3C26Q"
         async
       />
-      <body className={`${roboto.className}`}>
+      <body className={`${poppins.className}`}>
         <svg
           aria-hidden={true}
           xmlns="http://www.w3.org/2000/svg"
