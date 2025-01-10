@@ -1,18 +1,10 @@
 import React from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import PreviewVideo from "../previewVideo";
-import { headers } from "next/headers";
 
-async function HeroSection() {
-  const Headers = headers();
-  const isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|Opera Mini/i.test(
-    (await Headers).get("user-agent") || ""
-  );
+function HeroSection() {
   return (
     <>
-      {!isMobile && <PreviewVideo />}
-
       <section className="mx-auto max-w-4xl  md:pt-20 pt-10">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -34,11 +26,11 @@ async function HeroSection() {
           <h2 className="mt-3 text-primary font-medium">
             Trusted Moving Company In UAE
           </h2>
-          <p className=" mt-5 md:text-lg p-1">
+          {/* <p className=" mt-5 md:text-lg p-1">
             Trusted movers for homes, offices, and businesses, offering
             reliable, efficient, and affordable relocation services. Experience
             stress-free moving with expert handling and unmatched customer care.
-          </p>
+          </p> */}
           <div className="mt-6 flex items-center justify-center gap-x-6">
             <Link href="/contact-us">
               <Button size={"lg"}>Get a Quote</Button>

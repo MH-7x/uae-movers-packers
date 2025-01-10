@@ -11,7 +11,6 @@ const roboto = Poppins({
   weight: ["400", "500", "700", "800"],
   fallback: ["sans-serif"],
   preload: true,
-  display: "swap",
 });
 export const metadata: Metadata = {
   applicationName: "RWahab Movers UAE",
