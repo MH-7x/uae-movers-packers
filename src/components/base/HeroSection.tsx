@@ -21,18 +21,18 @@ function HeroSection() {
             </a>
           </div>
         </div>
-        <div className="md:text-center text-start">
+        <div id="hero" className="md:text-center text-start">
           <h1 className=" sm:text-6xl text-4xl uppercase">
             <span className="text-primary">RWahab</span> Movers In UAE
           </h1>
           <h2 className="mt-3 text-primary font-medium">
             Trusted Moving Company In UAE
           </h2>
-          {/* <p className=" mt-5 md:text-lg p-1">
+          <p>
             Trusted movers for homes, offices, and businesses, offering
             reliable, efficient, and affordable relocation services. Experience
             stress-free moving with expert handling and unmatched customer care.
-          </p> */}
+          </p>
           <div className="mt-6 flex items-center justify-center gap-x-6">
             <Link href="/contact-us">
               <Button size={"lg"}>Get a Quote</Button>
