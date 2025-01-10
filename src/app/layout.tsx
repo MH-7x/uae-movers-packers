@@ -37,12 +37,12 @@ export default function RootLayout({
   return (
     <html lang="en-AE">
       <Script
-        strategy="afterInteractive"
+        strategy="lazyOnload"
         src="https://analytics.ahrefs.com/analytics.js"
         data-key="vJkQXO12D4BgqaV3I3C26Q"
         async
       />
-      <body className={`${poppins.className}`}>
+      <body className={`h-auto ${poppins.className}`}>
         <svg
           aria-hidden={true}
           xmlns="http://www.w3.org/2000/svg"

@@ -20,7 +20,6 @@ function WhyChooseUs() {
                 src={"/images/team.svg"}
                 width={40}
                 height={40}
-                loading="eager"
                 alt="expert team"
               />
             </Button>
@@ -35,7 +34,6 @@ function WhyChooseUs() {
                 src={"/images/serive.svg"}
                 width={40}
                 height={40}
-                loading="eager"
                 alt="expert team"
               />
             </Button>
@@ -50,7 +48,6 @@ function WhyChooseUs() {
             src={imgSrc}
             alt="Choose UAE Movers and Packers"
             fill
-            loading="eager"
             className="absolute object-cover"
           />
         </div>
@@ -61,7 +58,6 @@ function WhyChooseUs() {
                 src={"/images/transportation.svg"}
                 width={40}
                 height={40}
-                loading="eager"
                 alt="expert team"
               />
             </Button>
@@ -75,7 +71,6 @@ function WhyChooseUs() {
               <Image
                 src={"/images/support.svg"}
                 width={40}
-                loading="eager"
                 height={40}
                 alt="expert team"
               />
