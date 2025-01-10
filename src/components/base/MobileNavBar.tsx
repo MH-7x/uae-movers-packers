@@ -41,6 +41,7 @@ function MobileNavBar() {
               alt="RWahab Movers UAE"
               fill
               id="logo"
+              priority
               loading="eager"
               className="object-contain absolute"
             />
