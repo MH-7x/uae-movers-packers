@@ -9,8 +9,8 @@ function WhyChooseUs() {
       <p className="mx-auto md:px-4 py-2 text-primary bg-primary/10 rounded-2xl font-semibold w-max">
         Why Choose Us
       </p>
-      <h2 className="text-center md:text-4xl text-3xl mt-3">
-        Why Choose RWahab <br /> Movers Company?
+      <h2 className="text-center md:text-4xl text-[25px] mt-3">
+        Why Choose RWahab <br /> Movers UAE Company?
       </h2>
       <div className="mt-24 md:w-11/12 mx-auto w-full grid md:grid-cols-3 gap-x-8 gap-y-4 grid-cols-1">
         <div className="col-span-1 grid grid-rows-2 min-h-96  gap-y-4">

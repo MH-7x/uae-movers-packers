@@ -5,6 +5,18 @@ html body {
   scroll-behavior: smooth;
 }
 body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
   @apply antialiased;
 }
 h1 {
@@ -27,7 +39,7 @@ article p {
   @apply text-base;
 }
 article h2 {
-  @apply my-5 text-xl;
+  @apply my-5 md:text-2xl text-xl;
 }
 
 article li {
@@ -107,7 +119,7 @@ article li {
   width: 100%;
   height: 100%;
   z-index: -10; /* Keeps it in the background */
-  opacity: 0.06; /* Adjust transparency */
+  opacity: 0.05; /* Adjust transparency */
   pointer-events: none; /* Makes sure it doesn't interfere with user interactions */
 }
 .g li {

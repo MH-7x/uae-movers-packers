@@ -44,7 +44,6 @@ export default function MoversRasAlKhaimah() {
   return (
     <>
       <ServiceHeroSection
-        city="Ras Al Khaimah"
         title="Reliable Moving Company In"
         subtitle="Professional Movers and Packers In Ras Al Khaimah"
         description="Searching for expert movers in Ras Al Khaimah? RWahab Movers UAE offers seamless local and international relocation services for homes and businesses."

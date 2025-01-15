@@ -17,9 +17,9 @@ import ServiceHeroSection from "@/components/base/ServiceHeroSection";
 import ServiceFeatured from "@/components/base/ServiceFeatured";
 
 export const metadata: Metadata = {
-  title: "Movers and Packers Sharjah | Best and Professional Company",
+  title: "Movers and Packers in Sharjah | Affordable & Professional Relocation",
   description:
-    "Best movers and packers in Sharjah. RWahab Movers UAE provides expert relocation services with unmatched professionalism. Get a free estimate today!",
+    "Need reliable movers in Sharjah? We offer professional moving and packing services, including house shifting, villa relocation, and furniture moving in Sharjah, UAE. Call now!",
   alternates: {
     canonical: `${process.env.PUBLIC_URL}/movers-and-packers-sharjah`,
   },
@@ -31,9 +31,10 @@ export const metadata: Metadata = {
     faxNumbers: "+971 123456789",
     phoneNumbers: "+971 123456789",
     siteName: "RWahab Movers UAE",
-    title: "Movers and Packers Sharjah | Best and Professional Company",
+    title:
+      "Movers and Packers in Sharjah | Affordable & Professional Relocation",
     description:
-      "Best movers and packers in Sharjah. RWahab Movers UAE provides expert relocation services with unmatched professionalism. Get a free estimate today!",
+      "Need reliable movers in Sharjah? We offer professional moving and packing services, including house shifting, villa relocation, and furniture moving in Sharjah, UAE. Call now!",
     url: `${process.env.PUBLIC_URL}/movers-and-packers-sharjah`,
     images: `${process.env.PUBLIC_URL}/cities/movers-packers-sharjah.jpg`,
   },
@@ -43,9 +44,8 @@ export default function MoversAbuDhabi() {
   return (
     <>
       <ServiceHeroSection
-        city="Sharjah"
-        title="Cheap Moving Company In"
-        subtitle="Top Rated Movers and Packers In Sharjah"
+        title="Top Movers and Packers in Sharjah – Your Trusted Relocation Experts"
+        subtitle="Modern Relocation Services in Sharjah"
         description="Need reliable movers in Sharjah or Dubai? RWahab Movers UAE offers stress-free local and international relocation services for homes and businesses."
       />
       <ServiceFeatured

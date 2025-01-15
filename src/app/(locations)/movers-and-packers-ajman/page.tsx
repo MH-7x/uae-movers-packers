@@ -17,9 +17,9 @@ import ServiceHeroSection from "@/components/base/ServiceHeroSection";
 import ServiceFeatured from "@/components/base/ServiceFeatured";
 
 export const metadata: Metadata = {
-  title: "Movers and Packers Ajman | Affordable and Professional Services",
+  title: "Movers and Packers in Ajman | Reliable Home & Furniture Shifting",
   description:
-    "Searching for affordable movers and packers in Ajman? RWahab Movers UAE provides professional relocation services for homes, offices, and more. Contact us now!",
+    "Looking for the best movers in Ajman? Our professional movers and packers offer reliable house shifting, furniture moving, and affordable relocation services. Contact us today!",
   alternates: {
     canonical: `${process.env.PUBLIC_URL}/movers-and-packers-ajman`,
   },
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
     faxNumbers: "+971 123456789",
     phoneNumbers: "+971 123456789",
     siteName: "RWahab Movers UAE",
-    title: "Movers and Packers Ajman | Affordable and Professional Services",
+    title: "Movers and Packers in Ajman | Reliable Home & Furniture Shifting",
     description:
-      "Searching for affordable movers and packers in Ajman? RWahab Movers UAE provides professional relocation services for homes, offices, and more. Contact us now!",
+      "Looking for the best movers in Ajman? Our professional movers and packers offer reliable house shifting, furniture moving, and affordable relocation services. Contact us today!",
     url: `${process.env.PUBLIC_URL}/movers-and-packers-ajman`,
     images: `${process.env.PUBLIC_URL}/cities/movers-packers-ajman.jpg`,
   },
@@ -43,8 +43,7 @@ export default function MoversAjman() {
   return (
     <>
       <ServiceHeroSection
-        city="Ajman"
-        title="Affordable Moving Company And Packing In"
+        title="Professional Movers and Packers in Ajman – Hassle-Free Relocation Services"
         subtitle="Top Movers and Packers In Ajman"
         description="Looking for reliable movers in Ajman? RWahab Movers UAE provides hassle-free local and international moving services for homes and businesses."
       />

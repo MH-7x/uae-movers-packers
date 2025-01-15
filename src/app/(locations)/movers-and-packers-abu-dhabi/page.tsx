@@ -17,9 +17,9 @@ import ServiceHeroSection from "@/components/base/ServiceHeroSection";
 import ServiceFeatured from "@/components/base/ServiceFeatured";
 
 export const metadata: Metadata = {
-  title: "Movers and Packers Abu Dhabi | Best and Professional Company",
+  title: "Movers and Packers in Abu Dhabi | Professional & Affordable Services",
   description:
-    "Reliable movers and packers in Abu Dhabi. RWahab Movers UAE offers professional and affordable moving services tailored to your needs. Get a free quote today!",
+    "Looking for movers in Abu Dhabi? We provide professional moving and packing services, including house shifting, furniture moving, and removals at affordable rates. Contact us today!",
   alternates: {
     canonical: `${process.env.PUBLIC_URL}/movers-and-packers-abu-dhabi`,
   },
@@ -31,9 +31,10 @@ export const metadata: Metadata = {
     faxNumbers: "+971 123456789",
     phoneNumbers: "+971 123456789",
     siteName: "RWahab Movers UAE",
-    title: "Movers and Packers Abu Dhabi | Best and Professional Company",
+    title:
+      "Movers and Packers in Abu Dhabi | Professional & Affordable Services",
     description:
-      "Reliable movers and packers in Abu Dhabi. RWahab Movers UAE offers professional and affordable moving services tailored to your needs. Get a free quote today!",
+      "Looking for movers in Abu Dhabi? We provide professional moving and packing services, including house shifting, furniture moving, and removals at affordable rates. Contact us today!",
     url: `${process.env.PUBLIC_URL}/movers-and-packers-abu-dhabi`,
     images: `${process.env.PUBLIC_URL}/cities/movers-packers-abuDhabi.jpg`,
   },
@@ -43,8 +44,7 @@ export default function MoversAbuDhabi() {
   return (
     <>
       <ServiceHeroSection
-        city="Abu Dhabi"
-        title="Top Movers And Packers In"
+        title="Trusted Movers and Packers in Abu Dhabi – Reliable Moving Services"
         subtitle="Choose Best Moving Company Within Abu Dhabi"
         description="Moving within Abu Dhabi or abroad? RWahab Movers UAE provides reliable, hassle-free relocation services for homes and businesses in Abu Dhabi, Dubai, and beyond."
       />

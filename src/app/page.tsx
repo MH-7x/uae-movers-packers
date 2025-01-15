@@ -11,11 +11,12 @@ import UsedFurnitures from "@/components/base/UsedFurnitures";
 import MovingServicesTable from "@/components/base/PricingTable";
 import type { Metadata } from "next";
 import { generateJSONLD } from "@/lib/GenreateJSONLD";
+import LocationsSlider from "@/components/base/LocationsSlider";
 
 export const metadata: Metadata = {
-  title: "Professional Movers and Packers in Dubai | RWahab Movers UAE",
+  title: "Professional Movers in Dubai, UAE | Movers and Packers",
   description:
-    "Affordable and reliable movers and packers in Dubai. RWahab Movers UAE offers professional moving services tailored to your needs. Get a free quote today!",
+    "With 6 years of experience, Hamdan Movers and Packers has become UAE’s most trusted name in relocation services. We take pride in offering premium moving and packing solutions tailored to your needs, ensuring every move is a success",
   alternates: {
     canonical: process.env.PUBLIC_URL,
   },
@@ -27,9 +28,9 @@ export const metadata: Metadata = {
     faxNumbers: "+971 123456789",
     phoneNumbers: "+971 123456789",
     siteName: "RWahab Movers UAE",
-    title: "Professional Movers and Packers in Dubai | RWahab Movers UAE",
+    title: "Professional Movers in Dubai, UAE | Movers and Packers",
     description:
-      "Affordable and reliable movers and packers in Dubai. RWahab Movers UAE offers professional moving services tailored to your needs. Get a free quote today!",
+      "With 6 years of experience, Hamdan Movers and Packers has become UAE’s most trusted name in relocation services. We take pride in offering premium moving and packing solutions tailored to your needs, ensuring every move is a success",
     images: `${process.env.PUBLIC_URL}/images/R-Wahab-Movers-UAE.jpg`,
     url: process.env.PUBLIC_URL,
   },
@@ -47,8 +48,9 @@ export default function Home() {
         <AboutUsSection />
         <WhyChooseUs />
         <Serivces />
-        <Process />
         <UsedFurnitures />
+        <LocationsSlider />
+        <Process />
         <WhyChooseUsTwo
           content={[
             {

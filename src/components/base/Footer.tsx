@@ -1,270 +1,260 @@
 import Image from "next/image";
 import React from "react";
-import icon from "../../../public/logo.png";
+import icon from "../../../public/images/logo.png";
 import { locations, services, usedFurniture } from "@/constants/services";
 import Link from "next/link";
+
+const icons = [
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="30px"
+        height="30px"
+        viewBox="0 0 24 24"
+        fill="none"
+      >
+        <path
+          d="M22 12C22 6.47714 17.5229 1.99999 12 1.99999C6.47715 1.99999 2 6.47714 2 12C2 16.9913 5.65686 21.1283 10.4375 21.8785V14.8906H7.89844V12H10.4375V9.79687C10.4375 7.29062 11.9304 5.90624 14.2146 5.90624C15.3087 5.90624 16.4531 6.10155 16.4531 6.10155V8.56249H15.1921C13.9499 8.56249 13.5625 9.33333 13.5625 10.1242V12H16.3359L15.8926 14.8906H13.5625V21.8785C18.3431 21.1283 22 16.9913 22 12Z"
+          fill="#2e2e2e"
+        />
+      </svg>
+    ),
+    link: "https://web.facebook.com/profile.php?id=61571587026129",
+    name: "Our Facebook Page",
+  },
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        fill="#2e2e2e"
+        height="24px"
+        width="24px"
+        version="1.1"
+        id="Layer_1"
+        viewBox="0 0 310 310"
+        xmlSpace="preserve"
+      >
+        <g id="XMLID_801_">
+          <path
+            id="XMLID_802_"
+            d="M72.16,99.73H9.927c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5H72.16c2.762,0,5-2.238,5-5V104.73   C77.16,101.969,74.922,99.73,72.16,99.73z"
+          />
+          <path
+            id="XMLID_803_"
+            d="M41.066,0.341C18.422,0.341,0,18.743,0,41.362C0,63.991,18.422,82.4,41.066,82.4   c22.626,0,41.033-18.41,41.033-41.038C82.1,18.743,63.692,0.341,41.066,0.341z"
+          />
+          <path
+            id="XMLID_804_"
+            d="M230.454,94.761c-24.995,0-43.472,10.745-54.679,22.954V104.73c0-2.761-2.238-5-5-5h-59.599   c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5h62.097c2.762,0,5-2.238,5-5v-98.918c0-33.333,9.054-46.319,32.29-46.319   c25.306,0,27.317,20.818,27.317,48.034v97.204c0,2.762,2.238,5,5,5H305c2.762,0,5-2.238,5-5V194.995   C310,145.43,300.549,94.761,230.454,94.761z"
+          />
+        </g>
+      </svg>
+    ),
+    link: "https://www.linkedin.com",
+    name: "Our Linkedin Company Profile",
+  },
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="30px"
+        height="30px"
+        viewBox="0 0 24 24"
+        fill="none"
+      >
+        <path
+          d="M2 12C2 16.2692 4.67583 19.9142 8.44167 21.3483C8.35 20.5675 8.2525 19.28 8.4625 18.3767C8.64333 17.6 9.63 13.4283 9.63 13.4283C9.63 13.4283 9.3325 12.8325 9.3325 11.95C9.3325 10.5667 10.1342 9.53333 11.1333 9.53333C11.9833 9.53333 12.3933 10.1708 12.3933 10.935C12.3933 11.7892 11.8492 13.0658 11.5683 14.25C11.3342 15.2408 12.0658 16.0492 13.0425 16.0492C14.8117 16.0492 16.1725 14.1833 16.1725 11.49C16.1725 9.10583 14.4592 7.44 12.0133 7.44C9.18167 7.44 7.51917 9.56417 7.51917 11.76C7.51917 12.6158 7.84833 13.5325 8.26 14.0317C8.2951 14.0694 8.3199 14.1155 8.33201 14.1655C8.34412 14.2156 8.34314 14.2679 8.32917 14.3175C8.25333 14.6325 8.085 15.3083 8.0525 15.4467C8.00833 15.6283 7.90833 15.6675 7.71917 15.5792C6.47583 15.0008 5.69917 13.1833 5.69917 11.7233C5.69917 8.5825 7.98 5.69917 12.2758 5.69917C15.7292 5.69917 18.4133 8.16 18.4133 11.4483C18.4133 14.8792 16.2508 17.6408 13.2475 17.6408C12.2383 17.6408 11.2908 17.1158 10.9658 16.4967C10.9658 16.4967 10.4667 18.3983 10.3458 18.8633C10.1108 19.7667 9.45917 20.91 9.055 21.5592C9.98667 21.8458 10.975 22 12 22C17.5225 22 22 17.5225 22 12C22 6.4775 17.5225 2 12 2C6.4775 2 2 6.4775 2 12Z"
+          fill="#2e2e2e"
+        />
+      </svg>
+    ),
+    link: "https://www.pinterest.com",
+    name: "Our pinterest Company Profile",
+  },
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="30px"
+        height="30px"
+        viewBox="0 0 24 24"
+        fill="none"
+      >
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M12 2C9.284 2 8.944 2.01133 7.87733 2.06C6.81267 2.10867 6.08533 2.278 5.44933 2.52533C4.78267 2.776 4.178 3.16933 3.678 3.67867C3.16948 4.17809 2.77591 4.78233 2.52467 5.44933C2.27867 6.08533 2.10867 6.81333 2.06 7.878C2.012 8.944 2 9.28333 2 12C2 14.7167 2.01133 15.056 2.06 16.1227C2.10867 17.1873 2.278 17.9147 2.52533 18.5507C2.776 19.2173 3.16933 19.822 3.67867 20.322C4.1781 20.8305 4.78234 21.2241 5.44933 21.4753C6.08533 21.722 6.81267 21.8913 7.87733 21.94C8.944 21.9887 9.284 22 12 22C14.716 22 15.056 21.9887 16.1227 21.94C17.1873 21.8913 17.9147 21.722 18.5507 21.4747C19.2173 21.224 19.822 20.8307 20.322 20.3213C20.8305 19.8219 21.2241 19.2177 21.4753 18.5507C21.722 17.9147 21.8913 17.1873 21.94 16.1227C21.9887 15.056 22 14.716 22 12C22 9.284 21.9887 8.944 21.94 7.87733C21.8913 6.81267 21.722 6.08533 21.4747 5.44933C21.2236 4.78204 20.83 4.17755 20.3213 3.678C19.8219 3.16948 19.2177 2.77591 18.5507 2.52467C17.9147 2.27867 17.1867 2.10867 16.122 2.06C15.056 2.012 14.7167 2 12 2ZM12 3.802C14.67 3.802 14.9867 3.812 16.0413 3.86C17.016 3.90467 17.5453 4.06667 17.898 4.20467C18.3647 4.38533 18.698 4.60267 19.048 4.952C19.398 5.302 19.6147 5.63533 19.7953 6.102C19.9327 6.45467 20.0953 6.984 20.14 7.95867C20.188 9.01333 20.198 9.33 20.198 12C20.198 14.67 20.188 14.9867 20.14 16.0413C20.0953 17.016 19.9333 17.5453 19.7953 17.898C19.6353 18.3324 19.3799 18.7253 19.048 19.048C18.7254 19.38 18.3324 19.6354 17.898 19.7953C17.5453 19.9327 17.016 20.0953 16.0413 20.14C14.9867 20.188 14.6707 20.198 12 20.198C9.32933 20.198 9.01333 20.188 7.95867 20.14C6.984 20.0953 6.45467 19.9333 6.102 19.7953C5.66764 19.6353 5.27467 19.3799 4.952 19.048C4.62012 18.7253 4.36475 18.3323 4.20467 17.898C4.06733 17.5453 3.90467 17.016 3.86 16.0413C3.812 14.9867 3.802 14.67 3.802 12C3.802 9.33 3.812 9.01333 3.86 7.95867C3.90467 6.984 4.06667 6.45467 4.20467 6.102C4.38533 5.63533 4.60267 5.302 4.952 4.952C5.27463 4.62003 5.66761 4.36465 6.102 4.20467C6.45467 4.06733 6.984 3.90467 7.95867 3.86C9.01333 3.812 9.33 3.802 12 3.802Z"
+          fill="#2e2e2e"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M12 15.3367C11.5618 15.3367 11.128 15.2504 10.7231 15.0827C10.3183 14.915 9.95047 14.6692 9.64064 14.3594C9.3308 14.0495 9.08502 13.6817 8.91734 13.2769C8.74965 12.8721 8.66335 12.4382 8.66335 12C8.66335 11.5618 8.74965 11.1279 8.91734 10.7231C9.08502 10.3183 9.3308 9.95046 9.64064 9.64062C9.95047 9.33078 10.3183 9.08501 10.7231 8.91732C11.128 8.74964 11.5618 8.66333 12 8.66333C12.885 8.66333 13.7336 9.01487 14.3594 9.64062C14.9851 10.2664 15.3367 11.1151 15.3367 12C15.3367 12.8849 14.9851 13.7336 14.3594 14.3594C13.7336 14.9851 12.885 15.3367 12 15.3367ZM12 6.86C10.6368 6.86 9.32942 7.40153 8.36549 8.36547C7.40155 9.32941 6.86002 10.6368 6.86002 12C6.86002 13.3632 7.40155 14.6706 8.36549 15.6345C9.32942 16.5985 10.6368 17.14 12 17.14C13.3632 17.14 14.6706 16.5985 15.6345 15.6345C16.5985 14.6706 17.14 13.3632 17.14 12C17.14 10.6368 16.5985 9.32941 15.6345 8.36547C14.6706 7.40153 13.3632 6.86 12 6.86ZM18.6353 6.76667C18.6353 7.0889 18.5073 7.39794 18.2795 7.6258C18.0516 7.85366 17.7426 7.98167 17.4204 7.98167C17.0981 7.98167 16.7891 7.85366 16.5612 7.6258C16.3334 7.39794 16.2053 7.0889 16.2053 6.76667C16.2053 6.44443 16.3334 6.13539 16.5612 5.90753C16.7891 5.67968 17.0981 5.55167 17.4204 5.55167C17.7426 5.55167 18.0516 5.67968 18.2795 5.90753C18.5073 6.13539 18.6353 6.44443 18.6353 6.76667Z"
+          fill="#2e2e2e"
+        />
+      </svg>
+    ),
+    link: "https://www.instagram.com",
+    name: "Our pinterest instagram Profile",
+  },
+  {
+    icon: (
+      <svg
+        fill="#2e2e2e"
+        width="30px"
+        height="30px"
+        viewBox="0 0 32 32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title />
+
+        <g id="Location">
+          <path d="M26.49,30H5.5A3.35,3.35,0,0,1,3,29a3.35,3.35,0,0,1-1-2.48V5.5A3.35,3.35,0,0,1,3,3,3.35,3.35,0,0,1,5.5,2h21A3.35,3.35,0,0,1,29,3,3.35,3.35,0,0,1,30,5.5v21A3.52,3.52,0,0,1,26.49,30ZM16,21.47a.46.46,0,0,0,.38-.23h.06q.12-.3,4.26-6.44a5.19,5.19,0,0,0,.67-2.63,5.19,5.19,0,0,0-1.57-3.82A5.12,5.12,0,0,0,16,6.76a5.18,5.18,0,0,0-3.83,1.58,5.17,5.17,0,0,0-1.59,3.82A5.11,5.11,0,0,0,11.41,15c.55.85,1.13,1.69,1.72,2.54l2.43,3.67A.51.51,0,0,0,16,21.47Zm0,3.83a5.25,5.25,0,0,0,1.64-.22c.46-.15.69-.32.69-.52s-.23-.39-.69-.54A5.25,5.25,0,0,0,16,23.8a5.29,5.29,0,0,0-1.64.22q-.69.23-.69.54c0,.2.23.37.69.52A5.29,5.29,0,0,0,16,25.3Zm.1-10.4a2.24,2.24,0,0,1-1.53-.56,2.15,2.15,0,0,1-.18-3,2,2,0,0,1,1.55-.76,2.16,2.16,0,0,1,1.5.56,2,2,0,0,1,.72,1.56,2.19,2.19,0,0,1-.55,1.5A2.11,2.11,0,0,1,16.07,14.9Z" />
+        </g>
+      </svg>
+    ),
+    link: "https://maps.app.goo.gl/G2B2jjFCcAazjkyq5",
+    name: "Our Map Location",
+  },
+];
+
 function Footer() {
   return (
-    <footer className="bg-white mt-10">
-      <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="lg:flex lg:items-start lg:gap-8">
+    <footer className="relative w-full mt-20 bg-gray-100 py-10">
+      <div className="w-full md:px-8 px-3 mx-auto max-w-7xl">
+        <div className="grid justify-between grid-cols-1 gap-4 md:grid-cols-2">
           <div>
-            <Image
-              src={icon}
-              width={100}
-              height={100}
-              alt="uae movers and packers"
-            />
-          </div>
-
-          <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
-            <div className="col-span-2">
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900">
-                  Get Connect With Us
-                </h2>
-
-                <p className="mt-4 text-gray-600">
-                  Contact us for seamless moving, expert packing, and quality
-                  used furniture solutions!
-                </p>
-              </div>
-            </div>
-
-            <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end">
-              <form className="w-full">
-                <label htmlFor="UserEmail" className="sr-only">
-                  {" "}
-                  Email{" "}
-                </label>
-
-                <div className="border border-gray-100 p-2  sm:flex sm:items-center sm:gap-4">
-                  <input
-                    type="email"
-                    id="UserEmail"
-                    placeholder="john@rhcp.com"
-                    className="w-full border-none focus:border-transparent outline-none sm:text-sm"
-                  />
-
-                  <button className="mt-4 w-full bg-primary px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-black sm:mt-0 sm:w-auto sm:shrink-0">
-                    Send Email
-                  </button>
-                </div>
-              </form>
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Services</p>
-
-              <ul className="mt-6 space-y-4 text-sm">
-                {services.map((service) => (
-                  <li key={service.name} aria-label={service.name}>
-                    <Link
-                      href={service.link}
-                      className="text-gray-700 transition hover:text-primary"
-                    >
-                      {service.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">All Locations</p>
-
-              <ul className="mt-6 space-y-4 text-sm">
-                {locations.map((location) => (
-                  <li key={location.name} aria-label={location.name}>
-                    <Link
-                      href={location.link}
-                      className="text-gray-700 transition hover:text-primary"
-                    >
-                      {location.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Used Furnitures</p>
-
-              <ul className="mt-6 space-y-4 text-sm">
-                {usedFurniture.map((furniture) => (
-                  <li key={furniture.name} aria-label={furniture.name}>
-                    <Link
-                      href={furniture.link}
-                      className="text-gray-700 transition hover:text-primary"
-                    >
-                      {furniture.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Company</p>
-
-              <ul className="mt-6 space-y-4 text-sm">
-                <li>
-                  <Link
-                    href="/about-us"
-                    className="text-gray-700 transition hover:text-primary"
-                  >
-                    About Us
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    href="/contact-us"
-                    className="text-gray-700 transition hover:text-primary"
-                  >
-                    Contact Us
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-8 border-t border-gray-100 pt-5">
-          <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-center">
-            <li>
-              <a
-                href="#"
-                rel="noreferrer"
-                target="_blank"
-                className="text-gray-700 transition hover:text-blue-600"
-              >
-                <span className="sr-only">Facebook</span>
-
-                <svg
-                  className="size-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                rel="noreferrer"
-                target="_blank"
-                className="text-gray-700 transition hover:text-primary"
-              >
-                <span className="sr-only">Whatsapp</span>
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path d="M12.036 5.339c-3.635 0-6.591 2.956-6.593 6.589-.001 1.483.434 2.594 1.164 3.756l-.666 2.432 2.494-.654c1.117.663 2.184 1.061 3.595 1.061 3.632 0 6.591-2.956 6.592-6.59.003-3.641-2.942-6.593-6.586-6.594zm3.876 9.423c-.165.463-.957.885-1.337.942-.341.051-.773.072-1.248-.078-.288-.091-.657-.213-1.129-.417-1.987-.858-3.285-2.859-3.384-2.991-.099-.132-.809-1.074-.809-2.049 0-.975.512-1.454.693-1.653.182-.2.396-.25.528-.25l.38.007c.122.006.285-.046.446.34.165.397.561 1.372.611 1.471.049.099.083.215.016.347-.066.132-.099.215-.198.33l-.297.347c-.099.099-.202.206-.087.404.116.198.513.847 1.102 1.372.757.675 1.395.884 1.593.983.198.099.314.083.429-.05.116-.132.495-.578.627-.777s.264-.165.446-.099 1.156.545 1.354.645c.198.099.33.149.38.231.049.085.049.482-.116.945zm3.088-14.762h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-6.967 19.862c-1.327 0-2.634-.333-3.792-.965l-4.203 1.103 1.125-4.108c-.694-1.202-1.059-2.566-1.058-3.964.002-4.372 3.558-7.928 7.928-7.928 2.121.001 4.112.827 5.609 2.325s2.321 3.491 2.32 5.609c-.002 4.372-3.559 7.928-7.929 7.928z" />
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                rel="noreferrer"
-                target="_blank"
-                className="text-gray-700 transition hover:text-primary"
-              >
-                <span className="sr-only">TikTok</span>
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6"
-                  fill="currentColor"
-                  aria-hidden="true"
-                  viewBox="0 0 50 50"
-                >
-                  <path d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z"></path>
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                rel="noreferrer"
-                target="_blank"
-                className="text-gray-700 transition hover:text-primary"
-              >
-                <span className="sr-only">Gmail</span>
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="size-6"
-                  fill="currentColor"
-                  aria-hidden="true"
-                  viewBox="0 0 50 50"
-                >
-                  <path d="M12 23.403V23.39 10.389L11.88 10.3h-.01L9.14 8.28C7.47 7.04 5.09 7.1 3.61 8.56 2.62 9.54 2 10.9 2 12.41v3.602L12 23.403zM38 23.39v.013l10-7.391V12.41c0-1.49-.6-2.85-1.58-3.83-1.46-1.457-3.765-1.628-5.424-.403L38.12 10.3 38 10.389V23.39zM14 24.868l10.406 7.692c.353.261.836.261 1.189 0L36 24.868V11.867L25 20l-11-8.133V24.868zM38 25.889V41c0 .552.448 1 1 1h6.5c1.381 0 2.5-1.119 2.5-2.5V18.497L38 25.889zM12 25.889L2 18.497V39.5C2 40.881 3.119 42 4.5 42H11c.552 0 1-.448 1-1V25.889z"></path>
-                </svg>
-              </a>
-            </li>
-          </ul>
-          <div className="sm:flex sm:justify-between">
-            <p className="text-sm text-gray-600">
-              &copy; 2024. <span className="text-primary">Brighthome</span>. All
-              rights reserved.
+            <Image src={icon} alt="logo" width={180} height={180} />
+            <p className="text-muted-foreground text-sm mt-3">
+              RWahab Movers UAE, established in 2015, specializes in safe and
+              efficient villa and house relocations across the UAE. With insured
+              services, modern equipment, and a focus on customer satisfaction,
+              we’re the trusted choice for stress-free moves.
             </p>
-
-            <ul className="mt-8 flex flex-wrap justify-start gap-4 text-sm sm:mt-0 lg:justify-end">
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-600 transition hover:text-primary"
-                >
-                  {" "}
-                  Terms & Conditions{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-600 transition hover:text-primary"
-                >
-                  {" "}
-                  Privacy Policy{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-600 transition hover:text-primary"
-                ></a>
-              </li>
+            <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
+              <p>Address :</p>
+              <address style={{ fontStyle: "normal" }}>
+                Building No. 12, Street 4 Al Yarmook, Sharjah UAE
+              </address>
+            </div>
+            <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
+              <p>Phone No. :</p>
+              <p>+971 50 3806855</p>
+            </div>
+            <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
+              <p>Open Hours. :</p>
+              <p>Open 24/7, except closed on Fridays.</p>
+            </div>
+            <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
+              <p>Email. :</p>
+              <p>rwahabmoversuae@gmail.com</p>
+            </div>
+          </div>
+          <div className="grid justify-between md:grid-cols-3 grid-cols-1 gap-5">
+            <ul>
+              <p className="block mb-1 text-base font-semibold  text-slate-800">
+                Services
+              </p>
+              {services.map((service) => (
+                <li key={service.name}>
+                  <Link
+                    aria-label={service.name}
+                    href={service.link}
+                    className="md:block text-slate-700 py-1 hover:text-slate-500 focus:text-slate-500 text-sm"
+                  >
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <ul>
+              <p className="block mb-1 text-base font-semibold  text-slate-800">
+                Locations Areas
+              </p>
+              {locations.map((location) => (
+                <li key={location.name}>
+                  <Link
+                    aria-label={location.name}
+                    href={location.link}
+                    className="md:block text-slate-700 py-1 hover:text-slate-500 focus:text-slate-500 text-sm"
+                  >
+                    Movers in{" "}
+                    {
+                      location.name.split(" ")[
+                        location.name.split(" ").length - 1
+                      ]
+                    }
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <ul>
+              <p className="block mb-1 text-base font-semibold  text-slate-800">
+                Used Furniture
+              </p>
+              {usedFurniture.map((location) => (
+                <li key={location.name}>
+                  <Link
+                    aria-label={location.name}
+                    href={location.link}
+                    className="md:block text-slate-700 py-1 hover:text-slate-500 focus:text-slate-500 text-sm"
+                  >
+                    Used Furniture in{" "}
+                    {
+                      location.name.split(" ")[
+                        location.name.split(" ").length - 1
+                      ]
+                    }
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
+        <div className="flex flex-col gap-2 items-center justify-center w-full py-4 mt-12 border-t border-slate-200 md:flex-row md:justify-between">
+          <div className="flex gap-4 text-slate-600 justify-center">
+            {icons.map((icon) => (
+              <Link
+                key={icon.name}
+                aria-label={icon.name}
+                href={icon.link}
+                title={icon.name}
+                target="_blank"
+              >
+                {icon.icon}
+              </Link>
+            ))}
+          </div>
+          <ul className="flex flex-wrap gap-2 text-sm md:justify-start justify-center">
+            <li className="text-muted-foreground hover:text-black">
+              <Link href={"/about-us"}>About Us</Link>
+            </li>
+            <li className="text-muted-foreground hover:text-black">
+              <Link href={"/contact-us"}>Contact Us</Link>
+            </li>
+            <li className="text-muted-foreground hover:text-black">
+              <Link href={"/"}>Privacy Policy</Link>
+            </li>
+            <li className="text-muted-foreground hover:text-black">
+              <Link href={"/"}>Terms & Conditions</Link>
+            </li>
+          </ul>
+        </div>
+        <p className="text-sm text-muted-foreground text-center mt-3">
+          Design & Developed by{" "}
+          <Link
+            target="_blank"
+            className="text-primary"
+            href={
+              "https://wa.me/+923471309916?text=Hi%20Mashal%20Are%20You%20Available%20For%20Work"
+            }
+          >
+            Mashal Huraira
+          </Link>
+        </p>
       </div>
-      <p className="text-center text-sm text-gray-600 -mt-10">
-        Develop by{" "}
-        <Link
-          href={
-            "https://wa.me/+923471309916?text=Hello%20Mashal,%20I%20Need%20Your%20Service%20!"
-          }
-          className="text-primary"
-        >
-          Mashal Huraira
-        </Link>{" "}
-      </p>
     </footer>
   );
 }

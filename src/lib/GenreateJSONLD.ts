@@ -23,8 +23,8 @@ export function generateJSONLD() {
         },
         thumbnailUrl:
           "https://rwahabmoversuae.com/images/R-Wahab-Movers-UAE.jpg",
-        datePublished: "2025-01-05T08:00:00+00:00",
-        dateModified: "2025-01-05T08:00:00+00:00",
+        datePublished: new Date().toISOString(),
+        dateModified: new Date().toISOString(),
         description:
           "Looking for affordable and reliable movers and packers in Dubai? RWahab Movers UAE offers professional moving services tailored to your needs. Get a free quote today!",
         breadcrumb: {
@@ -35,31 +35,6 @@ export function generateJSONLD() {
           {
             "@type": "ReadAction",
             target: ["https://rwahabmoversuae.com"],
-          },
-        ],
-      },
-
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://rwahabmoversuae.com#breadcrumb",
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: "Home",
-            item: "https://rwahabmoversuae.com",
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Movers in Dubai",
-            item: "https://rwahabmoversuae.com/movers-and-packers-dubai",
-          },
-          {
-            "@type": "ListItem",
-            position: 3,
-            name: "Movers in Sharjah",
-            item: "https://rwahabmoversuae.com/movers-and-packers-sharjah",
           },
         ],
       },
@@ -86,6 +61,97 @@ export function generateJSONLD() {
         ],
         inLanguage: "en-AE",
       },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://rwahabmoversuae.com#breadcrumb",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://rwahabmoversuae.com",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Movers and Packers Dubai",
+            item: "https://rwahabmoversuae.com/movers-and-packers-dubai",
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: "Movers and Packers Abu Dhabi",
+            item: "https://rwahabmoversuae.com/movers-and-packers-abu-dhabi",
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: "Movers and Packers Sharjah",
+            item: "https://rwahabmoversuae.com/movers-and-packers-sharjah",
+          },
+          {
+            "@type": "ListItem",
+            position: 5,
+            name: "Movers and Packers Ajman",
+            item: "https://rwahabmoversuae.com/movers-and-packers-ajman",
+          },
+          {
+            "@type": "ListItem",
+            position: 6,
+            name: "Movers and Packers Ras Al Khaimah",
+            item: "https://rwahabmoversuae.com/movers-and-packers-ras-al-khaimah",
+          },
+          {
+            "@type": "ListItem",
+            position: 7,
+            name: "Movers and Packers Umm Al Quwain",
+            item: "https://rwahabmoversuae.com/movers-and-packers-umm-al-quwain",
+          },
+        ],
+      },
+      {
+        "@type": "Service",
+        name: "Home Moving",
+        description: "Smooth home relocation.",
+        url: "https://rwahabmoversuae.com/home-moving",
+      },
+      {
+        "@type": "Service",
+        name: "Office Moving",
+        description: "Efficient office moves.",
+        url: "https://rwahabmoversuae.com/office-moving",
+      },
+      {
+        "@type": "Service",
+        name: "Heavy Goods Moving",
+        description: "Safe heavy item transport.",
+        url: "https://rwahabmoversuae.com/heavy-goods-moving",
+      },
+      {
+        "@type": "Service",
+        name: "Small / Single Furniture Moving",
+        description: "Quick small furniture moves.",
+        url: "https://rwahabmoversuae.com/small-or-single-furniture-moving",
+      },
+      {
+        "@type": "Service",
+        name: "Moving and Cargo Packing",
+        description: "Secure packing services.",
+        url: "https://rwahabmoversuae.com/moving-and-cargo-packing",
+      },
+      {
+        "@type": "Service",
+        name: "Apartment Moving",
+        description: "Easy apartment moves.",
+        url: "https://rwahabmoversuae.com/apartment-moving",
+      },
+      {
+        "@type": "Service",
+        name: "Appliances Moving",
+        description: "Safe appliance transport.",
+        url: "https://rwahabmoversuae.com/appliances-moving",
+      },
+
       {
         "@type": "Organization",
         name: "RWahab Movers UAE",

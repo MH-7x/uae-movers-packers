@@ -17,9 +17,9 @@ import ServiceHeroSection from "@/components/base/ServiceHeroSection";
 import ServiceFeatured from "@/components/base/ServiceFeatured";
 
 export const metadata: Metadata = {
-  title: "Top Movers and Packers in Dubai | Professional Dubai Movers",
+  title: "Movers and Packers Dubai | Professional Moving Services in UAE",
   description:
-    "Top movers and packers in Dubai with RWahab Movers UAE. Professional, reliable, and efficient moving services for your needs. Request a free quote now!",
+    "Need movers and packers in Dubai? We provide professional moving, furniture, and house packing services at affordable rates. Get top relocation services today!",
   alternates: {
     canonical: `${process.env.PUBLIC_URL}/movers-and-packers-dubai`,
   },
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
     faxNumbers: "+971 123456789",
     phoneNumbers: "+971 123456789",
     siteName: "RWahab Movers UAE",
-    title: "Top Movers and Packers in Dubai | Professional Dubai Movers",
+    title: "Movers and Packers Dubai | Professional Moving Services in UAE",
     description:
-      "Top movers and packers in Dubai with RWahab Movers UAE. Professional, reliable, and efficient moving services for your needs. Request a free quote now!",
+      "Need movers and packers in Dubai? We provide professional moving, furniture, and house packing services at affordable rates. Get top relocation services today!",
     url: `${process.env.PUBLIC_URL}/movers-and-packers-dubai`,
     images: `${process.env.PUBLIC_URL}/cities/movers-packers-dubai.jpg`,
   },
@@ -43,8 +43,7 @@ export default function MoversDubai() {
   return (
     <>
       <ServiceHeroSection
-        city="Dubai"
-        title="Professional Moving & Packing Company in"
+        title="Trusted Movers and Packers in Dubai – Your Professional Moving Partner"
         subtitle=" Seamless Relocation Solutions Across the Dubai"
         description=" Planning a move within the UAE or abroad? RWahab Movers UAE offers
           reliable, stress-free relocation services for individuals, families,
@@ -59,6 +58,7 @@ export default function MoversDubai() {
             },
             ImgSrc: customers,
           },
+
           {
             name: {
               heading: "1540+",

@@ -22,16 +22,16 @@ function HeroSection() {
           </div>
         </div>
         <div id="hero" className="md:text-center text-start">
-          <h1 className=" sm:text-6xl text-4xl uppercase">
-            <span className="text-primary">RWahab</span> Movers In UAE
+          <h1 className=" sm:text-7xl text-4xl uppercase">
+            <span className="text-primary">RWahab</span> Movers UAE
           </h1>
           <h2 className="mt-3 text-primary font-medium">
-            Trusted Moving Company In UAE
+            Professional Moving & Packing Company In UAE
           </h2>
           <p>
-            Trusted movers for homes, offices, and businesses, offering
-            reliable, efficient, and affordable relocation services. Experience
-            stress-free moving with expert handling and unmatched customer care.
+            We&apos;re trusted movers for homes, offices, and businesses,
+            providing reliable and affordable relocation services. With expert
+            care, we make your move simple and stress-free.
           </p>
           <div className="mt-6 flex items-center justify-center gap-x-6">
             <Link href="/contact-us">

@@ -12,7 +12,7 @@ function WhyChooseUsTwo({
 }) {
   return (
     <section className="md:w-11/12 w-full mt-16 mx-auto py-10">
-      <h2 className="text-center md:text-4xl">Why Choose Us !</h2>
+      <h2 className="text-center md:text-4xl">What We Promise !</h2>
       <h3 className="text-center mt-3">Commitment to Quality and Care</h3>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-14">
         {content.map((box, i) => (

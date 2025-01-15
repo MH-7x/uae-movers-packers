@@ -43,8 +43,7 @@ export default function MoversUmmAlQuwain() {
   return (
     <>
       <ServiceHeroSection
-        city="Umm Al Quwain"
-        title="Best Movers in Packers In"
+        title="Best Movers in Packers In Umm Al Quwain"
         subtitle="Professional Movers and Packers In Umm Al Quwain"
         description="Looking for expert movers in Umm Al Quwain? RWahab Movers UAE offers reliable and affordable local and international moving services for both residential and commercial clients."
       />
