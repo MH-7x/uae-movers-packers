@@ -12,6 +12,7 @@ import MovingServicesTable from "@/components/base/PricingTable";
 import type { Metadata } from "next";
 import { generateJSONLD } from "@/lib/GenreateJSONLD";
 import LocationsSlider from "@/components/base/LocationsSlider";
+import PreviewVideo from "@/components/previewVideo";
 
 export const metadata: Metadata = {
   title: "Professional Movers in Dubai, UAE | Movers and Packers",
@@ -45,6 +46,7 @@ export default function Home() {
       />
       <div className="mt-24 md:px-0 px-3">
         <HeroSection />
+        <PreviewVideo />
         <AboutUsSection />
         <WhyChooseUs />
         <Serivces />

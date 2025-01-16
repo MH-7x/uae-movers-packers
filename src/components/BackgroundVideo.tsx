@@ -1,3 +1,4 @@
+"use client";
 const BackgroundVideo: React.FC = () => (
   <video
     src="/backgroundVideo.webm"

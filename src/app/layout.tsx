@@ -47,7 +47,16 @@ export default function RootLayout({
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
           xmlnsXlink="http://www.w3.org/1999/xlink"
-          className="fixed-svg-background"
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            zIndex: "-10",
+            opacity: "0.05",
+            pointerEvents: "none",
+          }}
           viewBox="0 0 700 700"
           preserveAspectRatio="xMidYMid slice"
         >
