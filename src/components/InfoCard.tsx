@@ -31,7 +31,7 @@ function InfoCard() {
         </SheetHeader>
         <div className="mt-5 bg-secondary/50 flex items-center flex-col px-3 py-4 rounded-lg w-full">
           <span className="font-semibold text-center mx-auto text-xl">
-            +971 123456789
+            +971503806855
           </span>
           <div className="grid w-full grid-cols-2 gap-x-3 mt-3 px-4">
             <Button className="bg-green-600 hover:bg-green-700" size={"sm"}>

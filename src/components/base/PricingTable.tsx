@@ -8,7 +8,7 @@ const MovingServicesTable = () => {
         <div className=" flex justify-center">
           <Image
             src={"/images/pricing.svg"}
-            alt="search in brighthome"
+            alt="Moving cost in dubai"
             width={500}
             height={500}
             className="rounded-2xl"

@@ -70,7 +70,7 @@ const icons = [
         />
       </svg>
     ),
-    link: "https://www.pinterest.com",
+    link: "https://www.pinterest.com/rwahabmoversuae/",
     name: "Our pinterest Company Profile",
   },
   {
@@ -96,7 +96,7 @@ const icons = [
         />
       </svg>
     ),
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/rwahab2374/",
     name: "Our pinterest instagram Profile",
   },
   {
@@ -235,10 +235,10 @@ function Footer() {
               <Link href={"/contact-us"}>Contact Us</Link>
             </li>
             <li className="text-muted-foreground hover:text-black">
-              <Link href={"/"}>Privacy Policy</Link>
+              <Link href={"/privacy-policy"}>Privacy Policy</Link>
             </li>
             <li className="text-muted-foreground hover:text-black">
-              <Link href={"/"}>Terms & Conditions</Link>
+              <Link href={"/terms-and-conditions"}>Terms & Conditions</Link>
             </li>
           </ul>
         </div>
@@ -246,9 +246,10 @@ function Footer() {
           Design & Developed by{" "}
           <Link
             target="_blank"
+            rel="noopener noreferrer"
             className="text-primary"
             href={
-              "https://wa.me/+923471309916?text=Hi%20Mashal%20Are%20You%20Available%20For%20Work"
+              "https://wa.me/923471309916?text=Hi%20Mashal%20Are%20You%20Available%20For%20Work"
             }
           >
             Mashal Huraira

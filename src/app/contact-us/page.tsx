@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     locale: "en-AE",
     countryName: "United Arab Emirates",
     emails: "wk0131839@gamil.com",
-    faxNumbers: "+971 123456789",
-    phoneNumbers: "+971 123456789",
+    faxNumbers: "+971503806855",
+    phoneNumbers: "+971503806855",
     siteName: "RWahab Movers UAE",
     title: "Contact Us | RWahab Movers UAE",
     description:
@@ -95,7 +95,7 @@ function ContactUs() {
                 </svg>
 
                 <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
-                  +971 123456789
+                  +971503806855
                 </span>
               </p>
 

@@ -132,3 +132,22 @@ article li {
   margin-top: 20px;
   font-size: 18px;
 }
+
+#privacy-policy h2 {
+  @apply my-7;
+}
+#privacy-policy h3 {
+  @apply my-4;
+}
+
+#privacy-policy ul {
+  @apply list-disc ml-4;
+}
+
+#privacy-policy li {
+  @apply my-2;
+}
+
+#privacy-policy p {
+  @apply my-3;
+}

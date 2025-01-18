@@ -17,8 +17,8 @@ export const metadata: Metadata = {
     locale: "en-AE",
     countryName: "United Arab Emirates",
     emails: "wk0131839@gamil.com",
-    faxNumbers: "+971 123456789",
-    phoneNumbers: "+971 123456789",
+    faxNumbers: "+971503806855",
+    phoneNumbers: "+971503806855",
     siteName: "RWahab Movers UAE",
     title: "Home Appliance Moving UAE - AC, TV, Refrigerator etc",
     description:
