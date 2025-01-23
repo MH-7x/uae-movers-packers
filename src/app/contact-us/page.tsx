@@ -117,7 +117,7 @@ function ContactUs() {
                 </svg>
 
                 <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
-                  wk0131839@gamil.com
+                  rwahabmoversuae@gmail.com
                 </span>
               </p>
             </div>
