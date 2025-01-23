@@ -151,13 +151,84 @@ export function generateJSONLD() {
         description: "Safe appliance transport.",
         url: "https://rwahabmoversuae.com/appliances-moving",
       },
-
+      {
+        "@type": "LocalBusiness",
+        additionalType: "http://www.productontology.org/id/Moving_Company",
+        url: "https://rwahabmoversuae.com",
+        logo: "https://rwahabmoversuae.com/logo.png",
+        image: "https://rwahabmoversuae.com/banner.jpg",
+        hasMap: "https://maps.app.goo.gl/gk1mQ8Wdqth2nud17",
+        email: "mailto:rwahabmoversuae@gmail.com",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Sharjah",
+          addressRegion: "Sharjah",
+          postalCode: "12345",
+          streetAddress: "Building No.12 Street 4 - Al Nekhailat - Al Yarmook",
+        },
+        description:
+          "RWahab Movers UAE provides professional, affordable, and reliable moving and packing services in Dubai and the UAE.",
+        name: "RWahab Movers UAE",
+        telephone: "+971-50-3806855",
+        priceRange: "$$",
+        openingHoursSpecification: [
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: "Thursday",
+            opens: "00:00",
+            closes: "23:59",
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: "Friday",
+            opens: "00:00",
+            closes: "00:00",
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"],
+            opens: "00:00",
+            closes: "23:59",
+          },
+        ],
+        specialOpeningHoursSpecification: [
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: "Sunday",
+            opens: "08:00",
+            closes: "20:00",
+            validFrom: "2025-01-23",
+            validThrough: "2025-01-23",
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: "Monday",
+            opens: "08:00",
+            closes: "20:00",
+            validFrom: "2025-01-23",
+            validThrough: "2025-01-23",
+          },
+        ],
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: 25.3804304,
+          longitude: 55.4209927,
+        },
+        sameAs: [
+          "https://www.facebook.com/profile.php?id=61571587026129",
+          "https://www.pinterest.com/rwahabmoversuae/",
+        ],
+        paymentAccepted: "Cash, Credit Card",
+      },
       {
         "@type": "Organization",
         name: "RWahab Movers UAE",
         url: "https://rwahabmoversuae.com",
         logo: "https://rwahabmoversuae.com/logo.png",
-        sameAs: ["facebook.com/profile.php?id=61571587026129"],
+        sameAs: [
+          "facebook.com/profile.php?id=61571587026129",
+          "https://www.pinterest.com/rwahabmoversuae/",
+        ],
       },
     ],
   };
