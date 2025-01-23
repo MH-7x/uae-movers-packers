@@ -115,8 +115,8 @@ const icons = [
         </g>
       </svg>
     ),
-    link: "https://maps.app.goo.gl/G2B2jjFCcAazjkyq5",
-    name: "Our Map Location",
+    link: "https://maps.app.goo.gl/gk1mQ8Wdqth2nud17",
+    name: "Our Google Bussiness Profile",
   },
 ];
 
