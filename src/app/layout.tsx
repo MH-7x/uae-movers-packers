@@ -5,6 +5,7 @@ import { Poppins } from "next/font/google";
 import Footer from "@/components/base/Footer";
 import Script from "next/script";
 import { WhatsappDialogButton } from "@/components/base/WhatsappDialog";
+import { GoogleTagManager } from "@next/third-parties/google";
 const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-roboto",
@@ -35,6 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-AE">
+      <GoogleTagManager gtmId="G-DQMNNP3HNX" />
       <Script
         strategy="lazyOnload"
         src="https://analytics.ahrefs.com/analytics.js"

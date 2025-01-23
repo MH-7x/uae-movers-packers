@@ -69,7 +69,7 @@ function DesktopNavBar() {
           <div className="flex items-center gap-1">
             <MapPin className="size-4 text-primary" />
             <span className="text-sm font-medium">
-              Building No. 12, Street No. 4, Al Yarmook, Sharjah, UAE
+              Building No.12 Street 4 - Al Nekhailat - Al Yarmook - Sharjah, UAE
             </span>
           </div>
           <Link aria-label="Call To Us" href={"tel:+971503806855"}>

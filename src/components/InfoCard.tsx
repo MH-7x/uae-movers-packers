@@ -70,7 +70,7 @@ function InfoCard() {
         <div className="mt-10 border-b pb-1 flex items-center gap-x-3">
           <MapPin className="stroke-primary" />
           <p className="text-sm text-muted-foreground">
-            Building No. 12, Street No. 4, Al Yarmook, Sharjah, UAE
+            Building No.12 Street 4 - Al Nekhailat - Al Yarmook - Sharjah, UAE
           </p>
         </div>
         <div className="mt-5 border-b pb-1 flex items-center gap-x-3">

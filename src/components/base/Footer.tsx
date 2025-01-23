@@ -136,7 +136,8 @@ function Footer() {
             <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
               <p>Address :</p>
               <address style={{ fontStyle: "normal" }}>
-                Building No. 12, Street 4 Al Yarmook, Sharjah UAE
+                Building No.12 Street 4 - Al Nekhailat - Al Yarmook - Sharjah,
+                UAE
               </address>
             </div>
             <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">

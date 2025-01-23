@@ -74,7 +74,8 @@ function ContactUs() {
                 </svg>
 
                 <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
-                  Building No. 12, Street No. 4, Al Yarmook, Sharjah, UAE
+                  Building No.12 Street 4 - Al Nekhailat - Al Yarmook - Sharjah,
+                  UAE
                 </span>
               </p>
 
