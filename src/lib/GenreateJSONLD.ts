@@ -164,55 +164,26 @@ export function generateJSONLD() {
           addressLocality: "Sharjah",
           addressRegion: "Sharjah",
           postalCode: "12345",
-          streetAddress: "Building No.12 Street 4 - Al Nekhailat - Al Yarmook",
+          streetAddress: "building no.12 Attiyah Bin Nawayrah St, Al Yarmook",
         },
         description:
           "RWahab Movers UAE provides professional, affordable, and reliable moving and packing services in Dubai and the UAE.",
         name: "RWahab Movers UAE",
         telephone: "+971-50-3806855",
         priceRange: "$$",
-        openingHoursSpecification: [
-          {
-            "@type": "OpeningHoursSpecification",
-            dayOfWeek: "Thursday",
-            opens: "00:00",
-            closes: "23:59",
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            dayOfWeek: "Friday",
-            opens: "00:00",
-            closes: "00:00",
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            dayOfWeek: ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"],
-            opens: "00:00",
-            closes: "23:59",
-          },
-        ],
-        specialOpeningHoursSpecification: [
-          {
-            "@type": "OpeningHoursSpecification",
-            dayOfWeek: "Sunday",
-            opens: "08:00",
-            closes: "20:00",
-            validFrom: "2025-01-23",
-            validThrough: "2025-01-23",
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            dayOfWeek: "Monday",
-            opens: "08:00",
-            closes: "20:00",
-            validFrom: "2025-01-23",
-            validThrough: "2025-01-23",
-          },
+        "openingHours": [
+          "Monday 06:30-23:00",
+          "Tuesday 06:30-23:00",
+          "Wednesday 06:30-23:00",
+          "Thursday 06:30-23:00",
+          "Friday Closed",
+          "Saturday 06:30-23:00",
+          "Sunday 06:30-23:00"
         ],
         geo: {
           "@type": "GeoCoordinates",
-          latitude: 25.3804304,
-          longitude: 55.4209927,
+          latitude: 25.3454051,
+          longitude: 55.4024632,
         },
         sameAs: [
           "https://www.facebook.com/profile.php?id=61571587026129",
