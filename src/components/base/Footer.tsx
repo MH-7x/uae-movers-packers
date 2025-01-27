@@ -136,8 +136,7 @@ function Footer() {
             <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
               <p>Address :</p>
               <address style={{ fontStyle: "normal" }}>
-                Building No.12 Street 4 - Al Nekhailat - Al Yarmook - Sharjah,
-                UAE
+                building no.12 Attiyah Bin Nawayrah St, Al Yarmook, Sharjah UAE
               </address>
             </div>
             <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
@@ -146,7 +145,7 @@ function Footer() {
             </div>
             <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
               <p>Open Hours. :</p>
-              <p>Open 24/7, except closed on Fridays.</p>
+              <p>Mon–Thu, Sat–Sun: 6:30 AM – 11:00 PM <be /> Fri: Closed</p>
             </div>
             <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
               <p>Email. :</p>
