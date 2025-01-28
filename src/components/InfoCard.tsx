@@ -87,7 +87,7 @@ function InfoCard() {
           <p className="text-sm text-muted-foreground">
             Open :{" "}
             <span className="text-black">
-              Mon–Thu, Sat-Sun: 6:30 AM – 11:00 PM, Fri: Closed
+              Monday to Sunday: 6:00 AM - 11:00 PM, Friday: Closed
             </span>
           </p>
         </div>

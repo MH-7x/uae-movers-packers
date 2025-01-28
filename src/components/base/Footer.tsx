@@ -145,7 +145,7 @@ function Footer() {
             </div>
             <div className="mt-2 max-w-lg flex gap-x-1 text-sm text-gray-700 md:flex-row flex-col">
               <p>Open Hours:</p>
-              <p>Mon–Thu, Sat–Sun: 6:30 AM – 11:00 PM Fri: Closed</p>
+              <p>Monday to Sunday: 6:00 AM - 11:00 PM, Friday: Closed</p>
             </div>
             <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-700 md:flex-row flex-col">
               <p>Email. :</p>
