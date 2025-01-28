@@ -24,22 +24,14 @@ export function SideMenu() {
             alt="open side menu icon"
             aria-label="open side menu"
             width={38}
+            loading="eager"
             height={38}
           />
         </button>
       </SheetTrigger>
       <SheetContent className="bg-white overflow-y-auto">
         <SheetHeader>
-          <SheetTitle aria-label="RWahab Movers UAE">
-            <div className="w-full relative h-12 ">
-              <Image
-                src={"/images/logo.png"}
-                alt="uae movers and packers"
-                fill
-                className="object-contain"
-              />
-            </div>
-          </SheetTitle>
+          <SheetTitle aria-label="RWahab Movers UAE"></SheetTitle>
         </SheetHeader>
         <ul className=" w-full min-h-96 mt-5 flex items-start justify-start flex-col gap-y-3">
           <li className="border-b  w-full py-3 font-bold text-lg">

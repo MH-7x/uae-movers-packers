@@ -57,6 +57,7 @@ function MobileNavBar() {
               alt="search icon"
               width={19}
               height={19}
+              loading="eager"
             />
           </div>
           <SideMenu />

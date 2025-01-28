@@ -29,9 +29,9 @@ function HeroSection() {
             Professional Moving & Packing Company In UAE
           </h2>
           <p>
-            We&apos;re trusted movers for homes, offices, and businesses,
-            providing reliable and affordable relocation services. With expert
-            care, we make your move simple and stress-free.
+            We&apos;re expert movers for homes, offices, and businesses,
+            providing reliable and affordable relocation services. With detail
+            care, we make your move simple and easy.
           </p>
           <div className="mt-6 flex items-center justify-center gap-x-6">
             <Link href="/contact-us">

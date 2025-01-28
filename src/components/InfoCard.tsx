@@ -70,7 +70,7 @@ function InfoCard() {
         <div className="mt-10 border-b pb-1 flex items-center gap-x-3">
           <MapPin className="stroke-primary" />
           <p className="text-sm text-muted-foreground">
-            Building No.12 Street 4 - Al Nekhailat - Al Yarmook - Sharjah, UAE
+            building no.12 Attiyah Bin Nawayrah St, Al Yarmook, Sharjah UAE
           </p>
         </div>
         <div className="mt-5 border-b pb-1 flex items-center gap-x-3">
@@ -85,7 +85,10 @@ function InfoCard() {
         <div className="mt-5 border-b pb-1 flex items-center gap-x-3">
           <CalendarRange className="stroke-primary size-5" />
           <p className="text-sm text-muted-foreground">
-            Open : <span className="text-black">24 Hours</span>
+            Open :{" "}
+            <span className="text-black">
+              Mon–Thu, Sat-Sun: 6:30 AM – 11:00 PM, Fri: Closed
+            </span>
           </p>
         </div>
       </SheetContent>

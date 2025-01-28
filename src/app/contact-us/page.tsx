@@ -74,7 +74,7 @@ function ContactUs() {
                 </svg>
 
                 <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
-                  Building No.12 Street 4 - Al Nekhailat - Al Yarmook - Sharjah,
+                  building no.12 Attiyah Bin Nawayrah St, Al Yarmook, Sharjah
                   UAE
                 </span>
               </p>

@@ -9,21 +9,20 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import WhatsappIcon from "../../../public/whatsapp-svgrepo-com.svg";
+import WhatsappIcon from "../../../public/whatsapp.svg";
 import Image from "next/image";
 import Link from "next/link";
 export function WhatsappDialogButton() {
   return (
     <Dialog>
-      <DialogTrigger
-        className="fixed md:hidden bottom-7 right-7 drop-shadow-xl"
-        asChild
-      >
+      <DialogTrigger className="fixed bottom-7 right-7 drop-shadow-xl" asChild>
         <Image
           alt="Whatsapp Dialog Icon"
           src={WhatsappIcon}
-          width={40}
-          height={40}
+          width={45}
+          height={45}
+          loading="eager"
+          className="cursor-help"
         />
       </DialogTrigger>
       <DialogContent className="sm:max-w-md bg-white/90 backdrop-blur-xl">

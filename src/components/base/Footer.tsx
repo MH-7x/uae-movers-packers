@@ -133,21 +133,21 @@ function Footer() {
               services, modern equipment, and a focus on customer satisfaction,
               we’re the trusted choice for stress-free moves.
             </p>
-            <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
-              <p>Address :</p>
+            <div className="mt-2 max-w-lg flex gap-x-1 text-sm text-gray-700 md:flex-row flex-col">
+              <p>Address:</p>
               <address style={{ fontStyle: "normal" }}>
                 building no.12 Attiyah Bin Nawayrah St, Al Yarmook, Sharjah UAE
               </address>
             </div>
-            <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
+            <div className="mt-2 max-lg flex gap-x-1 text-sm text-gray-700 md:flex-row flex-col">
               <p>Phone No. :</p>
               <p>+971 50 3806855</p>
             </div>
-            <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
-              <p>Open Hours. :</p>
-              <p>Mon–Thu, Sat–Sun: 6:30 AM – 11:00 PM <be /> Fri: Closed</p>
+            <div className="mt-2 max-w-lg flex gap-x-1 text-sm text-gray-700 md:flex-row flex-col">
+              <p>Open Hours:</p>
+              <p>Mon–Thu, Sat–Sun: 6:30 AM – 11:00 PM Fri: Closed</p>
             </div>
-            <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-600 md:flex-row flex-col">
+            <div className="mt-2 max-w-md flex gap-x-1 text-sm text-gray-700 md:flex-row flex-col">
               <p>Email. :</p>
               <p>rwahabmoversuae@gmail.com</p>
             </div>

@@ -171,14 +171,14 @@ export function generateJSONLD() {
         name: "RWahab Movers UAE",
         telephone: "+971-50-3806855",
         priceRange: "$$",
-        "openingHours": [
+        openingHours: [
           "Monday 06:30-23:00",
           "Tuesday 06:30-23:00",
           "Wednesday 06:30-23:00",
           "Thursday 06:30-23:00",
           "Friday Closed",
           "Saturday 06:30-23:00",
-          "Sunday 06:30-23:00"
+          "Sunday 06:30-23:00",
         ],
         geo: {
           "@type": "GeoCoordinates",
@@ -188,6 +188,7 @@ export function generateJSONLD() {
         sameAs: [
           "https://www.facebook.com/profile.php?id=61571587026129",
           "https://www.pinterest.com/rwahabmoversuae/",
+          "https://www.instagram.com/rwahab2374/",
         ],
         paymentAccepted: "Cash, Credit Card",
       },
@@ -199,6 +200,7 @@ export function generateJSONLD() {
         sameAs: [
           "facebook.com/profile.php?id=61571587026129",
           "https://www.pinterest.com/rwahabmoversuae/",
+          "https://www.instagram.com/rwahab2374/",
         ],
       },
     ],

@@ -42,9 +42,7 @@ const AboutUsSection = () => {
             </div>
             <div className="flex items-center space-x-2 md:col-span-1 col-span-2">
               <span className="text-primary text-xl">✔</span>
-              <span className="md:text-xl text-lg font-medium">
-                Fair Prices
-              </span>
+              <span className="md:text-xl text-lg font-medium">Low Prices</span>
             </div>
           </div>
           <div className="flex items-center space-x-4">
