@@ -29,7 +29,7 @@ function HeroSection() {
             Best Movers and Packers Company in Dubai UAE
           </h2>
           <p>
-            We&apos're expert movers and packers for homes, offices, and businesses,
+            We are expert movers and packers for homes, offices, and businesses,
             providing reliable and affordable relocation services in Dubai, UAE. With detail
             care, we make your move simple and easy.
           </p>
