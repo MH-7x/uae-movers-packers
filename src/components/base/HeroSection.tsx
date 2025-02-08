@@ -26,11 +26,11 @@ function HeroSection() {
             <span className="text-primary">RWahab</span> Movers UAE
           </h1>
           <h2 className="mt-3 text-primary font-medium">
-            Professional Moving & Packing Company In UAE
+            Best Movers and Packers Company in Dubai UAE
           </h2>
           <p>
-            We&apos;re expert movers for homes, offices, and businesses,
-            providing reliable and affordable relocation services. With detail
+            We&apos're expert movers and packers for homes, offices, and businesses,
+            providing reliable and affordable relocation services in Dubai, UAE. With detail
             care, we make your move simple and easy.
           </p>
           <div className="mt-6 flex items-center justify-center gap-x-6">
