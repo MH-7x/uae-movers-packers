@@ -33,12 +33,12 @@ export function WhatsappDialogButton() {
           </DialogDescription>
         </DialogHeader>
         <div className="mt-3 rounded-3xl bg-secondary min-h-16 w-full p-5">
-          <p className="text-lg text-center">+971 503806855</p>
+          <p className="text-lg text-center">+971 506638692</p>
           <div className="grid grid-cols-2 mt-3 gap-x-3">
             <Link
               className="col-span-1"
               href={
-                "https://wa.me/+971503806855?text=Hi%20I%20am%20looking%20for%20movers%20and%20packers"
+                "https://wa.me/+971506638692?text=Hi%20I%20am%20looking%20for%20movers%20and%20packers"
               }
             >
               <Button
@@ -48,7 +48,7 @@ export function WhatsappDialogButton() {
                 Whatsapp
               </Button>
             </Link>
-            <Link className="col-span-1" href={"tel:+971503806855"}>
+            <Link className="col-span-1" href={"tel:+971506638692"}>
               <Button size={"sm"} className="w-full" variant={"outline"}>
                 Call Now
               </Button>

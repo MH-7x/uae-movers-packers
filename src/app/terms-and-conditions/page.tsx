@@ -13,8 +13,8 @@ export const metadata: Metadata = {
     locale: "en-AE",
     countryName: "United Arab Emirates",
     emails: "wk0131839@gamil.com",
-    faxNumbers: "+971503806855",
-    phoneNumbers: "+971503806855",
+    faxNumbers: "+971506638692",
+    phoneNumbers: "+971506638692",
     siteName: "RWahab Movers UAE",
     title: "Terms and Conditions | RWahab Movers UAE",
     description:
@@ -338,7 +338,7 @@ const PrivacyPolicy: React.FC = () => {
           </p>
         </li>
         <li>
-          <p>By phone number: +971503806855</p>
+          <p>By phone number: +971506638692</p>
         </li>
       </ul>
     </section>

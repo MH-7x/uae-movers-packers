@@ -141,7 +141,7 @@ function Footer() {
             </div>
             <div className="mt-2 max-lg flex gap-x-1 text-sm text-gray-700 md:flex-row flex-col">
               <p>Phone No. :</p>
-              <p>+971 50 3806855</p>
+              <p>+971 50 6638692</p>
             </div>
             <div className="mt-2 max-w-lg flex gap-x-1 text-sm text-gray-700 md:flex-row flex-col">
               <p>Open Hours:</p>

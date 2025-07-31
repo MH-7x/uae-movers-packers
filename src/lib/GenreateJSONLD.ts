@@ -6,9 +6,10 @@ export function generateJSONLD() {
         "@type": "WebPage",
         "@id": "https://rwahabmoversuae.com",
         url: "https://rwahabmoversuae.com",
-        name: "Professional Movers and Packers in Dubai | RWahab Movers UAE",
+        name: "Top-Rated Movers and Packers in Dubai | RWahab Movers UAE",
+
         headline:
-          "Professional Movers and Packers in Dubai | RWahab Movers UAE",
+          "Top-Rated Movers and Packers in Dubai | RWahab Movers UAE",
         isPartOf: {
           "@id": "https://rwahabmoversuae.com#website",
         },
@@ -131,7 +132,7 @@ export function generateJSONLD() {
         "@type": "Service",
         name: "Small / Single Furniture Moving",
         description: "Quick small furniture moves.",
-        url: "https://rwahabmoversuae.com/small-or-single-furniture-moving",
+        url: "https://rwahabmoversuae.com/single-furniture-movers-dubai",
       },
       {
         "@type": "Service",

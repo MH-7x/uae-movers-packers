@@ -14,9 +14,10 @@ import { generateJSONLD } from "@/lib/GenreateJSONLD";
 import LocationsSlider from "@/components/base/LocationsSlider";
 import PreviewVideo from "@/components/previewVideo";
 import Content from "@/components/base/Content";
+import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Professional Movers in Dubai, UAE | Movers and Packers",
+  title: "Top-Rated Movers in Dubai, UAE | Movers and Packers",
   description:
     "With 10 years of experience, RWahab Movers UAE has become UAE’s most trusted name in relocation services. We take pride in offering premium moving and packing solutions tailored to your needs, ensuring every move is a success",
   alternates: {
@@ -27,10 +28,10 @@ export const metadata: Metadata = {
     locale: "en-AE",
     countryName: "United Arab Emirates",
     emails: ["wk0131839@gamil.com", "rwahabmoversuae@gmail.com"],
-    faxNumbers: "+971503806855",
-    phoneNumbers: "+971503806855",
+    faxNumbers: "+971506638692",
+    phoneNumbers: "+971506638692",
     siteName: "RWahab Movers UAE",
-    title: "Professional Movers in Dubai, UAE | Movers and Packers",
+    title: "Top-Rated Movers in Dubai, UAE | Movers and Packers",
     description:
       "With 10 years of experience, RWahab Movers UAE has become UAE’s most trusted name in relocation services. We take pride in offering premium moving and packing solutions tailored to your needs, ensuring every move is a success",
     images: `${process.env.PUBLIC_URL}/images/R-Wahab-Movers-UAE.jpg`,
@@ -41,7 +42,9 @@ const JsonLd = generateJSONLD();
 export default function Home() {
   return (
     <>
-      <script
+      <Script
+        id="schema"
+        strategy="beforeInteractive"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JsonLd }}
       />

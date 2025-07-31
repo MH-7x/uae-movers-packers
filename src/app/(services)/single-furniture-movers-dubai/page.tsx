@@ -7,8 +7,7 @@ import Link from "next/link";
 import FAQs from "@/components/base/FAQs";
 
 export const metadata: Metadata = {
-  title:
-    "Affordable Small Furniture Movers in UAE | Single Item Moving Services",
+  title: "Single Item Movers in Dubai | Affordable Furniture Moving",
   description:
     "Small furniture movers in UAE. Affordable, reliable single-item moving with expert packing, handling, and fast delivery in Dubai, Sharjah, and Abu Dhabi.",
   alternates: {
@@ -19,15 +18,15 @@ export const metadata: Metadata = {
     locale: "en-AE",
     countryName: "United Arab Emirates",
     emails: "wk0131839@gamil.com",
-    faxNumbers: "+971503806855",
-    phoneNumbers: "+971503806855",
+    faxNumbers: "+971506638692",
+    phoneNumbers: "+971506638692",
     siteName: "RWahab Movers UAE",
     title:
       "Affordable Small Furniture Movers in UAE | Single Item Moving Services",
     description:
       "Small furniture movers in UAE. Affordable, reliable single-item moving with expert packing, handling, and fast delivery in Dubai, Sharjah, and Abu Dhabi.",
     images: `${process.env.PUBLIC_URL}/service/small-furniture-moving.jpg`,
-    url: `${process.env.PUBLIC_URL}/small-or-single-furniture-moving`,
+    url: `${process.env.PUBLIC_URL}/single-furniture-movers-dubai`,
   },
 };
 function VillaMoving() {
@@ -65,7 +64,7 @@ function VillaMoving() {
                 className="mt-8 mx-auto bg-transparent text-white"
                 size={"lg"}
               >
-                <Link aria-label="Call To Us" href="tel:+971503806855">
+                <Link aria-label="Call To Us" href="tel:+971506638692">
                   {" "}
                   Call Now : +971 50 38068 55
                 </Link>
@@ -219,7 +218,7 @@ function VillaMoving() {
           </div>
 
           <h2 className="mt-20 text-center">
-            Benefits of Choosing Us for Small Furniture Moving{" "}
+            Benefits of Choosing Us for Single Furniture Moving{" "}
           </h2>
           <p>
             From small office to large coporates, our professional movers are
@@ -246,7 +245,7 @@ function VillaMoving() {
             </p>
           </div>
           <h2 className="mt-10">
-            How much do we charge for small furniture moving?
+            How much do we charge for single item moving in dubai?
           </h2>
           <p className="text-base ">
             Normally we charge a fixed amount according to the distance and

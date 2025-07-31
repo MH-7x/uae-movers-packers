@@ -93,7 +93,7 @@ const RootLayout = ({
           <Link
             aria-label="Contact For Used Furnitures"
             href={
-              "https://wa.me/+971503806855?text=Hi%20I%20am%20looking%20for%used%20furnitures"
+              "https://wa.me/+971506638692?text=Hi%20I%20am%20looking%20for%used%20furnitures"
             }
           >
             <Button size={"lg"} variant={"outline"}>

@@ -111,7 +111,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${process.env.PUBLIC_URL}/small-or-single-furniture-moving`,
+      url: `${process.env.PUBLIC_URL}/single-furniture-movers-dubai`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.7,

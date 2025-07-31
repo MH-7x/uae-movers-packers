@@ -28,7 +28,7 @@ function ServiceHeroSection({
         <Link href={"/contact-us"}>
           <Button size={"lg"}>Get a Quote</Button>
         </Link>
-        <Link aria-label="Call To Us" href={"tel:+971503806855"}>
+        <Link aria-label="Call To Us" href={"tel:+971506638692"}>
           <Button size={"lg"} variant={"outline"}>
             Call To Us
           </Button>

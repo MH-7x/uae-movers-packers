@@ -25,7 +25,7 @@ const QuoteSection: React.FC = () => {
                 Get a quote →
               </button>
             </Link>
-            <Link href={"tel:+971503806855"}>
+            <Link href={"tel:+971506638692"}>
               <button className="border border-white text-white md:px-6 px-3 py-3 rounded-lg hover:bg-white hover:text-blue-900 transition">
                 Call Now
               </button>

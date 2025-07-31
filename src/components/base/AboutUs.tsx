@@ -12,14 +12,14 @@ const AboutUsSection = () => {
             About Us
           </h3>
           <h2 className=" mb-4 leading-tight text-gray-900">
-            Most trusted and reliable moving company in UAE
+            Affordable and Top Rated Moving Companny in UAE
           </h2>
           <p className="text-gray-700 mb-6 mt-4 leading-relaxed">
             RWahab Movers UAE, established in 2015, is a trusted moving company
             in the UAE, specializing in secure and efficient villa and house
-            relocations. With insured services, modern equipment, and covered
-            box trucks, they prioritize safety, reliability, and customer
-            satisfaction across all Emirates.
+            relocations services in dubai, UAE. With insured services, modern
+            equipment, and covered box trucks, they prioritize safety,
+            reliability, and customer satisfaction across all Emirates.
           </p>
           <div className="grid grid-cols-2 gap-4  mb-6 text-gray-800">
             <div className="flex items-center space-x-2 md:col-span-1 col-span-2">
@@ -54,9 +54,9 @@ const AboutUsSection = () => {
                 <p className="text-lg">Call To Ask Any Question</p>
                 <Link
                   className="text-primary text-xl font-semibold"
-                  href="tel:+971503806855"
+                  href="tel:+971506638692"
                 >
-                  +971 503806855
+                  +971 506638692
                 </Link>
               </div>
             </div>

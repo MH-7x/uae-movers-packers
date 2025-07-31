@@ -13,7 +13,7 @@ function Contact({ title, desc }: { title: string; desc: string }) {
           <Link href={"/contact-us"}>
             <Button variant={"secondary"}>Get a Quote</Button>
           </Link>
-          <Link href={"tel:+971503806855"}>
+          <Link href={"tel:+971506638692"}>
             <Button variant={"ghost"}>Call : +91 123456789</Button>
           </Link>
         </div>

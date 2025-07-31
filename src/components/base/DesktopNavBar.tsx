@@ -72,10 +72,10 @@ function DesktopNavBar() {
               building no.12 Attiyah Bin Nawayrah St, Al Yarmook, Sharjah UAE
             </span>
           </div>
-          <Link aria-label="Call To Us" href={"tel:+971503806855"}>
+          <Link aria-label="Call To Us" href={"tel:+971506638692"}>
             <div className="flex items-center gap-1">
               <Phone className="size-4 text-primary" />
-              <span className="text-sm font-medium">+971 503806855</span>
+              <span className="text-sm font-medium">+971 506638692</span>
             </div>
           </Link>
           <Link

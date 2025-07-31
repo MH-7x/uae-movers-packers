@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     locale: "en-AE",
     countryName: "United Arab Emirates",
     emails: "wk0131839@gamil.com",
-    faxNumbers: "+971503806855",
-    phoneNumbers: "+971503806855",
+    faxNumbers: "+971506638692",
+    phoneNumbers: "+971506638692",
     siteName: "RWahab Movers UAE",
     title:
       "Heavy Goods & Large Items Moving in UAE | Professional & Affordable",
@@ -64,7 +64,7 @@ function HeavyGoodsMoving() {
                 className="mt-8 mx-auto bg-transparent text-white"
                 size={"lg"}
               >
-                <Link aria-label="Call To Us" href="tel:+971503806855">
+                <Link aria-label="Call To Us" href="tel:+971506638692">
                   {" "}
                   Call Now : +971 50 38068 55
                 </Link>

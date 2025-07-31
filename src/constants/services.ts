@@ -16,7 +16,7 @@ export const services = [
   },
   {
     name: "Small / Single Furniture Moving",
-    link: "/small-or-single-furniture-moving",
+    link: "/single-furniture-movers-dubai",
     desc: "Quick small furniture moves.",
   },
   {
@@ -129,7 +129,7 @@ export const ServicesBox = [
   {
     name: "Small / Single Furniture Moving",
     desc: "Small and single furniture moving all over UAE. We have small vehicles which carry these items at an affordable price",
-    link: "/small-or-single-furniture-moving",
+    link: "/single-furniture-movers-dubai",
     imgSrc: "/images/furniture.svg",
   },
   {
