@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       "Small furniture movers in UAE. Affordable, reliable single-item moving with expert packing, handling, and fast delivery in Dubai, Sharjah, and Abu Dhabi.",
     images: `${process.env.PUBLIC_URL}/service/small-furniture-moving.jpg`,
-    url: `${process.env.PUBLIC_URL}/single-furniture-movers-dubai`,
+    url: `${process.env.PUBLIC_URL}/small-or-single-furniture-moving`,
   },
 };
 function VillaMoving() {

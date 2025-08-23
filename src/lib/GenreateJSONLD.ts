@@ -132,7 +132,7 @@ export function generateJSONLD() {
         "@type": "Service",
         name: "Small / Single Furniture Moving",
         description: "Quick small furniture moves.",
-        url: "https://rwahabmoversuae.com/single-furniture-movers-dubai",
+        url: "https://rwahabmoversuae.com/small-or-single-furniture-moving",
       },
       {
         "@type": "Service",

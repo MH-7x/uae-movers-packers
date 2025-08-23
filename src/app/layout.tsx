@@ -6,6 +6,7 @@ import Footer from "@/components/base/Footer";
 import Script from "next/script";
 import { WhatsappDialogButton } from "@/components/base/WhatsappDialog";
 import { GoogleTagManager } from "@next/third-parties/google";
+import BackLinks from "@/components/BackLinks";
 const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-roboto",
@@ -136,6 +137,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <WhatsappDialogButton />
+        <BackLinks />
         <Footer />
       </body>
     </html>
