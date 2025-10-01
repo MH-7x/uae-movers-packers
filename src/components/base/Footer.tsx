@@ -210,6 +210,28 @@ function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  aria-label={"used furniture buyers in dubai"}
+                  href={
+                    "https://rukunalaroobausedfurniture.ae/used-furniture-buyers-in-dubai"
+                  }
+                  className="md:block text-slate-700 py-1 hover:text-slate-500 focus:text-slate-500 text-sm"
+                >
+                  used furniture buyers in dubai
+                </Link>
+              </li>
+              <li>
+                <Link
+                  aria-label={"used furniture buyers in sharjah"}
+                  href={
+                    "https://rukunalaroobausedfurniture.ae/used-furniture-buyers-in-sharjah"
+                  }
+                  className="md:block text-slate-700 py-1 hover:text-slate-500 focus:text-slate-500 text-sm"
+                >
+                  used furniture buyers in sharjah
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

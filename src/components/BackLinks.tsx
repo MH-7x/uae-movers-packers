@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+import { Button } from "./ui/button";
 
 const BackLinks = () => {
   return (
@@ -134,12 +136,43 @@ const BackLinks = () => {
           target="_blank"
         >
           <img
-            src="https://internationalvanlines.com/wp-content/uploads/2025/05/seal.jpg"
+            src="/best-service.jpg"
             width="100"
             height="100"
             className="bg-blend-color-burn"
           />
         </a>
+      </div>
+      <div className="mt-5 bg-white p-8 rounded-3xl">
+        <p>
+          Looking For Quality{" "}
+          <a href="https://rukunalaroobausedfurniture.ae/">
+            Used Furniture in Sharjah
+          </a>
+          ? We are also{" "}
+          <a href="https://rukunalaroobausedfurniture.ae/used-furniture-buyers-in-dubai">
+            best used furniture buyers in dubai
+          </a>{" "}
+          and also{" "}
+          <a href="https://rukunalaroobausedfurniture.ae/used-furniture-buyers-in-sharjah">
+            {" "}
+            best used furniture buyers in sharjah
+          </a>
+          . contact us to{" "}
+          <a href="https://rukunalaroobausedfurniture.ae/used-furniture-buyers-in-dubai">
+            sell your furniture in dubai
+          </a>{" "}
+          or want to buy used furniture.
+        </p>
+        <Link
+          href={
+            "https://wa.me/+971506638692?text=Hi%20I%20am%20looking%20for%20used%20furniture%20"
+          }
+        >
+          <Button className="mt-5" variant={"secondary"}>
+            Contact Us
+          </Button>
+        </Link>
       </div>
     </section>
   );
